@@ -1,0 +1,3833 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacecommon__mod" kind="namespace" language="Fortran">
+    <compoundname>common_mod</compoundname>
+    <innerclass refid="structcommon__mod_1_1aldropequidata" prot="public">common_mod::aldropequidata</innerclass>
+    <innerclass refid="structcommon__mod_1_1atomic__data" prot="public">common_mod::atomic_data</innerclass>
+    <innerclass refid="structcommon__mod_1_1direcdata" prot="public">common_mod::direcdata</innerclass>
+    <innerclass refid="structcommon__mod_1_1grid__type" prot="public">common_mod::grid_type</innerclass>
+    <innerclass refid="structcommon__mod_1_1photon__packet" prot="public">common_mod::photon_packet</innerclass>
+    <innerclass refid="structcommon__mod_1_1plot__type" prot="public">common_mod::plot_type</innerclass>
+    <innerclass refid="structcommon__mod_1_1resline__type" prot="public">common_mod::resline_type</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacecommon__mod_1a7fee019361a393ca9e2dee710280e80e" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nfluo</definition>
+        <argsstring></argsstring>
+        <name>nfluo</name>
+        <qualifiedname>common_mod::nfluo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="12" column="1" bodyfile="source/common_mod.f90" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a1e91fa0f9c31874f198b2d87c9e41934" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nvp</definition>
+        <argsstring></argsstring>
+        <name>nvp</name>
+        <qualifiedname>common_mod::nvp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="13" column="1" bodyfile="source/common_mod.f90" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa560357d57371210a2c2d54fd2228b44" prot="public" static="no" mutable="no">
+        <type>character(len=4), dimension(:), allocatable</type>
+        <definition>character(len=4), dimension(:), allocatable common_mod::fluorescencelabel</definition>
+        <argsstring></argsstring>
+        <name>fluorescencelabel</name>
+        <qualifiedname>common_mod::fluorescencelabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="15" column="1" bodyfile="source/common_mod.f90" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aef991ff359fe0a99d0354011a090731c" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::fluorescencevp</definition>
+        <argsstring></argsstring>
+        <name>fluorescencevp</name>
+        <qualifiedname>common_mod::fluorescencevp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="16" column="1" bodyfile="source/common_mod.f90" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aeba1ba85e3608eeaef0d7884a1acd517" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::lgconvergedtemp</definition>
+        <argsstring></argsstring>
+        <name>lgconvergedtemp</name>
+        <qualifiedname>common_mod::lgconvergedtemp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="20" column="1" bodyfile="source/common_mod.f90" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a54d4add004f69e82c7236f0cde21b032" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::lgblacktemp</definition>
+        <argsstring></argsstring>
+        <name>lgblacktemp</name>
+        <qualifiedname>common_mod::lgblacktemp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="21" column="1" bodyfile="source/common_mod.f90" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a1941b8ee4eb03be15d352817ac621ae7" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lg2d</definition>
+        <argsstring></argsstring>
+        <name>lg2d</name>
+        <qualifiedname>common_mod::lg2d</qualifiedname>
+        <initializer>=.false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="23" column="1" bodyfile="source/common_mod.f90" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a208e720717206b104ca37073cbcdd506" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgisotropic</definition>
+        <argsstring></argsstring>
+        <name>lgisotropic</name>
+        <qualifiedname>common_mod::lgisotropic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="24" column="1" bodyfile="source/common_mod.f90" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a9ac61d690581972a0a5701a1adbac6d5" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgmultistars</definition>
+        <argsstring></argsstring>
+        <name>lgmultistars</name>
+        <qualifiedname>common_mod::lgmultistars</qualifiedname>
+        <initializer>=.false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="26" column="1" bodyfile="source/common_mod.f90" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5ec1db47ed35c63d68d28ea1567db682" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgequivalenttau</definition>
+        <argsstring></argsstring>
+        <name>lgequivalenttau</name>
+        <qualifiedname>common_mod::lgequivalenttau</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="27" column="1" bodyfile="source/common_mod.f90" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a659493518f56836531362132fd4acd9b" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgwarm</definition>
+        <argsstring></argsstring>
+        <name>lgwarm</name>
+        <qualifiedname>common_mod::lgwarm</qualifiedname>
+        <initializer>=.false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="28" column="1" bodyfile="source/common_mod.f90" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ac0f99afe374fe5592f833d33ed6d2218" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgfluorescence</definition>
+        <argsstring></argsstring>
+        <name>lgfluorescence</name>
+        <qualifiedname>common_mod::lgfluorescence</qualifiedname>
+        <initializer>=.false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="29" column="1" bodyfile="source/common_mod.f90" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1adb67eaade4ed148ea61d4e47e18ed1b5" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgneinput</definition>
+        <argsstring></argsstring>
+        <name>lgneinput</name>
+        <qualifiedname>common_mod::lgneinput</qualifiedname>
+        <initializer>=.false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="30" column="1" bodyfile="source/common_mod.f90" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a14ef997a99e4e702c780f01821f9491b" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgreslinesfirst</definition>
+        <argsstring></argsstring>
+        <name>lgreslinesfirst</name>
+        <qualifiedname>common_mod::lgreslinesfirst</qualifiedname>
+        <initializer>= .true.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="31" column="1" bodyfile="source/common_mod.f90" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af57bac212e97f05b3517df5563a790c5" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgphotoelectric</definition>
+        <argsstring></argsstring>
+        <name>lgphotoelectric</name>
+        <qualifiedname>common_mod::lgphotoelectric</qualifiedname>
+        <initializer>= .true.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="32" column="1" bodyfile="source/common_mod.f90" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a7fc56442ff4a9f83351e1d0bbb7761a0" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgqheat</definition>
+        <argsstring></argsstring>
+        <name>lgqheat</name>
+        <qualifiedname>common_mod::lgqheat</qualifiedname>
+        <initializer>= .false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="33" column="1" bodyfile="source/common_mod.f90" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aeeefb39008b1ece126cecd0f54519b62" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgwritepss</definition>
+        <argsstring></argsstring>
+        <name>lgwritepss</name>
+        <qualifiedname>common_mod::lgwritepss</qualifiedname>
+        <initializer>=.false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="34" column="1" bodyfile="source/common_mod.f90" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a1db56dafc50494025061d4ec2c49670a" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgtraceheating</definition>
+        <argsstring></argsstring>
+        <name>lgtraceheating</name>
+        <qualifiedname>common_mod::lgtraceheating</qualifiedname>
+        <initializer>= .false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="35" column="1" bodyfile="source/common_mod.f90" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a76389d944352d01eaf744948314757f3" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lggrainspiking</definition>
+        <argsstring></argsstring>
+        <name>lggrainspiking</name>
+        <qualifiedname>common_mod::lggrainspiking</qualifiedname>
+        <initializer>= .true.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="36" column="1" bodyfile="source/common_mod.f90" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a209c6c0cd771e832819fee05d2d531f0" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgecho</definition>
+        <argsstring></argsstring>
+        <name>lgecho</name>
+        <qualifiedname>common_mod::lgecho</qualifiedname>
+        <initializer>= .false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="37" column="1" bodyfile="source/common_mod.f90" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a4fc62c5f2b20119e0704852335afa1b5" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgforcetdust</definition>
+        <argsstring></argsstring>
+        <name>lgforcetdust</name>
+        <qualifiedname>common_mod::lgforcetdust</qualifiedname>
+        <initializer>= .false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="38" column="1" bodyfile="source/common_mod.f90" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1acc339c868bfece4200b0a8b7b7c2f21d" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgnosource</definition>
+        <argsstring></argsstring>
+        <name>lgnosource</name>
+        <qualifiedname>common_mod::lgnosource</qualifiedname>
+        <initializer>= .false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="39" column="1" bodyfile="source/common_mod.f90" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aafb854f09a538ebd89c1deee32bc6116" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lginputdustmass</definition>
+        <argsstring></argsstring>
+        <name>lginputdustmass</name>
+        <qualifiedname>common_mod::lginputdustmass</qualifiedname>
+        <initializer>= .false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="40" column="1" bodyfile="source/common_mod.f90" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a3ac30114206bed909217c9ee42d6529e" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lginputgasmass</definition>
+        <argsstring></argsstring>
+        <name>lginputgasmass</name>
+        <qualifiedname>common_mod::lginputgasmass</qualifiedname>
+        <initializer>= .false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="41" column="1" bodyfile="source/common_mod.f90" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a1c516249719dfe3b0892572f62ff998e" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::gsca</definition>
+        <argsstring></argsstring>
+        <name>gsca</name>
+        <qualifiedname>common_mod::gsca</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="43" column="1" bodyfile="source/common_mod.f90" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a626e0b07512da50c08efc62cdc4da6e1" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:,:), allocatable</type>
+        <definition>real, dimension(:,:,:), allocatable common_mod::tdusttemp</definition>
+        <argsstring></argsstring>
+        <name>tdusttemp</name>
+        <qualifiedname>common_mod::tdusttemp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="45" column="1" bodyfile="source/common_mod.f90" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a15f4484590af507b8f5ad2c71d1f54f3" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:,:), allocatable</type>
+        <definition>real, dimension(:,:,:), allocatable common_mod::iondentemp</definition>
+        <argsstring></argsstring>
+        <name>iondentemp</name>
+        <qualifiedname>common_mod::iondentemp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="46" column="1" bodyfile="source/common_mod.f90" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0a9243bfba11292fec0b74c2510fbabf" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::netemp</definition>
+        <argsstring></argsstring>
+        <name>netemp</name>
+        <qualifiedname>common_mod::netemp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="47" column="1" bodyfile="source/common_mod.f90" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a998b2881df34ba48c91289cd1d463415" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::tetemp</definition>
+        <argsstring></argsstring>
+        <name>tetemp</name>
+        <qualifiedname>common_mod::tetemp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="48" column="1" bodyfile="source/common_mod.f90" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a999df8c6c902a2de1bbad14139e9b480" prot="public" static="no" mutable="no">
+        <type>real, dimension(34, 3, 4)</type>
+        <definition>real, dimension(34,3,4) common_mod::heireclinecoeff</definition>
+        <argsstring></argsstring>
+        <name>heireclinecoeff</name>
+        <qualifiedname>common_mod::heireclinecoeff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="49" column="1" bodyfile="source/common_mod.f90" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a78eda8dc70bd943ccd8c0e6a26e50546" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::knsigmaarray</definition>
+        <argsstring></argsstring>
+        <name>knsigmaarray</name>
+        <qualifiedname>common_mod::knsigmaarray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="50" column="1" bodyfile="source/common_mod.f90" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aee2b65f8236a26f3fe6170e011f41374" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::knsigmat</definition>
+        <argsstring></argsstring>
+        <name>knsigmat</name>
+        <qualifiedname>common_mod::knsigmat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="51" column="1" bodyfile="source/common_mod.f90" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a4c310d6800596e6712055120571bd1f1" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension (:,:), allocatable common_mod::pcomparray</definition>
+        <argsstring></argsstring>
+        <name>pcomparray</name>
+        <qualifiedname>common_mod::pcomparray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="52" column="1" bodyfile="source/common_mod.f90" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a487ea5a1a3a65d5a3aa2349d5dc5d936" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::twodscalej</definition>
+        <argsstring></argsstring>
+        <name>twodscalej</name>
+        <qualifiedname>common_mod::twodscalej</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="53" column="1" bodyfile="source/common_mod.f90" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ab8e3f68f928104ca9e61ba338383c301" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::radio4p9ghzp</definition>
+        <argsstring></argsstring>
+        <name>radio4p9ghzp</name>
+        <qualifiedname>common_mod::radio4p9ghzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="55" column="1" bodyfile="source/common_mod.f90" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a8f596dc80104aeff36f4350f2ce5b6ce" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::ierr</definition>
+        <argsstring></argsstring>
+        <name>ierr</name>
+        <qualifiedname>common_mod::ierr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="57" column="1" bodyfile="source/common_mod.f90" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a24f4598868dd09a53195d5020bf65b59" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::numtasks</definition>
+        <argsstring></argsstring>
+        <name>numtasks</name>
+        <qualifiedname>common_mod::numtasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="58" column="1" bodyfile="source/common_mod.f90" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aece6d9e404e28ce6ec07e8aa38182751" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::taskid</definition>
+        <argsstring></argsstring>
+        <name>taskid</name>
+        <qualifiedname>common_mod::taskid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="59" column="1" bodyfile="source/common_mod.f90" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0777695f1675478c8d2966611a0c49c7" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::starttime</definition>
+        <argsstring></argsstring>
+        <name>starttime</name>
+        <qualifiedname>common_mod::starttime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="60" column="1" bodyfile="source/common_mod.f90" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af18cdd008a6ea0df0f6b2855cef20b00" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::endtime</definition>
+        <argsstring></argsstring>
+        <name>endtime</name>
+        <qualifiedname>common_mod::endtime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="62" column="1" bodyfile="source/common_mod.f90" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5dab9b4f27ac1ee2d30cd7a706f82fdd" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::absint</definition>
+        <argsstring></argsstring>
+        <name>absint</name>
+        <qualifiedname>common_mod::absint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="63" column="1" bodyfile="source/common_mod.f90" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5ee04d072e242021949e3545da247021" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::scaint</definition>
+        <argsstring></argsstring>
+        <name>scaint</name>
+        <qualifiedname>common_mod::scaint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="64" column="1" bodyfile="source/common_mod.f90" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a24b6ef7858dd1f472c10b610bb276b4f" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::echot1</definition>
+        <argsstring></argsstring>
+        <name>echot1</name>
+        <qualifiedname>common_mod::echot1</qualifiedname>
+        <initializer>=0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="65" column="1" bodyfile="source/common_mod.f90" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ac1874a8b954bb59c6f2bfb3955b8e517" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::echot2</definition>
+        <argsstring></argsstring>
+        <name>echot2</name>
+        <qualifiedname>common_mod::echot2</qualifiedname>
+        <initializer>=0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="65" column="1" bodyfile="source/common_mod.f90" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ad27a947c68833a2deda3a51ddabce97c" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::echotemp</definition>
+        <argsstring></argsstring>
+        <name>echotemp</name>
+        <qualifiedname>common_mod::echotemp</qualifiedname>
+        <initializer>=0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="66" column="1" bodyfile="source/common_mod.f90" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a98cd898899e147d8af4bb6aef0426b4b" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::dtheta</definition>
+        <argsstring></argsstring>
+        <name>dtheta</name>
+        <qualifiedname>common_mod::dtheta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="67" column="1" bodyfile="source/common_mod.f90" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a8e0849a4da0788ea7cbcf232670bd09c" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::dphi</definition>
+        <argsstring></argsstring>
+        <name>dphi</name>
+        <qualifiedname>common_mod::dphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="68" column="1" bodyfile="source/common_mod.f90" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1adccc3c56210d5e2fdee93271621002fe" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::nu0</definition>
+        <argsstring></argsstring>
+        <name>nu0</name>
+        <qualifiedname>common_mod::nu0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="69" column="1" bodyfile="source/common_mod.f90" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1adacf318773ac31b0b0b22a6842b0ade1" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::nu0add</definition>
+        <argsstring></argsstring>
+        <name>nu0add</name>
+        <qualifiedname>common_mod::nu0add</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="70" column="1" bodyfile="source/common_mod.f90" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a9be9b72dcd50f26743c496627e0328a5" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::totaldustmass</definition>
+        <argsstring></argsstring>
+        <name>totaldustmass</name>
+        <qualifiedname>common_mod::totaldustmass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="71" column="1" bodyfile="source/common_mod.f90" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a2eb2858324c8ed0ff9b9a98aa166a7f8" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::totalgasmass</definition>
+        <argsstring></argsstring>
+        <name>totalgasmass</name>
+        <qualifiedname>common_mod::totalgasmass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="72" column="1" bodyfile="source/common_mod.f90" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae11bfe964f0394c01ebc1b908cd5c3e9" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::inputdustmass</definition>
+        <argsstring></argsstring>
+        <name>inputdustmass</name>
+        <qualifiedname>common_mod::inputdustmass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="73" column="1" bodyfile="source/common_mod.f90" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a82d4a29f1736f0bdd234290b7c0ddaed" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::inputgasmass</definition>
+        <argsstring></argsstring>
+        <name>inputgasmass</name>
+        <qualifiedname>common_mod::inputgasmass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="74" column="1" bodyfile="source/common_mod.f90" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a3462fe6e3de9bde1edc570a6996687eb" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::forcetdust</definition>
+        <argsstring></argsstring>
+        <name>forcetdust</name>
+        <qualifiedname>common_mod::forcetdust</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="75" column="1" bodyfile="source/common_mod.f90" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af547af0c3caaf2c90ed288468f3988db" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::convpercent</definition>
+        <argsstring></argsstring>
+        <name>convpercent</name>
+        <qualifiedname>common_mod::convpercent</qualifiedname>
+        <initializer>=0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="76" column="1" bodyfile="source/common_mod.f90" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ab64e944f65ae4b11cd84467bf22db4d3" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::pwlindex</definition>
+        <argsstring></argsstring>
+        <name>pwlindex</name>
+        <qualifiedname>common_mod::pwlindex</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="77" column="1" bodyfile="source/common_mod.f90" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aef4abf34e41ec2e62f8591e533d344ae" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::pwlmin</definition>
+        <argsstring></argsstring>
+        <name>pwlmin</name>
+        <qualifiedname>common_mod::pwlmin</qualifiedname>
+        <initializer>=0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="78" column="1" bodyfile="source/common_mod.f90" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a1f98d8fe2d257bb39e2fbe4819244579" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::pwlmax</definition>
+        <argsstring></argsstring>
+        <name>pwlmax</name>
+        <qualifiedname>common_mod::pwlmax</qualifiedname>
+        <initializer>=0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="79" column="1" bodyfile="source/common_mod.f90" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0c639b0d270aae9c52f15e7f5e5d0981" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::totpercent</definition>
+        <argsstring></argsstring>
+        <name>totpercent</name>
+        <qualifiedname>common_mod::totpercent</qualifiedname>
+        <initializer>=0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="80" column="1" bodyfile="source/common_mod.f90" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a9e4e723dd89e30e02e4612b65aef6360" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::minaqheat</definition>
+        <argsstring></argsstring>
+        <name>minaqheat</name>
+        <qualifiedname>common_mod::minaqheat</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="81" column="1" bodyfile="source/common_mod.f90" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a62040a738772f3fc2e928e143dd93f20" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::neused</definition>
+        <argsstring></argsstring>
+        <name>neused</name>
+        <qualifiedname>common_mod::neused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="82" column="1" bodyfile="source/common_mod.f90" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a17cf2d82b8a144f7d0c7d10e1560579a" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::teused</definition>
+        <argsstring></argsstring>
+        <name>teused</name>
+        <qualifiedname>common_mod::teused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="82" column="1" bodyfile="source/common_mod.f90" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a9ef0b9c11d64f7b08cc1dfe08f29e578" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::hdenused</definition>
+        <argsstring></argsstring>
+        <name>hdenused</name>
+        <qualifiedname>common_mod::hdenused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="82" column="1" bodyfile="source/common_mod.f90" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aea4730c83c246668ddf6a4db883b9277" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::tmax</definition>
+        <argsstring></argsstring>
+        <name>tmax</name>
+        <qualifiedname>common_mod::tmax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="83" column="1" bodyfile="source/common_mod.f90" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a93c9399bf3137091e214618316840f1d" prot="public" static="no" mutable="no">
+        <type>real, dimension(30, 30, 10, 10)</type>
+        <definition>real, dimension(30,30,10,10) common_mod::auger</definition>
+        <argsstring></argsstring>
+        <name>auger</name>
+        <qualifiedname>common_mod::auger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="84" column="1" bodyfile="source/common_mod.f90" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a14740b56660dd1d29610a1543b824443" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::hinuedgep</definition>
+        <argsstring></argsstring>
+        <name>hinuedgep</name>
+        <qualifiedname>common_mod::hinuedgep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="88" column="1" bodyfile="source/common_mod.f90" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae533ff5557a789ee584367fac2a257d0" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::heinuedgep</definition>
+        <argsstring></argsstring>
+        <name>heinuedgep</name>
+        <qualifiedname>common_mod::heinuedgep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="89" column="1" bodyfile="source/common_mod.f90" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aafe5adc32783864dfba4343ddbfa8b7a" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::heiinuedgep</definition>
+        <argsstring></argsstring>
+        <name>heiinuedgep</name>
+        <qualifiedname>common_mod::heiinuedgep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="90" column="1" bodyfile="source/common_mod.f90" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5d3249031086c3a19e8ed9496f8deac2" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::ntbins</definition>
+        <argsstring></argsstring>
+        <name>ntbins</name>
+        <qualifiedname>common_mod::ntbins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="93" column="1" bodyfile="source/common_mod.f90" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a6f01a56e82f48304da593480af17d50e" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nlimgammahi</definition>
+        <argsstring></argsstring>
+        <name>nlimgammahi</name>
+        <qualifiedname>common_mod::nlimgammahi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="94" column="1" bodyfile="source/common_mod.f90" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa9c063e00fd62963a699821a15bfba53" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nlimgammahei</definition>
+        <argsstring></argsstring>
+        <name>nlimgammahei</name>
+        <qualifiedname>common_mod::nlimgammahei</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="94" column="1" bodyfile="source/common_mod.f90" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ad0add1dbe08487126ea9621bdfaa270d" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nlimgammaheii</definition>
+        <argsstring></argsstring>
+        <name>nlimgammaheii</name>
+        <qualifiedname>common_mod::nlimgammaheii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="94" column="1" bodyfile="source/common_mod.f90" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae2fb0f3eba7f790541d5d5722e45cea1" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::ntkgamma</definition>
+        <argsstring></argsstring>
+        <name>ntkgamma</name>
+        <qualifiedname>common_mod::ntkgamma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="94" column="1" bodyfile="source/common_mod.f90" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ab0fcdcdc86aa91a739515b35ff2bd92b" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::niteratemc</definition>
+        <argsstring></argsstring>
+        <name>niteratemc</name>
+        <qualifiedname>common_mod::niteratemc</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="96" column="1" bodyfile="source/common_mod.f90" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ac1d20ff7cd68630b14818770d9db42f3" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nflux</definition>
+        <argsstring></argsstring>
+        <name>nflux</name>
+        <qualifiedname>common_mod::nflux</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="98" column="1" bodyfile="source/common_mod.f90" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a85df51d92b87990181a3e90af97e1608" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nlines</definition>
+        <argsstring></argsstring>
+        <name>nlines</name>
+        <qualifiedname>common_mod::nlines</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="100" column="1" bodyfile="source/common_mod.f90" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a2fc80ed5f31a7439744390ef658ccb7c" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::iorigin</definition>
+        <argsstring></argsstring>
+        <name>iorigin</name>
+        <qualifiedname>common_mod::iorigin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="102" column="1" bodyfile="source/common_mod.f90" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1afdc4034a64796983029ed6eb30b719ec" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::jorigin</definition>
+        <argsstring></argsstring>
+        <name>jorigin</name>
+        <qualifiedname>common_mod::jorigin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="102" column="1" bodyfile="source/common_mod.f90" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ac06e7342c98ca4f37e5ec267e9dc9f42" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::korigin</definition>
+        <argsstring></argsstring>
+        <name>korigin</name>
+        <qualifiedname>common_mod::korigin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="102" column="1" bodyfile="source/common_mod.f90" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af27d1a8f9f0545c130dac19ffc670c95" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::kshelllimitp</definition>
+        <argsstring></argsstring>
+        <name>kshelllimitp</name>
+        <qualifiedname>common_mod::kshelllimitp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="106" column="1" bodyfile="source/common_mod.f90" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1afdf03fc42136b2da53da4bcee0a44d8d" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::fekacoldp</definition>
+        <argsstring></argsstring>
+        <name>fekacoldp</name>
+        <qualifiedname>common_mod::fekacoldp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="107" column="1" bodyfile="source/common_mod.f90" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1afd350224d30d2d9a53714fb86015016f" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::secionp</definition>
+        <argsstring></argsstring>
+        <name>secionp</name>
+        <qualifiedname>common_mod::secionp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="108" column="1" bodyfile="source/common_mod.f90" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1afedf7ad878426b2bfa627fd379c008bd" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::crecoilp</definition>
+        <argsstring></argsstring>
+        <name>crecoilp</name>
+        <qualifiedname>common_mod::crecoilp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="109" column="1" bodyfile="source/common_mod.f90" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a776fd6b25065c38010cf0610071bc598" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::xrayp</definition>
+        <argsstring></argsstring>
+        <name>xrayp</name>
+        <qualifiedname>common_mod::xrayp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="110" column="1" bodyfile="source/common_mod.f90" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a83bfdd7a726ddd5911c6e4c029e81a84" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::crecoilhp</definition>
+        <argsstring></argsstring>
+        <name>crecoilhp</name>
+        <qualifiedname>common_mod::crecoilhp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="111" column="1" bodyfile="source/common_mod.f90" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a3e04766798b276df4a6b56cec3b7b3c2" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::crecoilhep</definition>
+        <argsstring></argsstring>
+        <name>crecoilhep</name>
+        <qualifiedname>common_mod::crecoilhep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="111" column="1" bodyfile="source/common_mod.f90" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a15c93d8f866f5607555925fc6ea44166" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::bjumpp</definition>
+        <argsstring></argsstring>
+        <name>bjumpp</name>
+        <qualifiedname>common_mod::bjumpp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="113" column="1" bodyfile="source/common_mod.f90" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a45c6bd5354e0821c83d3d028763abb94" prot="public" static="no" mutable="no">
+        <type>integer, dimension(30, 30, 10)</type>
+        <definition>integer, dimension(30,30,10) common_mod::nauger</definition>
+        <argsstring></argsstring>
+        <name>nauger</name>
+        <qualifiedname>common_mod::nauger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="115" column="1" bodyfile="source/common_mod.f90" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ac4c142b59ce2079680aae23f1a9f2c56" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nogploc</definition>
+        <argsstring></argsstring>
+        <name>nogploc</name>
+        <qualifiedname>common_mod::nogploc</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="117" column="1" bodyfile="source/common_mod.f90" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a91fd90636a5bcc0ddd8d7afd8bb8bd98" prot="public" static="no" mutable="no">
+        <type>integer, dimension(3)</type>
+        <definition>integer, dimension(3) common_mod::nocellloc</definition>
+        <argsstring></argsstring>
+        <name>nocellloc</name>
+        <qualifiedname>common_mod::nocellloc</qualifiedname>
+        <initializer>=-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="118" column="1" bodyfile="source/common_mod.f90" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a216050cdbdbe6fe9e7f4ee4bc9912674" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" kindref="member">nelements</ref>, <ref refid="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" kindref="member">nelements</ref>, 7, 3)</type>
+        <definition>integer, dimension(nelements, nelements, 7, 3) common_mod::elementp</definition>
+        <argsstring></argsstring>
+        <name>elementp</name>
+        <qualifiedname>common_mod::elementp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="120" column="1" bodyfile="source/common_mod.f90" bodystart="120" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa7ca435715771594b256622514a37399" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:,:), allocatable</type>
+        <definition>integer, dimension(:,:), allocatable common_mod::dustscaxsecp</definition>
+        <argsstring></argsstring>
+        <name>dustscaxsecp</name>
+        <qualifiedname>common_mod::dustscaxsecp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="129" column="1" bodyfile="source/common_mod.f90" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a243150f4a8e5f2d8d5a0da8013effd50" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:,:), allocatable</type>
+        <definition>integer, dimension(:,:), allocatable common_mod::dustabsxsecp</definition>
+        <argsstring></argsstring>
+        <name>dustabsxsecp</name>
+        <qualifiedname>common_mod::dustabsxsecp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="130" column="1" bodyfile="source/common_mod.f90" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a92916acb4a0d9be9cd3c582077eaa273" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1a71c3d8a0ccb101e721f84e06a41bdc4a" kindref="member">nhlevel</ref>+1)</type>
+        <definition>integer, dimension(nhlevel+1) common_mod::hlevnup</definition>
+        <argsstring></argsstring>
+        <name>hlevnup</name>
+        <qualifiedname>common_mod::hlevnup</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="134" column="1" bodyfile="source/common_mod.f90" bodystart="134" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a4894dabd30dede3b43e911478018b530" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1ad5e9c7d2aedefd6767a37a1f78eeb1ee" kindref="member">nheilevel</ref>+1)</type>
+        <definition>integer, dimension(nheilevel+1) common_mod::heilevnup</definition>
+        <argsstring></argsstring>
+        <name>heilevnup</name>
+        <qualifiedname>common_mod::heilevnup</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="137" column="1" bodyfile="source/common_mod.f90" bodystart="137" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a1ebc8ef8402cca227990f2c6c405d782" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1a2b79691ee258d3182918664190d64a4e" kindref="member">nheiilevel</ref>+1)</type>
+        <definition>integer, dimension(nheiilevel+1) common_mod::heiilevnup</definition>
+        <argsstring></argsstring>
+        <name>heiilevnup</name>
+        <qualifiedname>common_mod::heiilevnup</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="141" column="1" bodyfile="source/common_mod.f90" bodystart="141" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0afec65bd3ebfc09296603d026cc7b4e" prot="public" static="no" mutable="no">
+        <type>logical, dimension(:,:), allocatable</type>
+        <definition>logical, dimension(:,:), allocatable common_mod::lgdataavailable</definition>
+        <argsstring></argsstring>
+        <name>lgdataavailable</name>
+        <qualifiedname>common_mod::lgdataavailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="145" column="1" bodyfile="source/common_mod.f90" bodystart="145" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5bad9eb42b902bd6e06ac355ae12b4c7" prot="public" static="no" mutable="no">
+        <type>character(len=50), dimension(3:<ref refid="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" kindref="member">nelements</ref>, 1:10)</type>
+        <definition>character(len=50), dimension(3:nelements, 1:10) common_mod::datafile</definition>
+        <argsstring></argsstring>
+        <name>datafile</name>
+        <qualifiedname>common_mod::datafile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="148" column="1" bodyfile="source/common_mod.f90" bodystart="148" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ac1aff5d2133928391727ff86fff222ab" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" kindref="member">nelements</ref>, <ref refid="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" kindref="member">nelements</ref>)</type>
+        <definition>integer, dimension(nelements, nelements) common_mod::nshells</definition>
+        <argsstring></argsstring>
+        <name>nshells</name>
+        <qualifiedname>common_mod::nshells</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="151" column="1" bodyfile="source/common_mod.f90" bodystart="151" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a6b34c86454b7c3fd042967bf91cc01b9" prot="public" static="no" mutable="no">
+        <type>character(len=2), dimension(30)</type>
+        <definition>character(len=2), dimension(30) common_mod::elemlabel</definition>
+        <argsstring></argsstring>
+        <name>elemlabel</name>
+        <qualifiedname>common_mod::elemlabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="155" column="1" bodyfile="source/common_mod.f90" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a64dc35d7ee84b2d763bfd4f585167c9b" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::bjump</definition>
+        <argsstring></argsstring>
+        <name>bjump</name>
+        <qualifiedname>common_mod::bjump</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="159" column="1" bodyfile="source/common_mod.f90" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a3930d19b87444ac66d22a638a3458a31" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::dxslit</definition>
+        <argsstring></argsstring>
+        <name>dxslit</name>
+        <qualifiedname>common_mod::dxslit</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="163" column="1" bodyfile="source/common_mod.f90" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a6db56e35f6419e8fc910e5c384d1f8a1" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::dyslit</definition>
+        <argsstring></argsstring>
+        <name>dyslit</name>
+        <qualifiedname>common_mod::dyslit</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="164" column="1" bodyfile="source/common_mod.f90" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a53917f3ba71ceeb630bffcc518812a3e" prot="public" static="no" mutable="no">
+        <type>real, dimension(5, 30, 30)</type>
+        <definition>real, dimension(5,30,30) common_mod::cf</definition>
+        <argsstring></argsstring>
+        <name>cf</name>
+        <qualifiedname>common_mod::cf</qualifiedname>
+        <initializer>=0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="167" column="1" bodyfile="source/common_mod.f90" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa3254cc9e8d6a09afff27b1078883b1c" prot="public" static="no" mutable="no">
+        <type>real, dimension(30, 30)</type>
+        <definition>real, dimension(30,30) common_mod::ciontherm</definition>
+        <argsstring></argsstring>
+        <name>ciontherm</name>
+        <qualifiedname>common_mod::ciontherm</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="168" column="1" bodyfile="source/common_mod.f90" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ab08ba8a658b7614136a56b0b5dd52222" prot="public" static="no" mutable="no">
+        <type>real, dimension(6, 30, 30, 7)</type>
+        <definition>real, dimension(6, 30, 30, 7) common_mod::ph1</definition>
+        <argsstring></argsstring>
+        <name>ph1</name>
+        <qualifiedname>common_mod::ph1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="169" column="1" bodyfile="source/common_mod.f90" bodystart="169" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a2fc09ebe83a549bfe85502f9b137d0cd" prot="public" static="no" mutable="no">
+        <type>real, dimension(7, 30, 30)</type>
+        <definition>real, dimension(7, 30, 30) common_mod::ph2</definition>
+        <argsstring></argsstring>
+        <name>ph2</name>
+        <qualifiedname>common_mod::ph2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="170" column="1" bodyfile="source/common_mod.f90" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a8b036092f3aa23e7b75b0d61fbf497ef" prot="public" static="no" mutable="no">
+        <type>real, dimension(<ref refid="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" kindref="member">nelements</ref>)</type>
+        <definition>real, dimension(nelements) common_mod::aweight</definition>
+        <argsstring></argsstring>
+        <name>aweight</name>
+        <qualifiedname>common_mod::aweight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="171" column="1" bodyfile="source/common_mod.f90" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a8a5518584416ffc941a9b15fab95821a" prot="public" static="no" mutable="no">
+        <type>real, dimension(450)</type>
+        <definition>real, dimension(450) common_mod::ionedge</definition>
+        <argsstring></argsstring>
+        <name>ionedge</name>
+        <qualifiedname>common_mod::ionedge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="172" column="1" bodyfile="source/common_mod.f90" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a1e7aaa18639598ffcf0ccbdaad566355" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::loggammahi</definition>
+        <argsstring></argsstring>
+        <name>loggammahi</name>
+        <qualifiedname>common_mod::loggammahi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="174" column="1" bodyfile="source/common_mod.f90" bodystart="174" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a444d940d3bd6f0cfed645d37238ffbeb" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::loggammahei</definition>
+        <argsstring></argsstring>
+        <name>loggammahei</name>
+        <qualifiedname>common_mod::loggammahei</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="174" column="1" bodyfile="source/common_mod.f90" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a9924dc9e8e306d14d074ee9edc7c1eb2" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::loggammaheii</definition>
+        <argsstring></argsstring>
+        <name>loggammaheii</name>
+        <qualifiedname>common_mod::loggammaheii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="174" column="1" bodyfile="source/common_mod.f90" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aba672d6ebda980c18b929bd0eb8f0718" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::tkgamma</definition>
+        <argsstring></argsstring>
+        <name>tkgamma</name>
+        <qualifiedname>common_mod::tkgamma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="174" column="1" bodyfile="source/common_mod.f90" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a74b04a5ba95d08857147047b9905a1c2" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::nugammahi</definition>
+        <argsstring></argsstring>
+        <name>nugammahi</name>
+        <qualifiedname>common_mod::nugammahi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="174" column="1" bodyfile="source/common_mod.f90" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a58aa92ba5dac1d685eb7b460f66bee16" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::nugammahei</definition>
+        <argsstring></argsstring>
+        <name>nugammahei</name>
+        <qualifiedname>common_mod::nugammahei</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="174" column="1" bodyfile="source/common_mod.f90" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1add023d949a08446193b09946dd1cb1c0" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::nugammaheii</definition>
+        <argsstring></argsstring>
+        <name>nugammaheii</name>
+        <qualifiedname>common_mod::nugammaheii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="174" column="1" bodyfile="source/common_mod.f90" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5c487ed6d3dfe514e9468e71a895c531" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::tdustsublime</definition>
+        <argsstring></argsstring>
+        <name>tdustsublime</name>
+        <qualifiedname>common_mod::tdustsublime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="178" column="1" bodyfile="source/common_mod.f90" bodystart="178" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a159fcfaab2d3ea5cae0a8d2446a67c67" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grainvn</definition>
+        <argsstring></argsstring>
+        <name>grainvn</name>
+        <qualifiedname>common_mod::grainvn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="179" column="1" bodyfile="source/common_mod.f90" bodystart="179" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1abbb8f5e131b64a9538471a573599d067" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::msurfatom</definition>
+        <argsstring></argsstring>
+        <name>msurfatom</name>
+        <qualifiedname>common_mod::msurfatom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="180" column="1" bodyfile="source/common_mod.f90" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aece2f8be8ab193eac43a6bf66ec0e94e" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::rho</definition>
+        <argsstring></argsstring>
+        <name>rho</name>
+        <qualifiedname>common_mod::rho</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="181" column="1" bodyfile="source/common_mod.f90" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a2526524aa7eb21847eb085abfb2b03c8" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::dustheatingbudget</definition>
+        <argsstring></argsstring>
+        <name>dustheatingbudget</name>
+        <qualifiedname>common_mod::dustheatingbudget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="182" column="1" bodyfile="source/common_mod.f90" bodystart="182" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a9bd9aab986ec2c772ea688bf15c339f0" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::sednoext</definition>
+        <argsstring></argsstring>
+        <name>sednoext</name>
+        <qualifiedname>common_mod::sednoext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="183" column="1" bodyfile="source/common_mod.f90" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a341696ab3581cb714c2d7a7123d293bb" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::equivalenttau</definition>
+        <argsstring></argsstring>
+        <name>equivalenttau</name>
+        <qualifiedname>common_mod::equivalenttau</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="184" column="1" bodyfile="source/common_mod.f90" bodystart="184" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a2bd864fd343d1ebdaf8c3f03cbe40a02" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::totalspecmass</definition>
+        <argsstring></argsstring>
+        <name>totalspecmass</name>
+        <qualifiedname>common_mod::totalspecmass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="185" column="1" bodyfile="source/common_mod.f90" bodystart="185" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a06f94d038c09f42f6cb2018499051054" prot="public" static="no" mutable="no">
+        <type>double precision, dimension(:,:,:,:), allocatable, save</type>
+        <definition>double precision, dimension(:,:,:,:), allocatable, save common_mod::forbiddenlines</definition>
+        <argsstring></argsstring>
+        <name>forbiddenlines</name>
+        <qualifiedname>common_mod::forbiddenlines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="187" column="1" bodyfile="source/common_mod.f90" bodystart="187" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a83cdc3644b542768085f838711970f55" prot="public" static="no" mutable="no">
+        <type>double precision, dimension(:,:), allocatable, save</type>
+        <definition>double precision, dimension(:,:), allocatable, save common_mod::forbiddenlineslarge</definition>
+        <argsstring></argsstring>
+        <name>forbiddenlineslarge</name>
+        <qualifiedname>common_mod::forbiddenlineslarge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="189" column="1" bodyfile="source/common_mod.f90" bodystart="189" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a3b5733b0c1aba78280a04b26ef1ff5aa" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::dl</definition>
+        <argsstring></argsstring>
+        <name>dl</name>
+        <qualifiedname>common_mod::dl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="193" column="1" bodyfile="source/common_mod.f90" bodystart="193" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0296f69055d79e1096de31cdd195ab47" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgrecombination</definition>
+        <argsstring></argsstring>
+        <name>lgrecombination</name>
+        <qualifiedname>common_mod::lgrecombination</qualifiedname>
+        <initializer>=.false.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="196" column="1" bodyfile="source/common_mod.f90" bodystart="196" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ab87648bf256a77c7d32bc8f7becba142" prot="public" static="no" mutable="no">
+        <type>logical, dimension(<ref refid="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" kindref="member">nelements</ref>)</type>
+        <definition>logical, dimension(nelements) common_mod::lgelementon</definition>
+        <argsstring></argsstring>
+        <name>lgelementon</name>
+        <qualifiedname>common_mod::lgelementon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="199" column="1" bodyfile="source/common_mod.f90" bodystart="199" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5e60afa549f872ae2b5dfbe7ce72a27e" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:,:), allocatable</type>
+        <definition>real, dimension(:,:,:), allocatable common_mod::dustemintegral</definition>
+        <argsstring></argsstring>
+        <name>dustemintegral</name>
+        <qualifiedname>common_mod::dustemintegral</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="202" column="1" bodyfile="source/common_mod.f90" bodystart="202" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1adb1fcce19bae12468e85531ca5667509" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::absopacspecies</definition>
+        <argsstring></argsstring>
+        <name>absopacspecies</name>
+        <qualifiedname>common_mod::absopacspecies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="205" column="1" bodyfile="source/common_mod.f90" bodystart="205" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a97eaa0a94eb52d5337ef1c24ab6567aa" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::continuum</definition>
+        <argsstring></argsstring>
+        <name>continuum</name>
+        <qualifiedname>common_mod::continuum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="207" column="1" bodyfile="source/common_mod.f90" bodystart="207" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae19b89503ab88d6e85447264ee3a1ff0" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::gauntff</definition>
+        <argsstring></argsstring>
+        <name>gauntff</name>
+        <qualifiedname>common_mod::gauntff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="209" column="1" bodyfile="source/common_mod.f90" bodystart="209" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5bd08304ed0cce9d0cffe234d84b6622" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::gauntffheii</definition>
+        <argsstring></argsstring>
+        <name>gauntffheii</name>
+        <qualifiedname>common_mod::gauntffheii</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="211" column="1" bodyfile="source/common_mod.f90" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa911326d69ffede133d159086359d506" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::h2phot</definition>
+        <argsstring></argsstring>
+        <name>h2phot</name>
+        <qualifiedname>common_mod::h2phot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="213" column="1" bodyfile="source/common_mod.f90" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1abe4d9bbdf35bb2f76a61b776e1fa3334" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::hei2phot</definition>
+        <argsstring></argsstring>
+        <name>hei2phot</name>
+        <qualifiedname>common_mod::hei2phot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="215" column="1" bodyfile="source/common_mod.f90" bodystart="215" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a6da7b43fae146051d8eec8df633eee43" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::heii2phot</definition>
+        <argsstring></argsstring>
+        <name>heii2phot</name>
+        <qualifiedname>common_mod::heii2phot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="217" column="1" bodyfile="source/common_mod.f90" bodystart="217" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ada42ea0e56d3af523250088157848bcb" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::iondenused</definition>
+        <argsstring></argsstring>
+        <name>iondenused</name>
+        <qualifiedname>common_mod::iondenused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="219" column="1" bodyfile="source/common_mod.f90" bodystart="219" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aacd7703605658da344c5c1cd8a756092" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::nuarray</definition>
+        <argsstring></argsstring>
+        <name>nuarray</name>
+        <qualifiedname>common_mod::nuarray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="221" column="1" bodyfile="source/common_mod.f90" bodystart="221" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a48f883c58970d3a973f5326651582fcb" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::xsecarray</definition>
+        <argsstring></argsstring>
+        <name>xsecarray</name>
+        <qualifiedname>common_mod::xsecarray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="223" column="1" bodyfile="source/common_mod.f90" bodystart="223" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a8d2adb7dfb1a9a4130f3ab40213c5eb4" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::xsecrecoil</definition>
+        <argsstring></argsstring>
+        <name>xsecrecoil</name>
+        <qualifiedname>common_mod::xsecrecoil</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="225" column="1" bodyfile="source/common_mod.f90" bodystart="225" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0012816733a2ca6d78f1d4b9299cceb3" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::comxsech</definition>
+        <argsstring></argsstring>
+        <name>comxsech</name>
+        <qualifiedname>common_mod::comxsech</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="227" column="1" bodyfile="source/common_mod.f90" bodystart="227" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ac44fc5528cb72033b213c2f4e4ac9104" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::comxsecc</definition>
+        <argsstring></argsstring>
+        <name>comxsecc</name>
+        <qualifiedname>common_mod::comxsecc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="229" column="1" bodyfile="source/common_mod.f90" bodystart="229" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a206166e961a67d837884948cc7998ae2" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::widflx</definition>
+        <argsstring></argsstring>
+        <name>widflx</name>
+        <qualifiedname>common_mod::widflx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="231" column="1" bodyfile="source/common_mod.f90" bodystart="231" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a66e61e4d7b30838bcf85cc8c90fd6ca0" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::photoratefluo</definition>
+        <argsstring></argsstring>
+        <name>photoratefluo</name>
+        <qualifiedname>common_mod::photoratefluo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="233" column="1" bodyfile="source/common_mod.f90" bodystart="233" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a96988c569a34c6193e53f76801756ed4" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:,:), allocatable</type>
+        <definition>integer, dimension(:,:), allocatable common_mod::planeiondistribution</definition>
+        <argsstring></argsstring>
+        <name>planeiondistribution</name>
+        <qualifiedname>common_mod::planeiondistribution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="236" column="1" bodyfile="source/common_mod.f90" bodystart="236" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a029cd6d2223456b49ba725389f3a434f" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), dimension(:), allocatable</type>
+        <definition>type(vector), dimension(:), allocatable common_mod::starposition</definition>
+        <argsstring></argsstring>
+        <name>starposition</name>
+        <qualifiedname>common_mod::starposition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="361" column="1" bodyfile="source/common_mod.f90" bodystart="361" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1afb501d7350e45f5553c9f84f25a7eb9a" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>)</type>
+        <definition>type(vector) common_mod::nullunitvector</definition>
+        <argsstring></argsstring>
+        <name>nullunitvector</name>
+        <qualifiedname>common_mod::nullunitvector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="362" column="1" bodyfile="source/common_mod.f90" bodystart="362" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a53cdcf780a333e5e30debd42fed7656f" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgcompton</definition>
+        <argsstring></argsstring>
+        <name>lgcompton</name>
+        <qualifiedname>common_mod::lgcompton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="364" column="1" bodyfile="source/common_mod.f90" bodystart="364" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a32d9b10144e7365917a01c6846dd1bcc" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgautopackets</definition>
+        <argsstring></argsstring>
+        <name>lgautopackets</name>
+        <qualifiedname>common_mod::lgautopackets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="365" column="1" bodyfile="source/common_mod.f90" bodystart="365" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae726d5a3e5caed3001cf58bb1090b960" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgtalk</definition>
+        <argsstring></argsstring>
+        <name>lgtalk</name>
+        <qualifiedname>common_mod::lgtalk</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="366" column="1" bodyfile="source/common_mod.f90" bodystart="366" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a148259be6cc6e76cae6dadcbea9ee579" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgdfile</definition>
+        <argsstring></argsstring>
+        <name>lgdfile</name>
+        <qualifiedname>common_mod::lgdfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="367" column="1" bodyfile="source/common_mod.f90" bodystart="367" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a55a4a76dfdec9641426050388ecb14d8" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgdebug</definition>
+        <argsstring></argsstring>
+        <name>lgdebug</name>
+        <qualifiedname>common_mod::lgdebug</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="368" column="1" bodyfile="source/common_mod.f90" bodystart="368" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aafeabccffff00dadefea833bca3c29be" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgdlaw</definition>
+        <argsstring></argsstring>
+        <name>lgdlaw</name>
+        <qualifiedname>common_mod::lgdlaw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="369" column="1" bodyfile="source/common_mod.f90" bodystart="369" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a7d66e4c67b32c4b1e2cb82eaf04153b4" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgdust</definition>
+        <argsstring></argsstring>
+        <name>lgdust</name>
+        <qualifiedname>common_mod::lgdust</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="370" column="1" bodyfile="source/common_mod.f90" bodystart="370" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ab34d7625922b07dfb74828085d479fe9" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgdustscattering</definition>
+        <argsstring></argsstring>
+        <name>lgdustscattering</name>
+        <qualifiedname>common_mod::lgdustscattering</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="371" column="1" bodyfile="source/common_mod.f90" bodystart="371" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ace44d8155ffe7637878e748a2f5e73a5" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgdustconstant</definition>
+        <argsstring></argsstring>
+        <name>lgdustconstant</name>
+        <qualifiedname>common_mod::lgdustconstant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="372" column="1" bodyfile="source/common_mod.f90" bodystart="372" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a385743b6447daabd1fa90e5c28cdd4cc" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lggas</definition>
+        <argsstring></argsstring>
+        <name>lggas</name>
+        <qualifiedname>common_mod::lggas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="373" column="1" bodyfile="source/common_mod.f90" bodystart="373" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a6eee3c1082eb861c1043ac180ab34003" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lghdenconstant</definition>
+        <argsstring></argsstring>
+        <name>lghdenconstant</name>
+        <qualifiedname>common_mod::lghdenconstant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="374" column="1" bodyfile="source/common_mod.f90" bodystart="374" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af5669c41ad21abbd92f0708fcc8d5453" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgmdmg</definition>
+        <argsstring></argsstring>
+        <name>lgmdmg</name>
+        <qualifiedname>common_mod::lgmdmg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="375" column="1" bodyfile="source/common_mod.f90" bodystart="375" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a4959198f07d123d682ee157df5f88320" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgmdmh</definition>
+        <argsstring></argsstring>
+        <name>lgmdmh</name>
+        <qualifiedname>common_mod::lgmdmh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="376" column="1" bodyfile="source/common_mod.f90" bodystart="376" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1acdead3c75bcb4f1d2a20e57117aa032b" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgoutput</definition>
+        <argsstring></argsstring>
+        <name>lgoutput</name>
+        <qualifiedname>common_mod::lgoutput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="377" column="1" bodyfile="source/common_mod.f90" bodystart="377" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ad306dd0d33a3ef1ca90de6dc81691781" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lg1d</definition>
+        <argsstring></argsstring>
+        <name>lg1d</name>
+        <qualifiedname>common_mod::lg1d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="378" column="1" bodyfile="source/common_mod.f90" bodystart="378" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a21e5e720f82a0298d4bba70dcd596421" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgmultidustchemistry</definition>
+        <argsstring></argsstring>
+        <name>lgmultidustchemistry</name>
+        <qualifiedname>common_mod::lgmultidustchemistry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="379" column="1" bodyfile="source/common_mod.f90" bodystart="379" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a7f772a21ff820484a79b23b572753801" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgmultichemistry</definition>
+        <argsstring></argsstring>
+        <name>lgmultichemistry</name>
+        <qualifiedname>common_mod::lgmultichemistry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="380" column="1" bodyfile="source/common_mod.f90" bodystart="380" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af257a1384926d2abb9a56cbe3e2fc130" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgneutral</definition>
+        <argsstring></argsstring>
+        <name>lgneutral</name>
+        <qualifiedname>common_mod::lgneutral</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="381" column="1" bodyfile="source/common_mod.f90" bodystart="381" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a9e1347183b533a9e2866538ee0ae7aa2" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgplaneionization</definition>
+        <argsstring></argsstring>
+        <name>lgplaneionization</name>
+        <qualifiedname>common_mod::lgplaneionization</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="382" column="1" bodyfile="source/common_mod.f90" bodystart="382" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a33ed5d62beb1bfb6b0dcb86d117ae5dc" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::lgsymmetricxyz</definition>
+        <argsstring></argsstring>
+        <name>lgsymmetricxyz</name>
+        <qualifiedname>common_mod::lgsymmetricxyz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="383" column="1" bodyfile="source/common_mod.f90" bodystart="383" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a36ba5577d708f11409adbdb7e8a96f0d" prot="public" static="no" mutable="no">
+        <type>character(len=50)</type>
+        <definition>character(len=50) common_mod::gridlist</definition>
+        <argsstring></argsstring>
+        <name>gridlist</name>
+        <qualifiedname>common_mod::gridlist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="385" column="1" bodyfile="source/common_mod.f90" bodystart="385" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a3c54d76e469b4e0aad565e04a07b1921" prot="public" static="no" mutable="no">
+        <type>character(len=50), dimension(:), allocatable</type>
+        <definition>character(len=50), dimension(:), allocatable common_mod::abundancefile</definition>
+        <argsstring></argsstring>
+        <name>abundancefile</name>
+        <qualifiedname>common_mod::abundancefile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="386" column="1" bodyfile="source/common_mod.f90" bodystart="386" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a811021b811dc584cbe5cf974f65dd948" prot="public" static="no" mutable="no">
+        <type>character(len=50), dimension(:), allocatable</type>
+        <definition>character(len=50), dimension(:), allocatable common_mod::dustspeciesfile</definition>
+        <argsstring></argsstring>
+        <name>dustspeciesfile</name>
+        <qualifiedname>common_mod::dustspeciesfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="387" column="1" bodyfile="source/common_mod.f90" bodystart="387" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a42a0c654b282b81ab4e053ff054fdf9c" prot="public" static="no" mutable="no">
+        <type>character(len=50)</type>
+        <definition>character(len=50) common_mod::contdiffuse</definition>
+        <argsstring></argsstring>
+        <name>contdiffuse</name>
+        <qualifiedname>common_mod::contdiffuse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="388" column="1" bodyfile="source/common_mod.f90" bodystart="388" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae49c256b6cf897a7382c8c2060c4a77a" prot="public" static="no" mutable="no">
+        <type>character(len=50), dimension(:), allocatable</type>
+        <definition>character(len=50), dimension(:), allocatable common_mod::contshape</definition>
+        <argsstring></argsstring>
+        <name>contshape</name>
+        <qualifiedname>common_mod::contshape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="389" column="1" bodyfile="source/common_mod.f90" bodystart="389" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1afac92a4956c382faf2f5dc69796e7437" prot="public" static="no" mutable="no">
+        <type>character(len=50), dimension(:), allocatable</type>
+        <definition>character(len=50), dimension(:), allocatable common_mod::contshapein</definition>
+        <argsstring></argsstring>
+        <name>contshapein</name>
+        <qualifiedname>common_mod::contshapein</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="390" column="1" bodyfile="source/common_mod.f90" bodystart="390" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa66d987bcb55890ee4bdf18b022ca204" prot="public" static="no" mutable="no">
+        <type>character(len=50), dimension(:), allocatable</type>
+        <definition>character(len=50), dimension(:), allocatable common_mod::spid</definition>
+        <argsstring></argsstring>
+        <name>spid</name>
+        <qualifiedname>common_mod::spid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="391" column="1" bodyfile="source/common_mod.f90" bodystart="391" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa2cfc91db97cbee2d63d5415bf12cde7" prot="public" static="no" mutable="no">
+        <type>character(len=50)</type>
+        <definition>character(len=50) common_mod::densityfile</definition>
+        <argsstring></argsstring>
+        <name>densityfile</name>
+        <qualifiedname>common_mod::densityfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="392" column="1" bodyfile="source/common_mod.f90" bodystart="392" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a294089117b1a81aabd1f08477a93f739" prot="public" static="no" mutable="no">
+        <type>character(len=50), dimension(2)</type>
+        <definition>character(len=50), dimension(2) common_mod::dustfile</definition>
+        <argsstring></argsstring>
+        <name>dustfile</name>
+        <qualifiedname>common_mod::dustfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="393" column="1" bodyfile="source/common_mod.f90" bodystart="393" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a36a7b48b7b5b1169945ba5aae8c5d209" prot="public" static="no" mutable="no">
+        <type>character(len=50)</type>
+        <definition>character(len=50) common_mod::mdmgfile</definition>
+        <argsstring></argsstring>
+        <name>mdmgfile</name>
+        <qualifiedname>common_mod::mdmgfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="394" column="1" bodyfile="source/common_mod.f90" bodystart="394" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5cc5b4b7cabc9ed88be07ef8625df7f6" prot="public" static="no" mutable="no">
+        <type>character(len=50)</type>
+        <definition>character(len=50) common_mod::ndustfile</definition>
+        <argsstring></argsstring>
+        <name>ndustfile</name>
+        <qualifiedname>common_mod::ndustfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="395" column="1" bodyfile="source/common_mod.f90" bodystart="395" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae0b6763ab967abb27362b666a641e89e" prot="public" static="no" mutable="no">
+        <type>character(len=50)</type>
+        <definition>character(len=50) common_mod::qfile</definition>
+        <argsstring></argsstring>
+        <name>qfile</name>
+        <qualifiedname>common_mod::qfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="396" column="1" bodyfile="source/common_mod.f90" bodystart="396" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a8b77be77dbd1a42dc678a526f08da31a" prot="public" static="no" mutable="no">
+        <type>character(len=30), dimension(:), allocatable</type>
+        <definition>character(len=30), dimension(:), allocatable common_mod::grainlabel</definition>
+        <argsstring></argsstring>
+        <name>grainlabel</name>
+        <qualifiedname>common_mod::grainlabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="397" column="1" bodyfile="source/common_mod.f90" bodystart="397" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a12b4dff4ab989a7ad21ecd55ec008d3e" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::viewpointptheta</definition>
+        <argsstring></argsstring>
+        <name>viewpointptheta</name>
+        <qualifiedname>common_mod::viewpointptheta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="399" column="1" bodyfile="source/common_mod.f90" bodystart="399" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa029304bcebe7a99c79bd732a7e4ce2f" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::viewpointpphi</definition>
+        <argsstring></argsstring>
+        <name>viewpointpphi</name>
+        <qualifiedname>common_mod::viewpointpphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="399" column="1" bodyfile="source/common_mod.f90" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a4b5dcc292eea58b73ab1ba1586be2e8b" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nanglebins</definition>
+        <argsstring></argsstring>
+        <name>nanglebins</name>
+        <qualifiedname>common_mod::nanglebins</qualifiedname>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="401" column="1" bodyfile="source/common_mod.f90" bodystart="401" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aba1456fa80af16fb310424ad2759a7cc" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::totanglebinstheta</definition>
+        <argsstring></argsstring>
+        <name>totanglebinstheta</name>
+        <qualifiedname>common_mod::totanglebinstheta</qualifiedname>
+        <initializer>=20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="402" column="1" bodyfile="source/common_mod.f90" bodystart="402" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a1ceacdb20ce73ee39160eb9e31da4571" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::totanglebinsphi</definition>
+        <argsstring></argsstring>
+        <name>totanglebinsphi</name>
+        <qualifiedname>common_mod::totanglebinsphi</qualifiedname>
+        <initializer>=40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="403" column="1" bodyfile="source/common_mod.f90" bodystart="403" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a1ae2e9fb0b174ab7a8af2681d76a6ca6" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::ngrids</definition>
+        <argsstring></argsstring>
+        <name>ngrids</name>
+        <qualifiedname>common_mod::ngrids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="404" column="1" bodyfile="source/common_mod.f90" bodystart="404" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a8194fe93c9172cb4b7deb1caf13eaea0" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::maxiteratemc</definition>
+        <argsstring></argsstring>
+        <name>maxiteratemc</name>
+        <qualifiedname>common_mod::maxiteratemc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="405" column="1" bodyfile="source/common_mod.f90" bodystart="405" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aea62a9463a7037309b04df5014320437" prot="public" static="no" mutable="no">
+        <type>integer(kind=int64)</type>
+        <definition>integer(kind=int64) common_mod::maxphotons</definition>
+        <argsstring></argsstring>
+        <name>maxphotons</name>
+        <qualifiedname>common_mod::maxphotons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="406" column="1" bodyfile="source/common_mod.f90" bodystart="406" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a769e4741552056c69c3586d1ee43f4d6" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nabcomponents</definition>
+        <argsstring></argsstring>
+        <name>nabcomponents</name>
+        <qualifiedname>common_mod::nabcomponents</qualifiedname>
+        <initializer>=1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="407" column="1" bodyfile="source/common_mod.f90" bodystart="407" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa2fdaaad146a41a3616e1de039372d8a" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::ndustcomponents</definition>
+        <argsstring></argsstring>
+        <name>ndustcomponents</name>
+        <qualifiedname>common_mod::ndustcomponents</qualifiedname>
+        <initializer>=1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="408" column="1" bodyfile="source/common_mod.f90" bodystart="408" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a6a0e775bd22ad8b831b24786a34914b8" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::dustcompoint</definition>
+        <argsstring></argsstring>
+        <name>dustcompoint</name>
+        <qualifiedname>common_mod::dustcompoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="409" column="1" bodyfile="source/common_mod.f90" bodystart="409" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5765bbc5418e56e61d4e9cf9137861ef" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nbins</definition>
+        <argsstring></argsstring>
+        <name>nbins</name>
+        <qualifiedname>common_mod::nbins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="410" column="1" bodyfile="source/common_mod.f90" bodystart="410" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a9b81b06b3e74c9624ca76f082e010f63" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nelementsused</definition>
+        <argsstring></argsstring>
+        <name>nelementsused</name>
+        <qualifiedname>common_mod::nelementsused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="411" column="1" bodyfile="source/common_mod.f90" bodystart="411" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a6d44a287a14f6237f1c4ee484c5221d1" prot="public" static="no" mutable="no">
+        <type>integer(kind=int64), dimension(:), allocatable</type>
+        <definition>integer(kind=int64), dimension(:), allocatable common_mod::nphotons</definition>
+        <argsstring></argsstring>
+        <name>nphotons</name>
+        <qualifiedname>common_mod::nphotons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="412" column="1" bodyfile="source/common_mod.f90" bodystart="412" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0e58bfc622582523f1b51c45e08b180e" prot="public" static="no" mutable="no">
+        <type>integer(kind=int64)</type>
+        <definition>integer(kind=int64) common_mod::nphotonstot</definition>
+        <argsstring></argsstring>
+        <name>nphotonstot</name>
+        <qualifiedname>common_mod::nphotonstot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="413" column="1" bodyfile="source/common_mod.f90" bodystart="413" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae45a5cf1b7f64422191238e8400812cd" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nphotonsdiffuse</definition>
+        <argsstring></argsstring>
+        <name>nphotonsdiffuse</name>
+        <qualifiedname>common_mod::nphotonsdiffuse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="414" column="1" bodyfile="source/common_mod.f90" bodystart="414" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a8f97add9898b117f8f5235923991056a" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nphotonsdiffuseloc</definition>
+        <argsstring></argsstring>
+        <name>nphotonsdiffuseloc</name>
+        <qualifiedname>common_mod::nphotonsdiffuseloc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="415" column="1" bodyfile="source/common_mod.f90" bodystart="415" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0d2c1cf15e86f1cafa624bad1d9a8c26" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::npacketsfluo</definition>
+        <argsstring></argsstring>
+        <name>npacketsfluo</name>
+        <qualifiedname>common_mod::npacketsfluo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="416" column="1" bodyfile="source/common_mod.f90" bodystart="416" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa9ec9ef415c7b6864b82db83f4f32095" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::npacketsfluoloc</definition>
+        <argsstring></argsstring>
+        <name>npacketsfluoloc</name>
+        <qualifiedname>common_mod::npacketsfluoloc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="417" column="1" bodyfile="source/common_mod.f90" bodystart="417" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a883d50e22c12e2fd20a7dc6f98b24d82" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1ae1df623482cb8d4c40afb3391c74e462" kindref="member">maxgrids</ref>)</type>
+        <definition>integer, dimension(maxgrids) common_mod::nxin</definition>
+        <argsstring></argsstring>
+        <name>nxin</name>
+        <qualifiedname>common_mod::nxin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="418" column="1" bodyfile="source/common_mod.f90" bodystart="418" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a17a8e509d22648ca95c5da7763f9fd82" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1ae1df623482cb8d4c40afb3391c74e462" kindref="member">maxgrids</ref>)</type>
+        <definition>integer, dimension(maxgrids) common_mod::nyin</definition>
+        <argsstring></argsstring>
+        <name>nyin</name>
+        <qualifiedname>common_mod::nyin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="418" column="1" bodyfile="source/common_mod.f90" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a146f0d8c167ca4368a8ad07ce283f43d" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1ae1df623482cb8d4c40afb3391c74e462" kindref="member">maxgrids</ref>)</type>
+        <definition>integer, dimension(maxgrids) common_mod::nzin</definition>
+        <argsstring></argsstring>
+        <name>nzin</name>
+        <qualifiedname>common_mod::nzin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="418" column="1" bodyfile="source/common_mod.f90" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aeb1bc0601637935f931d1b245984a5eb" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nstars</definition>
+        <argsstring></argsstring>
+        <name>nstars</name>
+        <qualifiedname>common_mod::nstars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="420" column="1" bodyfile="source/common_mod.f90" bodystart="420" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae4ef0c915e6b545bfe9345ab78ea802c" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" kindref="member">nelements</ref>)</type>
+        <definition>integer, dimension(nelements) common_mod::elementxref</definition>
+        <argsstring></argsstring>
+        <name>elementxref</name>
+        <qualifiedname>common_mod::elementxref</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="421" column="1" bodyfile="source/common_mod.f90" bodystart="421" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0c31804f8f00ced9f20f8bbb2bb18cdb" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::emittinggrid</definition>
+        <argsstring></argsstring>
+        <name>emittinggrid</name>
+        <qualifiedname>common_mod::emittinggrid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="422" column="1" bodyfile="source/common_mod.f90" bodystart="422" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1abb817d5b94ddbd0cb745c1dff0ed5f8a" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:,:), allocatable</type>
+        <definition>integer, dimension(:,:), allocatable common_mod::starindeces</definition>
+        <argsstring></argsstring>
+        <name>starindeces</name>
+        <qualifiedname>common_mod::starindeces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="423" column="1" bodyfile="source/common_mod.f90" bodystart="423" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa6a67d234bd4b26c0ea61c733d259d0c" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nstages</definition>
+        <argsstring></argsstring>
+        <name>nstages</name>
+        <qualifiedname>common_mod::nstages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="424" column="1" bodyfile="source/common_mod.f90" bodystart="424" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a6545e5c43ec701fd4612e37c3cdab1ba" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::fluocubeminev</definition>
+        <argsstring></argsstring>
+        <name>fluocubeminev</name>
+        <qualifiedname>common_mod::fluocubeminev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="426" column="1" bodyfile="source/common_mod.f90" bodystart="426" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a0a10277e29476bc910b3549cbb544fbe" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::fluocubemaxev</definition>
+        <argsstring></argsstring>
+        <name>fluocubemaxev</name>
+        <qualifiedname>common_mod::fluocubemaxev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="426" column="1" bodyfile="source/common_mod.f90" bodystart="426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a91186e9183ed3910bfdb8faff0f527ef" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::fillingfactor</definition>
+        <argsstring></argsstring>
+        <name>fillingfactor</name>
+        <qualifiedname>common_mod::fillingfactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="427" column="1" bodyfile="source/common_mod.f90" bodystart="427" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a13d5cec2f2a1f4041c2bd4e47f97977d" prot="public" static="no" mutable="no">
+        <type>real, dimension(2)</type>
+        <definition>real, dimension(2) common_mod::contcube</definition>
+        <argsstring></argsstring>
+        <name>contcube</name>
+        <qualifiedname>common_mod::contcube</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="428" column="1" bodyfile="source/common_mod.f90" bodystart="428" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a18f090de2dc27dd530c648732eca3018" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::convincpercent</definition>
+        <argsstring></argsstring>
+        <name>convincpercent</name>
+        <qualifiedname>common_mod::convincpercent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="429" column="1" bodyfile="source/common_mod.f90" bodystart="429" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5bee5bc744c640c39fbfdcbfd8057b13" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::convwritegrid</definition>
+        <argsstring></argsstring>
+        <name>convwritegrid</name>
+        <qualifiedname>common_mod::convwritegrid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="430" column="1" bodyfile="source/common_mod.f90" bodystart="430" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a8fe79f16f8dec84647a0922f14b1a1fe" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::nphotincrease</definition>
+        <argsstring></argsstring>
+        <name>nphotincrease</name>
+        <qualifiedname>common_mod::nphotincrease</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="431" column="1" bodyfile="source/common_mod.f90" bodystart="431" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a355725569188c4ba477114f7ac913020" prot="public" static="no" mutable="no">
+        <type>real, dimension(3)</type>
+        <definition>real, dimension(3) common_mod::densitylaw</definition>
+        <argsstring></argsstring>
+        <name>densitylaw</name>
+        <qualifiedname>common_mod::densitylaw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="432" column="1" bodyfile="source/common_mod.f90" bodystart="432" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ad58bd24691296bdeab975385ae2b930f" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grainabun</definition>
+        <argsstring></argsstring>
+        <name>grainabun</name>
+        <qualifiedname>common_mod::grainabun</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="433" column="1" bodyfile="source/common_mod.f90" bodystart="433" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a354d2f944b541e1b2743033b0e12fc53" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grainradius</definition>
+        <argsstring></argsstring>
+        <name>grainradius</name>
+        <qualifiedname>common_mod::grainradius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="434" column="1" bodyfile="source/common_mod.f90" bodystart="434" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1adf79a42da872dff77982feb3951c05d4" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::componentminradius</definition>
+        <argsstring></argsstring>
+        <name>componentminradius</name>
+        <qualifiedname>common_mod::componentminradius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="435" column="1" bodyfile="source/common_mod.f90" bodystart="435" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a489ce24125c023653e28646e57347c15" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::componentmaxradius</definition>
+        <argsstring></argsstring>
+        <name>componentmaxradius</name>
+        <qualifiedname>common_mod::componentmaxradius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="436" column="1" bodyfile="source/common_mod.f90" bodystart="436" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a68f28a2fe36982a97d3b255f932aada4" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grainweight</definition>
+        <argsstring></argsstring>
+        <name>grainweight</name>
+        <qualifiedname>common_mod::grainweight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="437" column="1" bodyfile="source/common_mod.f90" bodystart="437" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a441f22a86ca70cde544ede848cc2e86a" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::viewpointtheta</definition>
+        <argsstring></argsstring>
+        <name>viewpointtheta</name>
+        <qualifiedname>common_mod::viewpointtheta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="438" column="1" bodyfile="source/common_mod.f90" bodystart="438" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae24335b4c9abf52161c0c6a1f285e478" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::viewpointphi</definition>
+        <argsstring></argsstring>
+        <name>viewpointphi</name>
+        <qualifiedname>common_mod::viewpointphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="438" column="1" bodyfile="source/common_mod.f90" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a5deca299996d617b24c541629f34fb10" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::hdensity</definition>
+        <argsstring></argsstring>
+        <name>hdensity</name>
+        <qualifiedname>common_mod::hdensity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="439" column="1" bodyfile="source/common_mod.f90" bodystart="439" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a321504d337cc50656c583e116651851e" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::h0start</definition>
+        <argsstring></argsstring>
+        <name>h0start</name>
+        <qualifiedname>common_mod::h0start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="440" column="1" bodyfile="source/common_mod.f90" bodystart="440" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a6d8a047055b2cb58cd44b2d0498467fc" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::lphot</definition>
+        <argsstring></argsstring>
+        <name>lphot</name>
+        <qualifiedname>common_mod::lphot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="441" column="1" bodyfile="source/common_mod.f90" bodystart="441" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a12b1fb2b06424af1b60805d6fe2fc748" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::ldiffuse</definition>
+        <argsstring></argsstring>
+        <name>ldiffuse</name>
+        <qualifiedname>common_mod::ldiffuse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="442" column="1" bodyfile="source/common_mod.f90" bodystart="442" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a2900e15e607ea266eccdfaad8cacb6c7" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::lstar</definition>
+        <argsstring></argsstring>
+        <name>lstar</name>
+        <qualifiedname>common_mod::lstar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="443" column="1" bodyfile="source/common_mod.f90" bodystart="443" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a7c3a3b6a00ed28b2686adca94761f96f" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::meanfield</definition>
+        <argsstring></argsstring>
+        <name>meanfield</name>
+        <qualifiedname>common_mod::meanfield</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="444" column="1" bodyfile="source/common_mod.f90" bodystart="444" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ab92c7f31ff42f2a4ca5c677ffb4c92c9" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::meanfieldin</definition>
+        <argsstring></argsstring>
+        <name>meanfieldin</name>
+        <qualifiedname>common_mod::meanfieldin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="446" column="1" bodyfile="source/common_mod.f90" bodystart="446" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a87737c1bfcaead04fcee3c4abd714461" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::minconvergence</definition>
+        <argsstring></argsstring>
+        <name>minconvergence</name>
+        <qualifiedname>common_mod::minconvergence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="447" column="1" bodyfile="source/common_mod.f90" bodystart="447" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a4615fc3fcb9e5b3732a8c6b373cbdc59" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::minconvqheat</definition>
+        <argsstring></argsstring>
+        <name>minconvqheat</name>
+        <qualifiedname>common_mod::minconvqheat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="448" column="1" bodyfile="source/common_mod.f90" bodystart="448" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a7a99dda7bb9b299bcef3e7c6b52595a6" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::nestart</definition>
+        <argsstring></argsstring>
+        <name>nestart</name>
+        <qualifiedname>common_mod::nestart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="449" column="1" bodyfile="source/common_mod.f90" bodystart="449" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aab5b5179f77b54faa76a3b5b228a5e3e" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::mdmgvalue</definition>
+        <argsstring></argsstring>
+        <name>mdmgvalue</name>
+        <qualifiedname>common_mod::mdmgvalue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="450" column="1" bodyfile="source/common_mod.f90" bodystart="450" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1adc040bc8c30e66f70c612366f8707f81" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::ndustvalue</definition>
+        <argsstring></argsstring>
+        <name>ndustvalue</name>
+        <qualifiedname>common_mod::ndustvalue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="451" column="1" bodyfile="source/common_mod.f90" bodystart="451" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1abad46f2d7a4a6129cc6775986d8e1fc8" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::numax</definition>
+        <argsstring></argsstring>
+        <name>numax</name>
+        <qualifiedname>common_mod::numax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="452" column="1" bodyfile="source/common_mod.f90" bodystart="452" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ac91ca2f5dad45af9d0bb99b4af295daf" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::numin</definition>
+        <argsstring></argsstring>
+        <name>numin</name>
+        <qualifiedname>common_mod::numin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="453" column="1" bodyfile="source/common_mod.f90" bodystart="453" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a96ba667e0767df5f1187547257eabb93" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::nustepsize</definition>
+        <argsstring></argsstring>
+        <name>nustepsize</name>
+        <qualifiedname>common_mod::nustepsize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="454" column="1" bodyfile="source/common_mod.f90" bodystart="454" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aafd15d7640b5bd04d866a80ba02400bd" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::reslinestransfer</definition>
+        <argsstring></argsstring>
+        <name>reslinestransfer</name>
+        <qualifiedname>common_mod::reslinestransfer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="455" column="1" bodyfile="source/common_mod.f90" bodystart="455" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ad903950a5bcb44ba7eace893a2363283" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::rnx</definition>
+        <argsstring></argsstring>
+        <name>rnx</name>
+        <qualifiedname>common_mod::rnx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="456" column="1" bodyfile="source/common_mod.f90" bodystart="456" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a36b38858817155d6a4685d959cbeeab2" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::rny</definition>
+        <argsstring></argsstring>
+        <name>rny</name>
+        <qualifiedname>common_mod::rny</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="456" column="1" bodyfile="source/common_mod.f90" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a203064bb67647b5e5d63f43c5d86ebed" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::rnz</definition>
+        <argsstring></argsstring>
+        <name>rnz</name>
+        <qualifiedname>common_mod::rnz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="456" column="1" bodyfile="source/common_mod.f90" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aab2f608fe6027a95c52c081e7dead942" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::r_in</definition>
+        <argsstring></argsstring>
+        <name>r_in</name>
+        <qualifiedname>common_mod::r_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="457" column="1" bodyfile="source/common_mod.f90" bodystart="457" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a145857d13565fe3a08187f2cbb0cef22" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::r_out</definition>
+        <argsstring></argsstring>
+        <name>r_out</name>
+        <qualifiedname>common_mod::r_out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="458" column="1" bodyfile="source/common_mod.f90" bodystart="458" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aee6de2cce5d5fd58864a5bbd901a0852" prot="public" static="no" mutable="no">
+        <type>real, dimension(2)</type>
+        <definition>real, dimension(2) common_mod::sedfreq</definition>
+        <argsstring></argsstring>
+        <name>sedfreq</name>
+        <qualifiedname>common_mod::sedfreq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="459" column="1" bodyfile="source/common_mod.f90" bodystart="459" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a7d6c325bd564395d346d7c236c2ccd13" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::testart</definition>
+        <argsstring></argsstring>
+        <name>testart</name>
+        <qualifiedname>common_mod::testart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="460" column="1" bodyfile="source/common_mod.f90" bodystart="460" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae34b35335aeb7c3a7a3bad48efa034f2" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::deltae</definition>
+        <argsstring></argsstring>
+        <name>deltae</name>
+        <qualifiedname>common_mod::deltae</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="461" column="1" bodyfile="source/common_mod.f90" bodystart="461" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a2f7be2b46b86a91067b35e5978f49af1" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::tdiffuse</definition>
+        <argsstring></argsstring>
+        <name>tdiffuse</name>
+        <qualifiedname>common_mod::tdiffuse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="462" column="1" bodyfile="source/common_mod.f90" bodystart="462" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a4b39ae944171b27580a3ba9b256e9b60" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::tstellar</definition>
+        <argsstring></argsstring>
+        <name>tstellar</name>
+        <qualifiedname>common_mod::tstellar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="463" column="1" bodyfile="source/common_mod.f90" bodystart="463" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a4b9aaee38697f4beb2c36dfd33a6024d" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::tstep</definition>
+        <argsstring></argsstring>
+        <name>tstep</name>
+        <qualifiedname>common_mod::tstep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="464" column="1" bodyfile="source/common_mod.f90" bodystart="464" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ae65792bbbc77d809c59be6f4a39d0836" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::xhilimit</definition>
+        <argsstring></argsstring>
+        <name>xhilimit</name>
+        <qualifiedname>common_mod::xhilimit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="465" column="1" bodyfile="source/common_mod.f90" bodystart="465" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aee6301e9fad9f43fecb142028eb44d1e" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::lymanp</definition>
+        <argsstring></argsstring>
+        <name>lymanp</name>
+        <qualifiedname>common_mod::lymanp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="467" column="1" bodyfile="source/common_mod.f90" bodystart="467" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a27ed9f63e6f5859e6ddb82c9d46d2e69" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nsizes</definition>
+        <argsstring></argsstring>
+        <name>nsizes</name>
+        <qualifiedname>common_mod::nsizes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="469" column="1" bodyfile="source/common_mod.f90" bodystart="469" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af17dddb75aec8cd6a91feccd6005eda2" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::nspeciespart</definition>
+        <argsstring></argsstring>
+        <name>nspeciespart</name>
+        <qualifiedname>common_mod::nspeciespart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="470" column="1" bodyfile="source/common_mod.f90" bodystart="470" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a4e623f6cbf3d0f78e75b6851c30b6b70" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nspecies</definition>
+        <argsstring></argsstring>
+        <name>nspecies</name>
+        <qualifiedname>common_mod::nspecies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="471" column="1" bodyfile="source/common_mod.f90" bodystart="471" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a962639482d13577026734bd7cee4fc98" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nspeciesmax</definition>
+        <argsstring></argsstring>
+        <name>nspeciesmax</name>
+        <qualifiedname>common_mod::nspeciesmax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="472" column="1" bodyfile="source/common_mod.f90" bodystart="472" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aacabe7417f0ab75ca04bf12998a63de0" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::nreslines</definition>
+        <argsstring></argsstring>
+        <name>nreslines</name>
+        <qualifiedname>common_mod::nreslines</qualifiedname>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="473" column="1" bodyfile="source/common_mod.f90" bodystart="473" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af2dc408d4aec90c6b4932e0f300e66bd" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structcommon__mod_1_1atomic__data" kindref="compound">atomic_data</ref>), dimension(3:<ref refid="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" kindref="member">nelements</ref>, 1:10)</type>
+        <definition>type(atomic_data), dimension(3:nelements, 1:10) common_mod::atomic_data_array</definition>
+        <argsstring></argsstring>
+        <name>atomic_data_array</name>
+        <qualifiedname>common_mod::atomic_data_array</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="496" column="1" bodyfile="source/common_mod.f90" bodystart="496" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a64c39e71b65c2d31ecfeb241b9bf2c55" prot="public" static="no" mutable="no">
+        <type>real, dimension(41)</type>
+        <definition>real, dimension(41) common_mod::ay_dat</definition>
+        <argsstring></argsstring>
+        <name>ay_dat</name>
+        <qualifiedname>common_mod::ay_dat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="500" column="1" bodyfile="source/common_mod.f90" bodystart="500" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1ad912b3cee7609bda7230c34b6db644bb" prot="public" static="no" mutable="no">
+        <type>real, dimension(41)</type>
+        <definition>real, dimension(41) common_mod::y_dat</definition>
+        <argsstring></argsstring>
+        <name>y_dat</name>
+        <qualifiedname>common_mod::y_dat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="501" column="1" bodyfile="source/common_mod.f90" bodystart="501" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a52a85582311bf5f4cdb86550d94550c9" prot="public" static="no" mutable="no">
+        <type>double precision, dimension(3:30, 2:8)</type>
+        <definition>double precision, dimension(3:30, 2:8) common_mod::hireclinedata</definition>
+        <argsstring></argsstring>
+        <name>hireclinedata</name>
+        <qualifiedname>common_mod::hireclinedata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="505" column="1" bodyfile="source/common_mod.f90" bodystart="505" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a28e5fc6a5f7d39b2ebdbd19f4b1118af" prot="public" static="no" mutable="no">
+        <type>double precision, dimension(3:30, 2:8)</type>
+        <definition>double precision, dimension(3:30, 2:8) common_mod::hireclines</definition>
+        <argsstring></argsstring>
+        <name>hireclines</name>
+        <qualifiedname>common_mod::hireclines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="506" column="1" bodyfile="source/common_mod.f90" bodystart="506" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1aa585269de0ae646abcc931bbc51e2ecc" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter common_mod::nheiilyman</definition>
+        <argsstring></argsstring>
+        <name>nheiilyman</name>
+        <qualifiedname>common_mod::nheiilyman</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="510" column="1" bodyfile="source/common_mod.f90" bodystart="510" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a22284537d4da8361c63226c1b89d66b6" prot="public" static="no" mutable="no">
+        <type>real, dimension(<ref refid="namespacecommon__mod_1aa585269de0ae646abcc931bbc51e2ecc" kindref="member">nheiilyman</ref>)</type>
+        <definition>real, dimension(nheiilyman) common_mod::heiilymandata</definition>
+        <argsstring></argsstring>
+        <name>heiilymandata</name>
+        <qualifiedname>common_mod::heiilymandata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="511" column="1" bodyfile="source/common_mod.f90" bodystart="511" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a127fd76c9c8396bbb04fcde215df5054" prot="public" static="no" mutable="no">
+        <type>real, dimension(<ref refid="namespacecommon__mod_1aa585269de0ae646abcc931bbc51e2ecc" kindref="member">nheiilyman</ref>)</type>
+        <definition>real, dimension(nheiilyman) common_mod::heiilymannu</definition>
+        <argsstring></argsstring>
+        <name>heiilymannu</name>
+        <qualifiedname>common_mod::heiilymannu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="512" column="1" bodyfile="source/common_mod.f90" bodystart="512" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a82d079b57e7ddd5fdf97b1e30241e7b6" prot="public" static="no" mutable="no">
+        <type>double precision, dimension(3:30, 2:16)</type>
+        <definition>double precision, dimension(3:30, 2:16) common_mod::heiireclinedata</definition>
+        <argsstring></argsstring>
+        <name>heiireclinedata</name>
+        <qualifiedname>common_mod::heiireclinedata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="513" column="1" bodyfile="source/common_mod.f90" bodystart="513" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1a17162f90184f56e928c00d1131b1b6aa" prot="public" static="no" mutable="no">
+        <type>double precision, dimension(3:30, 2:16)</type>
+        <definition>double precision, dimension(3:30, 2:16) common_mod::heiireclines</definition>
+        <argsstring></argsstring>
+        <name>heiireclines</name>
+        <qualifiedname>common_mod::heiireclines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="514" column="1" bodyfile="source/common_mod.f90" bodystart="514" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af12b04a36836b6f9fd4dac3fefcebbee" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structcommon__mod_1_1direcdata" kindref="compound">direcdata</ref>), dimension(25)</type>
+        <definition>type(direcdata), dimension(25) common_mod::direc_coeffs</definition>
+        <argsstring></argsstring>
+        <name>direc_coeffs</name>
+        <qualifiedname>common_mod::direc_coeffs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="525" column="1" bodyfile="source/common_mod.f90" bodystart="525" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecommon__mod_1af5cf6e34056237d697732414f988bb58" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structcommon__mod_1_1aldropequidata" kindref="compound">aldropequidata</ref>), dimension(167)</type>
+        <definition>type(aldropequidata), dimension(167) common_mod::aldropequi_coeffs</definition>
+        <argsstring></argsstring>
+        <name>aldropequi_coeffs</name>
+        <qualifiedname>common_mod::aldropequi_coeffs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="533" column="1" bodyfile="source/common_mod.f90" bodystart="533" bodyend="533"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/common_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

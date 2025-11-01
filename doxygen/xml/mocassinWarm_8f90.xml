@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="mocassinWarm_8f90" kind="file" language="Fortran">
+    <compoundname>mocassinWarm.f90</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="mocassinWarm_8f90_1ab3e57e207477de179c051b3fc10713ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>program</type>
+        <definition>program mocassinwarm</definition>
+        <argsstring></argsstring>
+        <name>mocassinwarm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/mocassinWarm.f90" line="8" column="1" bodyfile="source/mocassinWarm.f90" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">!<sp/>Copyright<sp/>(C)<sp/>2003<sp/>Barbara<sp/>Ercolano</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">!<sp/>MoCaSSiNwarm<sp/>=<sp/>MOnte<sp/>CArlo<sp/>SImulationS<sp/>of<sp/>Nebulae</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">!<sp/>this<sp/>is<sp/>the<sp/>warm-start<sp/>driver<sp/>of<sp/>the<sp/>simulation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">!<sp/>(requires<sp/>grid1.out,grid2.out,grid3.out<sp/>files)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">!<sp/>Version<sp/>2.02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">program</highlight><highlight class="normal"><sp/><ref refid="mocassinWarm_8f90_1ab3e57e207477de179c051b3fc10713ea" kindref="member">mocassinwarm</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespacecommon__mod" kindref="compound">common_mod</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespaceconstants__mod" kindref="compound">constants_mod</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespacedust__mod" kindref="compound">dust_mod</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespacegrid__mod" kindref="compound">grid_mod</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespaceiteration__mod" kindref="compound">iteration_mod</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespaceoutput__mod" kindref="compound">output_mod</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespaceset__input__mod" kindref="compound">set_input_mod</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespacexsec__mod" kindref="compound">xsec_mod</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespacereaddata__mod" kindref="compound">readdata_mod</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">implicit<sp/>none</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>include<sp/></highlight><highlight class="stringliteral">&apos;mpif.h&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(grid_type)<sp/>::<sp/>grid3D(maxGrids)<sp/></highlight><highlight class="comment">!<sp/>the<sp/>3D<sp/>Cartesian<sp/><sp/>grid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">integer</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>::<sp/>iGrid<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>::<sp/>etime</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">dimension(2)</highlight><highlight class="normal"><sp/>::<sp/>tarray,timing<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>cputimer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">integer</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>::<sp/>nhours,<sp/>nminutes,<sp/>nseconds</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>timing(1)=etime(tarray)/60.0</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">mpi_init(<ref refid="namespacecommon__mod_1a8f596dc80104aeff36f4350f2ce5b6ce" kindref="member">ierr</ref>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">mpi_comm_rank(mpi_comm_world,<sp/><ref refid="namespacecommon__mod_1aece6d9e404e28ce6ec07e8aa38182751" kindref="member">taskid</ref>,<sp/><ref refid="namespacecommon__mod_1a8f596dc80104aeff36f4350f2ce5b6ce" kindref="member">ierr</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">mpi_comm_size(mpi_comm_world,<sp/><ref refid="namespacecommon__mod_1a24f4598868dd09a53195d5020bf65b59" kindref="member">numtasks</ref>,<sp/><ref refid="namespacecommon__mod_1a8f596dc80104aeff36f4350f2ce5b6ce" kindref="member">ierr</ref>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">!<sp/><sp/><sp/><sp/>starttime<sp/>=<sp/>mpi_wtime()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacecommon__mod_1a659493518f56836531362132fd4acd9b" kindref="member">lgwarm</ref><sp/>=<sp/>.true.</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">!<sp/><sp/><sp/><sp/>!<sp/>read<sp/>the<sp/>input<sp/>parameters<sp/>of<sp/>the<sp/>simulation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">!<sp/><sp/><sp/><sp/>call<sp/>readInput()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacecommon__mod_1aece6d9e404e28ce6ec07e8aa38182751" kindref="member">taskid</ref><sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/></highlight><highlight class="stringliteral">&quot;MOCASSIN<sp/>version<sp/>&quot;</highlight><highlight class="normal">,version</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/></highlight><highlight class="stringliteral">&quot;Data<sp/>directories:<sp/>&quot;</highlight><highlight class="normal">,prefix,</highlight><highlight class="stringliteral">&quot;/share/mocassin/data,&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,prefix,</highlight><highlight class="stringliteral">&quot;/share/mocassin/dustData&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacecommon__mod_1aece6d9e404e28ce6ec07e8aa38182751" kindref="member">taskid</ref><sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>reset<sp/>the<sp/>3D<sp/>cartesian<sp/>grid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/>igrid<sp/>=<sp/>1,<sp/><ref refid="namespacecommon__mod_1a1ae2e9fb0b174ab7a8af2681d76a6ca6" kindref="member">ngrids</ref></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespacegrid__mod_1af1c6f1181b085fa33b69fb39e3b759d1" kindref="member">resetgrid</ref>(grid3d(igrid))<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespacegrid__mod_1af1c6f1181b085fa33b69fb39e3b759d1" kindref="member">resetgrid</ref>(grid3d)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespacegrid__mod_1affc6ce09b260b2fe5278430b1038c275" kindref="member">setstarposition</ref>(grid3d(1)%xAxis,grid3d(1)%yAxis,grid3d(1)%zAxis,grid3d)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>initialize<sp/>opacities<sp/>x<sp/>sections<sp/>array</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespacexsec__mod_1a0d973f9909e16ead2c5adcf717951a96" kindref="member">initxsecarray</ref>()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>set<sp/>the<sp/>ionzing<sp/>continuum<sp/>according<sp/>to<sp/>the<sp/>contShape<sp/>variable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">setcontinuum()</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>prepare<sp/>atomica<sp/>data<sp/>stuff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacecommon__mod_1a385743b6447daabd1fa90e5c28cdd4cc" kindref="member">lggas</ref>)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">makeelements()</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespacereaddata__mod_1af1904077e1014d0ee08e891308a47737" kindref="member">readdata</ref>()</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacecommon__mod_1aece6d9e404e28ce6ec07e8aa38182751" kindref="member">taskid</ref><sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/></highlight><highlight class="stringliteral">&quot;Total<sp/>number<sp/>of<sp/>grids<sp/>(mother+sub-grids):<sp/>&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacecommon__mod_1a1ae2e9fb0b174ab7a8af2681d76a6ca6" kindref="member">ngrids</ref></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/></highlight><highlight class="stringliteral">&quot;Mother<sp/>grid<sp/>used:&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/>grid3d(1)%xAxis</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/>grid3d(1)%yAxis</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/>grid3d(1)%zAxis</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>if<sp/>grains<sp/>are<sp/>included,<sp/>calculate<sp/>the<sp/>dust<sp/>opacity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacecommon__mod_1a7d66e4c67b32c4b1e2cb82eaf04153b4" kindref="member">lgdust</ref>)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/>igrid<sp/>=<sp/>1,<sp/><ref refid="namespacecommon__mod_1a1ae2e9fb0b174ab7a8af2681d76a6ca6" kindref="member">ngrids</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespacedust__mod_1a90075d392eaf84fdadc0b745e3a6575e" kindref="member">dustdriver</ref>(grid3d(igrid))</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>end<sp/>do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">mpi_barrier(mpi_comm_world,<sp/><ref refid="namespacecommon__mod_1a8f596dc80104aeff36f4350f2ce5b6ce" kindref="member">ierr</ref>)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>start<sp/>the<sp/>Monte<sp/>Carlo<sp/>simulation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespaceiteration__mod_1ad96855b0fb79115e524f6736929ec211" kindref="member">mciterationdriver</ref>(grid3d(1:<ref refid="namespacecommon__mod_1a1ae2e9fb0b174ab7a8af2681d76a6ca6" kindref="member">ngrids</ref>))</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacecommon__mod_1aece6d9e404e28ce6ec07e8aa38182751" kindref="member">taskid</ref><sp/>==<sp/><sp/>0<sp/>.and.<sp/>.not.<ref refid="namespacecommon__mod_1acdead3c75bcb4f1d2a20e57117aa032b" kindref="member">lgoutput</ref>)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>determine<sp/>final<sp/>statistics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacecommon__mod_1a385743b6447daabd1fa90e5c28cdd4cc" kindref="member">lggas</ref>)<sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespaceoutput__mod_1aa1ef323ba280f433b120414aeaa70ec5" kindref="member">outputgas</ref>(grid3d)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespaceoutput__mod_1a9a5d93b21bb64c35f8cec453bbfd7034" kindref="member">writesed</ref>(grid3d)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacecommon__mod_1a13d5cec2f2a1f4041c2bd4e47f97977d" kindref="member">contcube</ref>(1)&gt;0.<sp/>.and.<sp/><ref refid="namespacecommon__mod_1a13d5cec2f2a1f4041c2bd4e47f97977d" kindref="member">contcube</ref>(2)&gt;0.<sp/>)<sp/>&amp;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespaceoutput__mod_1a314b6194dc987e414b092eea7fa82dd1" kindref="member">writecontcube</ref>(grid3d,<sp/><ref refid="namespacecommon__mod_1a13d5cec2f2a1f4041c2bd4e47f97977d" kindref="member">contcube</ref>(1),<ref refid="namespacecommon__mod_1a13d5cec2f2a1f4041c2bd4e47f97977d" kindref="member">contcube</ref>(2))</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">mpi_barrier(mpi_comm_world,<sp/><ref refid="namespacecommon__mod_1a8f596dc80104aeff36f4350f2ce5b6ce" kindref="member">ierr</ref>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>free<sp/>all<sp/>space<sp/>allocated<sp/>to<sp/>the<sp/>3D<sp/>grid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/>igrid=1,<sp/><ref refid="namespacecommon__mod_1a1ae2e9fb0b174ab7a8af2681d76a6ca6" kindref="member">ngrids</ref></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal"><ref refid="namespacegrid__mod_1a4a12d06bec155aa4a4033b30f7f46b19" kindref="member">freegrid</ref>(grid3d(igrid))</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">!<sp/><sp/><sp/><sp/>endtime<sp/><sp/>=<sp/>mpi_wtime()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">!<sp/><sp/><sp/><sp/>if<sp/>(taskid<sp/>==<sp/>0)<sp/>then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">!<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print*,<sp/>&quot;time:<sp/>&quot;,<sp/>endtime-starttime</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">!<sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>timing(2)<sp/>=<sp/>etime(tarray)/60.0</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>nhours<sp/>=<sp/>int((timing(2)-timing(1))/60.)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>nminutes<sp/>=<sp/>int(mod(timing(2)-timing(1),60.))</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>nseconds<sp/>=<sp/>nint(60.*((timing(2)-timing(1))-real(nhours*60)-real(nminutes)))</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">write</highlight><highlight class="normal">(6,100)nhours,nminutes,nseconds</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/>100<sp/></highlight><highlight class="keyword">format</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&apos;total<sp/>run<sp/>time<sp/>per<sp/>processor<sp/>&apos;</highlight><highlight class="normal">,1i3.2,</highlight><highlight class="stringliteral">&apos;:&apos;</highlight><highlight class="normal">,1i2.2,</highlight><highlight class="stringliteral">&apos;:&apos;</highlight><highlight class="normal">,1i2.2</highlight><highlight class="stringliteral">&apos;<sp/>(HMS)&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">mpi_finalize(<ref refid="namespacecommon__mod_1a8f596dc80104aeff36f4350f2ce5b6ce" kindref="member">ierr</ref>)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>stop<sp/></highlight><highlight class="stringliteral">&apos;mpi<sp/>done&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">end<sp/>program<sp/></highlight><highlight class="normal"><ref refid="mocassinWarm_8f90_1ab3e57e207477de179c051b3fc10713ea" kindref="member">mocassinwarm</ref></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="source/mocassinWarm.f90"/>
+  </compounddef>
+</doxygen>

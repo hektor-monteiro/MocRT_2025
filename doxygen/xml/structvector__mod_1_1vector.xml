@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structvector__mod_1_1vector" kind="type" language="Fortran" prot="public">
+    <compoundname>vector_mod::vector</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvector__mod_1_1vector_1acc4388bda7c89de3ded2748e2996ae60" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real vector_mod::vector::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>vector_mod::vector::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="16" column="1" bodyfile="source/vector_mod.f90" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvector__mod_1_1vector_1a870d2140569a9716cd3d873e6208afa1" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real vector_mod::vector::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>vector_mod::vector::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="17" column="1" bodyfile="source/vector_mod.f90" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvector__mod_1_1vector_1a7611fcc595b2422e760a20293a042243" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real vector_mod::vector::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>vector_mod::vector::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="18" column="1" bodyfile="source/vector_mod.f90" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/vector_mod.f90" line="15" column="1" bodyfile="source/vector_mod.f90" bodystart="15" bodyend="19"/>
+    <listofallmembers>
+      <member refid="structvector__mod_1_1vector_1acc4388bda7c89de3ded2748e2996ae60" prot="public" virt="non-virtual"><scope>vector_mod::vector</scope><name>x</name></member>
+      <member refid="structvector__mod_1_1vector_1a870d2140569a9716cd3d873e6208afa1" prot="public" virt="non-virtual"><scope>vector_mod::vector</scope><name>y</name></member>
+      <member refid="structvector__mod_1_1vector_1a7611fcc595b2422e760a20293a042243" prot="public" virt="non-virtual"><scope>vector_mod::vector</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

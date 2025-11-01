@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceinterpolation__mod" kind="namespace" language="Fortran">
+    <compoundname>interpolation_mod</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceinterpolation__mod_1a54c83437d06401dc0316fb506530cfda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine interpolation_mod::sortup</definition>
+        <argsstring>(arr)</argsstring>
+        <name>sortup</name>
+        <qualifiedname>interpolation_mod::sortup</qualifiedname>
+        <param>
+          <type>real, dimension(:), intent(inout)</type>
+          <defname>arr</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/interpolation_mod.f90" line="7" column="1" bodyfile="source/interpolation_mod.f90" bodystart="8" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceinterpolation__mod_1afde67adb133822cdc49aa93ac96acf97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine interpolation_mod::locate</definition>
+        <argsstring>(xa, x, ns)</argsstring>
+        <name>locate</name>
+        <qualifiedname>interpolation_mod::locate</qualifiedname>
+        <param>
+          <type>real, dimension(:), intent(in)</type>
+          <defname>xa</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>integer, intent(out)</type>
+          <defname>ns</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/interpolation_mod.f90" line="48" column="1" bodyfile="source/interpolation_mod.f90" bodystart="49" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceinterpolation__mod_1a7362e64456b5e27b2d0092798d96304f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine interpolation_mod::linearmap</definition>
+        <argsstring>(y, x, nx, y_new, x_new, nx_new)</argsstring>
+        <name>linearmap</name>
+        <qualifiedname>interpolation_mod::linearmap</qualifiedname>
+        <param>
+          <type>real, dimension(*), intent(in)</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>real, dimension(*), intent(in)</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>nx</defname>
+        </param>
+        <param>
+          <type>real, dimension(*), intent(out)</type>
+          <defname>y_new</defname>
+        </param>
+        <param>
+          <type>real, dimension(*), intent(in)</type>
+          <defname>x_new</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>nx_new</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/interpolation_mod.f90" line="86" column="1" bodyfile="source/interpolation_mod.f90" bodystart="87" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceinterpolation__mod_1a8ff98ffbda8993b4b9c1f265c8585a1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine interpolation_mod::polint</definition>
+        <argsstring>(xa, ya, x, y, dy)</argsstring>
+        <name>polint</name>
+        <qualifiedname>interpolation_mod::polint</qualifiedname>
+        <param>
+          <type>real, dimension(:), intent(in)</type>
+          <defname>xa</defname>
+        </param>
+        <param>
+          <type>real, dimension(:), intent(in)</type>
+          <defname>ya</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>dy</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/interpolation_mod.f90" line="112" column="1" bodyfile="source/interpolation_mod.f90" bodystart="113" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceinterpolation__mod_1ade9344d58f168ac05f66dfa84faa98a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine interpolation_mod::spline</definition>
+        <argsstring>(xa, ya, yp1, ypn, y2a)</argsstring>
+        <name>spline</name>
+        <qualifiedname>interpolation_mod::spline</qualifiedname>
+        <param>
+          <type>real, dimension(:), intent(inout)</type>
+          <defname>xa</defname>
+        </param>
+        <param>
+          <type>real, dimension(:), intent(inout)</type>
+          <defname>ya</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>yp1</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>ypn</defname>
+        </param>
+        <param>
+          <type>real, dimension(:), intent(out)</type>
+          <defname>y2a</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/interpolation_mod.f90" line="182" column="1" bodyfile="source/interpolation_mod.f90" bodystart="183" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceinterpolation__mod_1a1bc37fcb45c193522f0128cfb090ea58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine interpolation_mod::splint</definition>
+        <argsstring>(xa, ya, y2a, x, y)</argsstring>
+        <name>splint</name>
+        <qualifiedname>interpolation_mod::splint</qualifiedname>
+        <param>
+          <type>real, dimension(:), intent(in)</type>
+          <defname>xa</defname>
+        </param>
+        <param>
+          <type>real, dimension(:), intent(in)</type>
+          <defname>ya</defname>
+        </param>
+        <param>
+          <type>real, dimension(:), intent(in)</type>
+          <defname>y2a</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/interpolation_mod.f90" line="261" column="1" bodyfile="source/interpolation_mod.f90" bodystart="262" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceinterpolation__mod_1a5511dd777b880001084f90a033277652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function interpolation_mod::interpgrid</definition>
+        <argsstring>(s3dgrid, s4dgrid, s5dgrid, xp, yp, zp, freqp, elem, ion, t1, t2, t3)</argsstring>
+        <name>interpgrid</name>
+        <qualifiedname>interpolation_mod::interpgrid</qualifiedname>
+        <param>
+          <type>real, dimension(:,:,:), intent(in), optional</type>
+          <defname>s3dgrid</defname>
+        </param>
+        <param>
+          <type>real, dimension(:,:,:,:), intent(in), optional</type>
+          <defname>s4dgrid</defname>
+        </param>
+        <param>
+          <type>real, dimension(:,:,:,:,:), intent(in), optional</type>
+          <defname>s5dgrid</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>xp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>yp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>zp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in), optional</type>
+          <defname>freqp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in), optional</type>
+          <defname>elem</defname>
+        </param>
+        <param>
+          <type>integer, intent(in), optional</type>
+          <defname>ion</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>t1</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>t2</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>t3</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/interpolation_mod.f90" line="317" column="1" bodyfile="source/interpolation_mod.f90" bodystart="318" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceinterpolation__mod_1a5a41692b327eb25ea967ded8e67717de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine interpolation_mod::linear_interpolation</definition>
+        <argsstring>(xa, ya, x, y)</argsstring>
+        <name>linear_interpolation</name>
+        <qualifiedname>interpolation_mod::linear_interpolation</qualifiedname>
+        <param>
+          <type>real, dimension(:), intent(inout)</type>
+          <defname>xa</defname>
+        </param>
+        <param>
+          <type>real, dimension(:), intent(inout)</type>
+          <defname>ya</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/interpolation_mod.f90" line="384" column="1" bodyfile="source/interpolation_mod.f90" bodystart="385" bodyend="406"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/interpolation_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceemission__mod" kind="namespace" language="Fortran">
+    <compoundname>emission_mod</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceemission__mod_1ae970c8e2748b4803a5112d56d3e0c6fb" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structcommon__mod_1_1resline__type" kindref="compound">resline_type</ref>), dimension(:), allocatable</type>
+        <definition>type(resline_type), dimension(:), allocatable emission_mod::resline</definition>
+        <argsstring></argsstring>
+        <name>resline</name>
+        <qualifiedname>emission_mod::resline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="12" column="1" bodyfile="source/emission_mod.f90" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1a837a9829c149e757548d737e34b9a128" prot="public" static="no" mutable="no">
+        <type>double precision, dimension(34)</type>
+        <definition>double precision, dimension(34) emission_mod::heireclines</definition>
+        <argsstring></argsstring>
+        <name>heireclines</name>
+        <qualifiedname>emission_mod::heireclines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="16" column="1" bodyfile="source/emission_mod.f90" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1a11b356b732b6459140c35d5d2de85c71" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real emission_mod::bjumptemp</definition>
+        <argsstring></argsstring>
+        <name>bjumptemp</name>
+        <qualifiedname>emission_mod::bjumptemp</qualifiedname>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="18" column="1" bodyfile="source/emission_mod.f90" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1a296d29d9e0e527fa2e4a87ec62960de4" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real emission_mod::hbetaprob</definition>
+        <argsstring></argsstring>
+        <name>hbetaprob</name>
+        <qualifiedname>emission_mod::hbetaprob</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="19" column="1" bodyfile="source/emission_mod.f90" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1a4ab93d3cd3214d0cd693575dbe67a191" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real emission_mod::log10ne</definition>
+        <argsstring></argsstring>
+        <name>log10ne</name>
+        <qualifiedname>emission_mod::log10ne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="20" column="1" bodyfile="source/emission_mod.f90" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1a77890a6ef3ce0dd0327510aa94372940" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real emission_mod::log10te</definition>
+        <argsstring></argsstring>
+        <name>log10te</name>
+        <qualifiedname>emission_mod::log10te</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="21" column="1" bodyfile="source/emission_mod.f90" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1abd0173a2d390e7a5996b7d4b84c8622a" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real emission_mod::sqrteused</definition>
+        <argsstring></argsstring>
+        <name>sqrteused</name>
+        <qualifiedname>emission_mod::sqrteused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="22" column="1" bodyfile="source/emission_mod.f90" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1a501310cd7a9f177b566f07d8331a5b2a" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer emission_mod::abfileused</definition>
+        <argsstring></argsstring>
+        <name>abfileused</name>
+        <qualifiedname>emission_mod::abfileused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="24" column="1" bodyfile="source/emission_mod.f90" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1a7649509415dba6001409590550424d14" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer emission_mod::cellpused</definition>
+        <argsstring></argsstring>
+        <name>cellpused</name>
+        <qualifiedname>emission_mod::cellpused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="25" column="1" bodyfile="source/emission_mod.f90" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1a68991e5c5e3fb7c4e7c18dd91d4bf70c" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer emission_mod::nspe</definition>
+        <argsstring></argsstring>
+        <name>nspe</name>
+        <qualifiedname>emission_mod::nspe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="26" column="1" bodyfile="source/emission_mod.f90" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceemission__mod_1a67c9dce49ce6afc509bc4a1a9a3a3d72" prot="public" static="no" mutable="no">
+        <type>logical, save</type>
+        <definition>logical, save emission_mod::lgfloc</definition>
+        <argsstring></argsstring>
+        <name>lgfloc</name>
+        <qualifiedname>emission_mod::lgfloc</qualifiedname>
+        <initializer>=.true.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="27" column="1" bodyfile="source/emission_mod.f90" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceemission__mod_1a92b164a3ec775fff4f5ed696c5f9e9d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine emission_mod::emissiondriver</definition>
+        <argsstring>(grids, ix, iy, iz, ig)</argsstring>
+        <name>emissiondriver</name>
+        <qualifiedname>emission_mod::emissiondriver</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(*), intent(inout)</type>
+          <defname>grids</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>ix</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>iy</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>iz</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>ig</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="32" column="1" bodyfile="source/emission_mod.f90" bodystart="33" bodyend="2004"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1a5b99d4adad88b64859b3e4d8c7ec2f5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine emission_mod::equilibrium</definition>
+        <argsstring>(file_name, iondenup, te, ne, flineem, wav)</argsstring>
+        <name>equilibrium</name>
+        <qualifiedname>emission_mod::equilibrium</qualifiedname>
+        <param>
+          <type>character(len = *), intent(in)</type>
+          <defname>file_name</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>iondenup</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>te</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>ne</defname>
+        </param>
+        <param>
+          <type>double precision, dimension(:,:), intent(inout)</type>
+          <defname>flineem</defname>
+        </param>
+        <param>
+          <type>double precision, dimension(:,:), intent(inout), optional</type>
+          <defname>wav</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="2009" column="1" bodyfile="source/emission_mod.f90" bodystart="2010" bodyend="2213"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1a9c8f7a28295d6a5943262ec4875d5899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine emission_mod::luslv</definition>
+        <argsstring>(a, b, n)</argsstring>
+        <name>luslv</name>
+        <qualifiedname>emission_mod::luslv</qualifiedname>
+        <param>
+          <type>double precision, dimension(:,:), intent(inout)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>double precision, dimension(:), intent(inout)</type>
+          <defname>b</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>n</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="2218" column="1" bodyfile="source/emission_mod.f90" bodystart="2219" bodyend="2230"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1a5d2a73e3626ea42e4fcc1c24830248f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine emission_mod::lured</definition>
+        <argsstring>(a, n)</argsstring>
+        <name>lured</name>
+        <qualifiedname>emission_mod::lured</qualifiedname>
+        <param>
+          <type>double precision, dimension(:,:), intent(inout)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>n</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="2233" column="1" bodyfile="source/emission_mod.f90" bodystart="2234" bodyend="2255"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1aeeb3c19f54576256d1fd47475a8cbaf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine emission_mod::reslv</definition>
+        <argsstring>(a, b, n)</argsstring>
+        <name>reslv</name>
+        <qualifiedname>emission_mod::reslv</qualifiedname>
+        <param>
+          <type>double precision, dimension(:,:), intent(inout)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>double precision, dimension(:), intent(inout)</type>
+          <defname>b</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>n</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="2258" column="1" bodyfile="source/emission_mod.f90" bodystart="2259" bodyend="2292"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1a09586e5bb584b0d7f52b6d28035f41ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine emission_mod::initreslines</definition>
+        <argsstring>(grid)</argsstring>
+        <name>initreslines</name>
+        <qualifiedname>emission_mod::initreslines</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(*), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="2295" column="1" bodyfile="source/emission_mod.f90" bodystart="2296" bodyend="2471"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1a612002dfe0ec71c8e069dcdd8076e81a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine emission_mod::setreslineescapeprob</definition>
+        <argsstring>(grids, gpin, xpin, ypin, zpin)</argsstring>
+        <name>setreslineescapeprob</name>
+        <qualifiedname>emission_mod::setreslineescapeprob</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(*), intent(inout)</type>
+          <defname>grids</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>gpin</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>xpin</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>ypin</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>zpin</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="2474" column="1" bodyfile="source/emission_mod.f90" bodystart="2475" bodyend="3196"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1aec7953bafebd28aed7dba651663010e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function emission_mod::getm2_tau</definition>
+        <argsstring>(width, linein, tauin, profilein)</argsstring>
+        <name>getm2_tau</name>
+        <qualifiedname>emission_mod::getm2_tau</qualifiedname>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>width</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1resline__type" kindref="compound">resline_type</ref>), intent(in)</type>
+          <defname>linein</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>tauin</defname>
+        </param>
+        <param>
+          <type>real, dimension(<ref refid="namespacecommon__mod_1a5765bbc5418e56e61d4e9cf9137861ef" kindref="member">nbins</ref>), intent(in), optional</type>
+          <defname>profilein</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="3200" column="1" bodyfile="source/emission_mod.f90" bodystart="3201" bodyend="3226"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1af1663286f94113d465bb53378c97d67b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function emission_mod::profile</definition>
+        <argsstring>(profileid, widthin, linein, nuin)</argsstring>
+        <name>profile</name>
+        <qualifiedname>emission_mod::profile</qualifiedname>
+        <param>
+          <type>character(len=7), intent(in)</type>
+          <defname>profileid</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>widthin</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1resline__type" kindref="compound">resline_type</ref>), intent(in)</type>
+          <defname>linein</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>nuin</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="3229" column="1" bodyfile="source/emission_mod.f90" bodystart="3230" bodyend="3246"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1aa9096ed94665b990a9142629f0a169a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine emission_mod::linecentrexsec</definition>
+        <argsstring>(line, width, line_xsec)</argsstring>
+        <name>linecentrexsec</name>
+        <qualifiedname>emission_mod::linecentrexsec</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1resline__type" kindref="compound">resline_type</ref>), intent(inout)</type>
+          <defname>line</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>width</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>line_xsec</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="3253" column="1" bodyfile="source/emission_mod.f90" bodystart="3254" bodyend="3267"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceemission__mod_1a2d16b07917243bcb6a524ad98d8ab4dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine emission_mod::meanlineopacity</definition>
+        <argsstring>(line, width, line_xsec)</argsstring>
+        <name>meanlineopacity</name>
+        <qualifiedname>emission_mod::meanlineopacity</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1resline__type" kindref="compound">resline_type</ref>), intent(inout)</type>
+          <defname>line</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>width</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>line_xsec</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/emission_mod.f90" line="3278" column="1" bodyfile="source/emission_mod.f90" bodystart="3279" bodyend="3292"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/emission_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

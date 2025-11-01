@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structcommon__mod_1_1aldropequidata" kind="type" language="Fortran" prot="public">
+    <compoundname>common_mod::aldropequidata</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcommon__mod_1_1aldropequidata_1a4d0dba1eee0a9f8a672afa5b1619aaf0" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::aldropequidata::elem</definition>
+        <argsstring></argsstring>
+        <name>elem</name>
+        <qualifiedname>common_mod::aldropequidata::elem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="528" column="1" bodyfile="source/common_mod.f90" bodystart="528" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1aldropequidata_1a1a2e80ee731540d1aa162457f27ceb29" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::aldropequidata::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>common_mod::aldropequidata::n</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="529" column="1" bodyfile="source/common_mod.f90" bodystart="529" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1aldropequidata_1a428bcbfcad9ebe4fbe8b83548692fca7" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::aldropequidata::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>common_mod::aldropequidata::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="530" column="1" bodyfile="source/common_mod.f90" bodystart="530" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1aldropequidata_1a5758c59f2d9de48ee8724b20fed84b6e" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::aldropequidata::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>common_mod::aldropequidata::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="530" column="1" bodyfile="source/common_mod.f90" bodystart="530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1aldropequidata_1abfe571c444c34096e1cf659c2d340864" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::aldropequidata::t0</definition>
+        <argsstring></argsstring>
+        <name>t0</name>
+        <qualifiedname>common_mod::aldropequidata::t0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="530" column="1" bodyfile="source/common_mod.f90" bodystart="530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1aldropequidata_1a0d5ff97426943a075daf374bd9d4b1e5" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::aldropequidata::t1</definition>
+        <argsstring></argsstring>
+        <name>t1</name>
+        <qualifiedname>common_mod::aldropequidata::t1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="530" column="1" bodyfile="source/common_mod.f90" bodystart="530" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/common_mod.f90" line="527" column="1" bodyfile="source/common_mod.f90" bodystart="527" bodyend="531"/>
+    <listofallmembers>
+      <member refid="structcommon__mod_1_1aldropequidata_1a428bcbfcad9ebe4fbe8b83548692fca7" prot="public" virt="non-virtual"><scope>common_mod::aldropequidata</scope><name>a</name></member>
+      <member refid="structcommon__mod_1_1aldropequidata_1a5758c59f2d9de48ee8724b20fed84b6e" prot="public" virt="non-virtual"><scope>common_mod::aldropequidata</scope><name>b</name></member>
+      <member refid="structcommon__mod_1_1aldropequidata_1a4d0dba1eee0a9f8a672afa5b1619aaf0" prot="public" virt="non-virtual"><scope>common_mod::aldropequidata</scope><name>elem</name></member>
+      <member refid="structcommon__mod_1_1aldropequidata_1a1a2e80ee731540d1aa162457f27ceb29" prot="public" virt="non-virtual"><scope>common_mod::aldropequidata</scope><name>n</name></member>
+      <member refid="structcommon__mod_1_1aldropequidata_1abfe571c444c34096e1cf659c2d340864" prot="public" virt="non-virtual"><scope>common_mod::aldropequidata</scope><name>t0</name></member>
+      <member refid="structcommon__mod_1_1aldropequidata_1a0d5ff97426943a075daf374bd9d4b1e5" prot="public" virt="non-virtual"><scope>common_mod::aldropequidata</scope><name>t1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

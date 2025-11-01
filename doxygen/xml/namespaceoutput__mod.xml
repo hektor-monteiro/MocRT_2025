@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoutput__mod" kind="namespace" language="Fortran">
+    <compoundname>output_mod</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceoutput__mod_1aa1ef323ba280f433b120414aeaa70ec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine output_mod::outputgas</definition>
+        <argsstring>(grid, extmap)</argsstring>
+        <name>outputgas</name>
+        <qualifiedname>output_mod::outputgas</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(*), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>character(len=30), intent(in), optional</type>
+          <defname>extmap</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/output_mod.f90" line="12" column="1" bodyfile="source/output_mod.f90" bodystart="13" bodyend="2202"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceoutput__mod_1a086134c6dba28c7cae2cb5b092e488d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine output_mod::hdatx</definition>
+        <argsstring></argsstring>
+        <name>hdatx</name>
+        <qualifiedname>output_mod::hdatx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/output_mod.f90" line="2208" column="1" bodyfile="source/output_mod.f90" bodystart="2209" bodyend="2245"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceoutput__mod_1aac2e88d649daba087ba6aa97369d5425" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine output_mod::hlinex</definition>
+        <argsstring>(nu, nl, xt, xd, fh)</argsstring>
+        <name>hlinex</name>
+        <qualifiedname>output_mod::hlinex</qualifiedname>
+        <param>
+          <type>integer</type>
+          <defname>nu</defname>
+        </param>
+        <param>
+          <type>integer</type>
+          <defname>nl</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>xt</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>xd</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>fh</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/output_mod.f90" line="2254" column="1" bodyfile="source/output_mod.f90" bodystart="2255" bodyend="2438"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceoutput__mod_1a5a9fa5fa45aed7071336abad20706382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine output_mod::writetaunu</definition>
+        <argsstring>(grid)</argsstring>
+        <name>writetaunu</name>
+        <qualifiedname>output_mod::writetaunu</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(*), intent(in)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/output_mod.f90" line="2441" column="1" bodyfile="source/output_mod.f90" bodystart="2442" bodyend="2561"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceoutput__mod_1a9a5d93b21bb64c35f8cec453bbfd7034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine output_mod::writesed</definition>
+        <argsstring>(grid)</argsstring>
+        <name>writesed</name>
+        <qualifiedname>output_mod::writesed</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(*), intent(in)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/output_mod.f90" line="2786" column="1" bodyfile="source/output_mod.f90" bodystart="2787" bodyend="2988"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceoutput__mod_1a314b6194dc987e414b092eea7fa82dd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine output_mod::writecontcube</definition>
+        <argsstring>(grid, wave1, wave2)</argsstring>
+        <name>writecontcube</name>
+        <qualifiedname>output_mod::writecontcube</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(*), intent(in)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>wave1</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>wave2</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/output_mod.f90" line="2992" column="1" bodyfile="source/output_mod.f90" bodystart="2993" bodyend="3075"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/output_mod.f90" line="3" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structcommon__mod_1_1plot__type" kind="type" language="Fortran" prot="public">
+    <compoundname>common_mod::plot_type</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcommon__mod_1_1plot__type_1ac5a46521679114764ce07757ef49ab63" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:,:), allocatable</type>
+        <definition>real, dimension(:,:,:), allocatable common_mod::plot_type::intensity</definition>
+        <argsstring></argsstring>
+        <name>intensity</name>
+        <qualifiedname>common_mod::plot_type::intensity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="328" column="1" bodyfile="source/common_mod.f90" bodystart="328" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1plot__type_1a3989c8dc8becca789773ce20fa2e88e1" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::plot_type::xaxis</definition>
+        <argsstring></argsstring>
+        <name>xaxis</name>
+        <qualifiedname>common_mod::plot_type::xaxis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="329" column="1" bodyfile="source/common_mod.f90" bodystart="329" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1plot__type_1ada39727b1bc559f5910dcfb33f5a0fe1" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::plot_type::yaxis</definition>
+        <argsstring></argsstring>
+        <name>yaxis</name>
+        <qualifiedname>common_mod::plot_type::yaxis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="329" column="1" bodyfile="source/common_mod.f90" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1plot__type_1acbbc05a8884743a9908a3c7f7c40694e" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::plot_type::lgfilter</definition>
+        <argsstring></argsstring>
+        <name>lgfilter</name>
+        <qualifiedname>common_mod::plot_type::lgfilter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="331" column="1" bodyfile="source/common_mod.f90" bodystart="331" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1plot__type_1ad2ea629de10b9f5e6a65d7fe1537dbb1" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::plot_type::lgmap</definition>
+        <argsstring></argsstring>
+        <name>lgmap</name>
+        <qualifiedname>common_mod::plot_type::lgmap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="332" column="1" bodyfile="source/common_mod.f90" bodystart="332" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1plot__type_1acf72bf29fc64ca9fd13252c80b74f709" prot="public" static="no" mutable="no">
+        <type>logical, dimension(:), allocatable</type>
+        <definition>logical, dimension(:), allocatable common_mod::plot_type::lgline</definition>
+        <argsstring></argsstring>
+        <name>lgline</name>
+        <qualifiedname>common_mod::plot_type::lgline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="333" column="1" bodyfile="source/common_mod.f90" bodystart="333" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1plot__type_1ab28adc6cefa6d2d9edf91cbb94c7bd27" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::plot_type::linenumber</definition>
+        <argsstring></argsstring>
+        <name>linenumber</name>
+        <qualifiedname>common_mod::plot_type::linenumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="335" column="1" bodyfile="source/common_mod.f90" bodystart="335" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1plot__type_1ada6733bededcacfbc391c1e1d5d1439c" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::plot_type::nplots</definition>
+        <argsstring></argsstring>
+        <name>nplots</name>
+        <qualifiedname>common_mod::plot_type::nplots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="336" column="1" bodyfile="source/common_mod.f90" bodystart="336" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1plot__type_1a763cc1bb6c409145b6384861bf4baa9f" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:,:), allocatable</type>
+        <definition>integer, dimension(:,:), allocatable common_mod::plot_type::nup</definition>
+        <argsstring></argsstring>
+        <name>nup</name>
+        <qualifiedname>common_mod::plot_type::nup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="337" column="1" bodyfile="source/common_mod.f90" bodystart="337" bodyend="337"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/common_mod.f90" line="327" column="1" bodyfile="source/common_mod.f90" bodystart="327" bodyend="339"/>
+    <listofallmembers>
+      <member refid="structcommon__mod_1_1plot__type_1ac5a46521679114764ce07757ef49ab63" prot="public" virt="non-virtual"><scope>common_mod::plot_type</scope><name>intensity</name></member>
+      <member refid="structcommon__mod_1_1plot__type_1acbbc05a8884743a9908a3c7f7c40694e" prot="public" virt="non-virtual"><scope>common_mod::plot_type</scope><name>lgfilter</name></member>
+      <member refid="structcommon__mod_1_1plot__type_1acf72bf29fc64ca9fd13252c80b74f709" prot="public" virt="non-virtual"><scope>common_mod::plot_type</scope><name>lgline</name></member>
+      <member refid="structcommon__mod_1_1plot__type_1ad2ea629de10b9f5e6a65d7fe1537dbb1" prot="public" virt="non-virtual"><scope>common_mod::plot_type</scope><name>lgmap</name></member>
+      <member refid="structcommon__mod_1_1plot__type_1ab28adc6cefa6d2d9edf91cbb94c7bd27" prot="public" virt="non-virtual"><scope>common_mod::plot_type</scope><name>linenumber</name></member>
+      <member refid="structcommon__mod_1_1plot__type_1ada6733bededcacfbc391c1e1d5d1439c" prot="public" virt="non-virtual"><scope>common_mod::plot_type</scope><name>nplots</name></member>
+      <member refid="structcommon__mod_1_1plot__type_1a763cc1bb6c409145b6384861bf4baa9f" prot="public" virt="non-virtual"><scope>common_mod::plot_type</scope><name>nup</name></member>
+      <member refid="structcommon__mod_1_1plot__type_1a3989c8dc8becca789773ce20fa2e88e1" prot="public" virt="non-virtual"><scope>common_mod::plot_type</scope><name>xaxis</name></member>
+      <member refid="structcommon__mod_1_1plot__type_1ada39727b1bc559f5910dcfb33f5a0fe1" prot="public" virt="non-virtual"><scope>common_mod::plot_type</scope><name>yaxis</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

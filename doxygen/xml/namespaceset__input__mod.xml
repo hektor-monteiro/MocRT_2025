@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceset__input__mod" kind="namespace" language="Fortran">
+    <compoundname>set_input_mod</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceset__input__mod_1af4b269d1cc79b7e5015ba8c017644f83" prot="public" static="no" mutable="no">
+        <type>character(len=50)</type>
+        <definition>character(len=50) set_input_mod::shapediffuse</definition>
+        <argsstring></argsstring>
+        <name>shapediffuse</name>
+        <qualifiedname>set_input_mod::shapediffuse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/set_input_mod.f90" line="8" column="1" bodyfile="source/set_input_mod.f90" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceset__input__mod_1ad5305ad82f10192c409cac614599d966" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine set_input_mod::readinput</definition>
+        <argsstring>()</argsstring>
+        <name>readinput</name>
+        <qualifiedname>set_input_mod::readinput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/set_input_mod.f90" line="12" column="1" bodyfile="source/set_input_mod.f90" bodystart="13" bodyend="850"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceset__input__mod_1a3d405ddd44e9cb1ff7c8dad3695a67bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine set_input_mod::setmultiphotosources</definition>
+        <argsstring>(infile)</argsstring>
+        <name>setmultiphotosources</name>
+        <qualifiedname>set_input_mod::setmultiphotosources</qualifiedname>
+        <param>
+          <type>character(len=50), intent(in)</type>
+          <defname>infile</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/set_input_mod.f90" line="853" column="1" bodyfile="source/set_input_mod.f90" bodystart="854" bodyend="913"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/set_input_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="vector__mod_8f90" kind="file" language="Fortran">
+    <compoundname>vector_mod.f90</compoundname>
+    <innerclass refid="structvector__mod_1_1vector" prot="public">vector_mod::vector</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_5_08" prot="public">vector_mod::operator(*)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_2_08" prot="public">vector_mod::operator(/)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_09_08" prot="public">vector_mod::operator(+)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07-_08" prot="public">vector_mod::operator(-)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_0a_0a_08" prot="public">vector_mod::operator(==)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_2_0a_08" prot="public">vector_mod::operator(/=)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_4_0a_08" prot="public">vector_mod::operator(&gt;=)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_3_0a_08" prot="public">vector_mod::operator(&lt;=)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_8dot_8_08" prot="public">vector_mod::operator(.dot.)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_8cross_8_08" prot="public">vector_mod::operator(.cross.)</innerclass>
+    <innernamespace refid="namespacevector__mod">vector_mod</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">!<sp/>Copyright<sp/>(C)<sp/>2005<sp/>Barbara<sp/>Ercolano</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">!<sp/>Version<sp/>2.02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespacevector__mod" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">module</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod" kindref="compound">vector_mod</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">use<sp/></highlight><highlight class="normal"><ref refid="namespaceconstants__mod" kindref="compound">constants_mod</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">implicit<sp/>none</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">public</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>The<sp/>definition<sp/>of<sp/>the<sp/>vector<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="structvector__mod_1_1vector" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal"><sp/><ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/>::<sp/>x</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/>::<sp/>y</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/>::<sp/>z</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>type<sp/></highlight><highlight class="normal"><ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>Define<sp/>multiply</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="interfacevector__mod_1_1operator_07_5_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(*)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1a3c58980d3d4d04bbfcabf82ee453d8f5" kindref="member">mult</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>and<sp/>divide</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="interfacevector__mod_1_1operator_07_2_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(/)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1ae16a98d182927c7dc09a68c275bd76ee" kindref="member">dividevec</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>add</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="interfacevector__mod_1_1operator_07_09_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(+)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1a771fbfccadc08ba605b2e5787bfcb403" kindref="member">add</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>subtract</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="interfacevector__mod_1_1operator_07-_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(-)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1aea61b73b0e0408cb09355377fcb58001" kindref="member">subtract</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>equivalence</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="interfacevector__mod_1_1operator_07_0a_0a_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(==)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1aae21cddb63463c9466d57b9bc202f7c2" kindref="member">equivalence</ref></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>notEquivalence(/=)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="interfacevector__mod_1_1operator_07_2_0a_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(/=)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1a7d7ca401782a5c2e72af9129798b275b" kindref="member">notequivalence</ref></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>note<sp/>that<sp/>the<sp/>following<sp/>two<sp/>operators<sp/>are<sp/>costumised</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>for<sp/>use<sp/>in<sp/>the<sp/>mocassinPlot<sp/>routines,<sp/>these<sp/>are<sp/>only</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>meaningful<sp/>in<sp/>the<sp/>context<sp/>of<sp/>this<sp/>program</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>&gt;=</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="interfacevector__mod_1_1operator_07_4_0a_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(&gt;=)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1a9d6cfeadd6fb98c9a94e8fd046b63358" kindref="member">greaterequal</ref></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>&lt;=</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="interfacevector__mod_1_1operator_07_3_0a_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(&lt;=)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1a7028a22f557941424f390c593f755f25" kindref="member">lessequal</ref></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>dot<sp/>product</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="interfacevector__mod_1_1operator_07_8dot_8_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(.dot.)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1aceb5bd8774cdc8b46d8473b99058bb6b" kindref="member">dotprod</ref></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>cross<sp/>product</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="interfacevector__mod_1_1operator_07_8cross_8_08" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">interface</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal">(.cross.)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">module<sp/>procedure</highlight><highlight class="normal"><sp/><ref refid="namespacevector__mod_1aac6324ee3b66a5dd383bce944a47104e" kindref="member">crossprod</ref></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">contains</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>the<sp/>dot<sp/>product<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/>real</highlight><highlight class="normal"><sp/>function<sp/>dotProd(a<sp/>,<sp/>b)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>dotprod<sp/>=<sp/>a%x*b%x<sp/>+<sp/>a%y*b%y<sp/>+<sp/>a%z*b%z</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1aceb5bd8774cdc8b46d8473b99058bb6b" kindref="member">dotprod</ref></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>the<sp/>cross<sp/>product<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>function<sp/>crossProd(a<sp/>,b)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1aac6324ee3b66a5dd383bce944a47104e" kindref="member">crossprod</ref>%x<sp/>=<sp/><sp/>(a%y*b%z<sp/>-<sp/>a%z*b%y)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1aac6324ee3b66a5dd383bce944a47104e" kindref="member">crossprod</ref>%y<sp/>=<sp/>-(a%x*b%z<sp/>-<sp/>a%z*b%x)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1aac6324ee3b66a5dd383bce944a47104e" kindref="member">crossprod</ref>%z<sp/>=<sp/><sp/>(a%x*b%y<sp/>-<sp/>a%y*b%x)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1aac6324ee3b66a5dd383bce944a47104e" kindref="member">crossprod</ref></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>normalization<sp/>subroutine<sp/>-<sp/>checks<sp/>for<sp/>zero<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">subroutine<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1adefc5a591ebafd546348403034db9c48" kindref="member">normalize</ref>(a)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/>::<sp/>m</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>m<sp/>=<sp/><ref refid="namespacevector__mod_1ac4a1c062d19c382038100a4c201e41bc" kindref="member">modulus</ref>(a)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>==<sp/>0.)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">write</highlight><highlight class="normal">(*,</highlight><highlight class="stringliteral">&apos;(a)&apos;</highlight><highlight class="normal">)<sp/></highlight><highlight class="stringliteral">&quot;!<sp/>Attempt<sp/>to<sp/>normalize<sp/>the<sp/>zero<sp/>vector&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stop</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>a%x<sp/>=<sp/>a%x<sp/>/<sp/>m</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>a%y<sp/>=<sp/>a%y<sp/>/<sp/>m</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>a%z<sp/>=<sp/>a%z<sp/>/<sp/>m</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>subroutine<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1adefc5a591ebafd546348403034db9c48" kindref="member">normalize</ref></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>find<sp/>the<sp/>modulus<sp/>of<sp/>a<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/>real</highlight><highlight class="normal"><sp/>function<sp/>modulus(a)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1ac4a1c062d19c382038100a4c201e41bc" kindref="member">modulus</ref><sp/>=<sp/>a%x*a%x<sp/>+<sp/>a%y*a%y<sp/>+<sp/>a%z*a%z</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1ac4a1c062d19c382038100a4c201e41bc" kindref="member">modulus</ref><sp/>=<sp/>sqrt(<ref refid="namespacevector__mod_1ac4a1c062d19c382038100a4c201e41bc" kindref="member">modulus</ref>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1ac4a1c062d19c382038100a4c201e41bc" kindref="member">modulus</ref></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>multiply<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>function<sp/>mult(a,b)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a3c58980d3d4d04bbfcabf82ee453d8f5" kindref="member">mult</ref>%x<sp/>=<sp/>a<sp/>*<sp/>b%x</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a3c58980d3d4d04bbfcabf82ee453d8f5" kindref="member">mult</ref>%y<sp/>=<sp/>a<sp/>*<sp/>b%y</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a3c58980d3d4d04bbfcabf82ee453d8f5" kindref="member">mult</ref>%z<sp/>=<sp/>a<sp/>*<sp/>b%z</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a3c58980d3d4d04bbfcabf82ee453d8f5" kindref="member">mult</ref></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>divide<sp/>vector<sp/>by<sp/>a<sp/>scalar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>function<sp/>divideVec(a,b)</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1ae16a98d182927c7dc09a68c275bd76ee" kindref="member">dividevec</ref>%x<sp/>=<sp/>a%x<sp/>/<sp/>b</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1ae16a98d182927c7dc09a68c275bd76ee" kindref="member">dividevec</ref>%y<sp/>=<sp/>a%y<sp/>/<sp/>b</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1ae16a98d182927c7dc09a68c275bd76ee" kindref="member">dividevec</ref>%z<sp/>=<sp/>a%z<sp/>/<sp/>b</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1ae16a98d182927c7dc09a68c275bd76ee" kindref="member">dividevec</ref></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>add<sp/>two<sp/>vectors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>function<sp/>add(a,b)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a771fbfccadc08ba605b2e5787bfcb403" kindref="member">add</ref>%x<sp/>=<sp/>a%x<sp/>+<sp/>b%x</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a771fbfccadc08ba605b2e5787bfcb403" kindref="member">add</ref>%y<sp/>=<sp/>a%y<sp/>+<sp/>b%y</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a771fbfccadc08ba605b2e5787bfcb403" kindref="member">add</ref>%z<sp/>=<sp/>a%z<sp/>+<sp/>b%z</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a771fbfccadc08ba605b2e5787bfcb403" kindref="member">add</ref></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>subtract<sp/>two<sp/>vectors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>function<sp/>subtract(a,b)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1aea61b73b0e0408cb09355377fcb58001" kindref="member">subtract</ref>%x<sp/>=<sp/>a%x<sp/>-<sp/>b%x</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1aea61b73b0e0408cb09355377fcb58001" kindref="member">subtract</ref>%y<sp/>=<sp/>a%y<sp/>-<sp/>b%y</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1aea61b73b0e0408cb09355377fcb58001" kindref="member">subtract</ref>%z<sp/>=<sp/>a%z<sp/>-<sp/>b%z</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1aea61b73b0e0408cb09355377fcb58001" kindref="member">subtract</ref></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">logical<sp/></highlight><highlight class="keyword">function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1aae21cddb63463c9466d57b9bc202f7c2" kindref="member">equivalence</ref>(a,b)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>(a%x<sp/>==<sp/>b%x)<sp/>.and.&amp;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<sp/>(a%y<sp/>==<sp/>b%y)<sp/>.and.&amp;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<sp/>(a%z<sp/>==<sp/>b%z)<sp/>)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1aae21cddb63463c9466d57b9bc202f7c2" kindref="member">equivalence</ref><sp/>=<sp/>.true.</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1aae21cddb63463c9466d57b9bc202f7c2" kindref="member">equivalence</ref><sp/>=<sp/>.false.</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1aae21cddb63463c9466d57b9bc202f7c2" kindref="member">equivalence</ref></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">logical<sp/></highlight><highlight class="keyword">function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a9d6cfeadd6fb98c9a94e8fd046b63358" kindref="member">greaterequal</ref>(a,b)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>(a%z<sp/>&lt;=<sp/>b%z)<sp/>.and.&amp;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<sp/>(<sp/>a%x/(sqrt(1.-a%z*a%z))<sp/>&gt;=<sp/>&amp;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<sp/>b%x/(sqrt(1.-b%z*b%z)))<sp/>)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a9d6cfeadd6fb98c9a94e8fd046b63358" kindref="member">greaterequal</ref><sp/>=<sp/>.true.</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a9d6cfeadd6fb98c9a94e8fd046b63358" kindref="member">greaterequal</ref><sp/>=<sp/>.false.</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a9d6cfeadd6fb98c9a94e8fd046b63358" kindref="member">greaterequal</ref></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">logical<sp/></highlight><highlight class="keyword">function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a7028a22f557941424f390c593f755f25" kindref="member">lessequal</ref>(a,b)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>(a%z<sp/>&gt;=<sp/>b%z)<sp/>.and.&amp;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<sp/>(<sp/>a%x/(sqrt(1.-a%z*a%z))<sp/>&lt;=<sp/>&amp;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<sp/>b%x/(sqrt(1.-b%z*b%z)))<sp/>)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a7028a22f557941424f390c593f755f25" kindref="member">lessequal</ref><sp/>=<sp/>.true.</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a7028a22f557941424f390c593f755f25" kindref="member">lessequal</ref><sp/>=<sp/>.false.</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a7028a22f557941424f390c593f755f25" kindref="member">lessequal</ref></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">logical<sp/></highlight><highlight class="keyword">function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a7d7ca401782a5c2e72af9129798b275b" kindref="member">notequivalence</ref>(a,b)</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>(a%x<sp/>==<sp/>b%x)<sp/>.and.&amp;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<sp/>(a%y<sp/>==<sp/>b%y)<sp/>.and.&amp;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<sp/>(a%z<sp/>==<sp/>b%z)<sp/>)<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a7d7ca401782a5c2e72af9129798b275b" kindref="member">notequivalence</ref><sp/>=<sp/>.false.</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a7d7ca401782a5c2e72af9129798b275b" kindref="member">notequivalence</ref><sp/>=<sp/>.true.</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>end<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a7d7ca401782a5c2e72af9129798b275b" kindref="member">notequivalence</ref></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>get<sp/>polar<sp/>form<sp/>of<sp/>a<sp/>cartesian<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">subroutine<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a23455cc0307be761aff23425742335a8" kindref="member">getpolar</ref>(vec,<sp/>r,<sp/>theta,<sp/>phi)</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">implicit<sp/>none</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>::<sp/>vec</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/>::<sp/>r,<sp/>theta,<sp/>phi,<sp/>cosTheta</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="namespacevector__mod_1ac4a1c062d19c382038100a4c201e41bc" kindref="member">modulus</ref>(vec)</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((vec%y<sp/>==<sp/>0.)<sp/>.and.<sp/>(vec%x<sp/>==<sp/>0))<sp/></highlight><highlight class="keywordflow">then</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>phi<sp/>=<sp/>0.</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>phi<sp/>=<sp/>atan2(vec%y,<sp/>vec%x)</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="keywordflow"><sp/><sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(phi<sp/>&lt;<sp/>0.)<sp/>phi<sp/>=<sp/>phi<sp/>+<sp/>twopi</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>costheta<sp/>=<sp/>vec%z/r</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>theta<sp/>=<sp/>acos(costheta)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>subroutine<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a23455cc0307be761aff23425742335a8" kindref="member">getpolar</ref></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">!<sp/>rotate<sp/>a<sp/>vector<sp/>&quot;a&quot;<sp/>about<sp/>the<sp/>z-axis<sp/>by<sp/>angle<sp/>b</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>function<sp/>rotateZ(a,b)</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b<sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>angle<sp/>in<sp/>radians</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/>::<sp/>cosb,<sp/>sinb</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>cosb<sp/>=<sp/>cos(b)</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>sinb<sp/>=<sp/>sin(b)</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1ac23be89fffaf890c73c6c4574a863b78" kindref="member">rotatez</ref>%x<sp/>=<sp/>cosb<sp/>*<sp/>a%x<sp/>+<sp/>sinb<sp/>*<sp/>a%y</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1ac23be89fffaf890c73c6c4574a863b78" kindref="member">rotatez</ref>%y<sp/>=-sinb<sp/>*<sp/>a%x<sp/>+<sp/>cosb<sp/>*<sp/>a%y</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1ac23be89fffaf890c73c6c4574a863b78" kindref="member">rotatez</ref>%z<sp/>=<sp/>a%z</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1ac23be89fffaf890c73c6c4574a863b78" kindref="member">rotatez</ref></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>function<sp/>rotateX(a,b)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b<sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>angle<sp/>in<sp/>radians</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/>::<sp/>cosb,<sp/>sinb</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>cosb<sp/>=<sp/>cos(b)</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>sinb<sp/>=<sp/>sin(b)</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a13fd36d2581fac2ef01fd13cb6287b36" kindref="member">rotatex</ref>%x<sp/>=<sp/>a%x</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a13fd36d2581fac2ef01fd13cb6287b36" kindref="member">rotatex</ref>%y<sp/>=<sp/>cosb<sp/>*<sp/>a%y<sp/>+<sp/>sinb<sp/>*<sp/>a%z</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a13fd36d2581fac2ef01fd13cb6287b36" kindref="member">rotatex</ref>%z<sp/>=-sinb<sp/>*<sp/>a%y<sp/>+<sp/>cosb<sp/>*<sp/>a%z</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a13fd36d2581fac2ef01fd13cb6287b36" kindref="member">rotatex</ref></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>function<sp/>rotateY(a,b)</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector),<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>a</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">intent(in)</highlight><highlight class="normal"><sp/>::<sp/>b<sp/><sp/><sp/></highlight><highlight class="comment">!<sp/>angle<sp/>in<sp/>radians</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/>::<sp/>cosb,<sp/>sinb</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>cosb<sp/>=<sp/>cos(b)</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>sinb<sp/>=<sp/>sin(b)</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a8c2fc006a79237aaaf141dcdebf77f36" kindref="member">rotatey</ref>%x<sp/>=<sp/>cosb<sp/>*<sp/>a%x<sp/>+<sp/>sinb<sp/>*<sp/>a%z</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a8c2fc006a79237aaaf141dcdebf77f36" kindref="member">rotatey</ref>%y<sp/>=<sp/>a%y</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1a8c2fc006a79237aaaf141dcdebf77f36" kindref="member">rotatey</ref>%z<sp/>=-sinb<sp/>*<sp/>a%x<sp/>+<sp/>cosb<sp/>*<sp/>a%z</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1a8c2fc006a79237aaaf141dcdebf77f36" kindref="member">rotatey</ref></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">type</highlight><highlight class="normal">(vector)<sp/>function<sp/>randomUnitVector()</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight><highlight class="keywordtype"><sp/><sp/><sp/><sp/>real</highlight><highlight class="normal"><sp/>::<sp/>r1,<sp/>r2,<sp/>u,<sp/>v,<sp/>w,<sp/>t,<sp/>ang</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">random_number(r1)</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>w<sp/>=<sp/>2.*r1<sp/>-<sp/>1.</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>t<sp/>=<sp/>sqrt(1.-w*w)</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">call<sp/></highlight><highlight class="normal">random_number(r2)</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>ang<sp/>=<sp/>3.141592654*(2.*r2-1.)</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>u<sp/>=<sp/>t*cos(ang)</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>v<sp/>=<sp/>t*sin(ang)</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevector__mod_1ae58c938597e098af01171ac4dcb70cfb" kindref="member">randomunitvector</ref><sp/>=<sp/><ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>(u,v,w)</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">end<sp/>function<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod_1ae58c938597e098af01171ac4dcb70cfb" kindref="member">randomunitvector</ref></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight><highlight class="keyword">end<sp/>module<sp/></highlight><highlight class="normal"><ref refid="namespacevector__mod" kindref="compound">vector_mod</ref></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="source/vector_mod.f90"/>
+  </compounddef>
+</doxygen>

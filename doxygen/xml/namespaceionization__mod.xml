@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceionization__mod" kind="namespace" language="Fortran">
+    <compoundname>ionization_mod</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceionization__mod_1a94020f90d1d0cc428352359b69a7a337" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable ionization_mod::contboltz</definition>
+        <argsstring></argsstring>
+        <name>contboltz</name>
+        <qualifiedname>ionization_mod::contboltz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="10" column="1" bodyfile="source/ionization_mod.f90" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceionization__mod_1ac33c3b798260b11cf97d0c8b529dbca1" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable ionization_mod::ffopacity</definition>
+        <argsstring></argsstring>
+        <name>ffopacity</name>
+        <qualifiedname>ionization_mod::ffopacity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="11" column="1" bodyfile="source/ionization_mod.f90" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceionization__mod_1a2b8bc8d506de842256fc270a3ee94470" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable ionization_mod::log10nuarray</definition>
+        <argsstring></argsstring>
+        <name>log10nuarray</name>
+        <qualifiedname>ionization_mod::log10nuarray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="12" column="1" bodyfile="source/ionization_mod.f90" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceionization__mod_1a13d713c15b06659e96945b4fad7fe2f9" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable ionization_mod::density</definition>
+        <argsstring></argsstring>
+        <name>density</name>
+        <qualifiedname>ionization_mod::density</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="14" column="1" bodyfile="source/ionization_mod.f90" bodystart="14" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceionization__mod_1a86b8bc198a98728ab4a00e25c5f57913" prot="public" static="no" mutable="no">
+        <type>real, save</type>
+        <definition>real, save ionization_mod::log10ne</definition>
+        <argsstring></argsstring>
+        <name>log10ne</name>
+        <qualifiedname>ionization_mod::log10ne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="17" column="1" bodyfile="source/ionization_mod.f90" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceionization__mod_1a962fe9a1a3555c38983794aec47375ab" prot="public" static="no" mutable="no">
+        <type>real, save</type>
+        <definition>real, save ionization_mod::log10te</definition>
+        <argsstring></argsstring>
+        <name>log10te</name>
+        <qualifiedname>ionization_mod::log10te</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="18" column="1" bodyfile="source/ionization_mod.f90" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceionization__mod_1abfd0305c287540fbbe1c392600921e27" prot="public" static="no" mutable="no">
+        <type>real, save</type>
+        <definition>real, save ionization_mod::sqrteused</definition>
+        <argsstring></argsstring>
+        <name>sqrteused</name>
+        <qualifiedname>ionization_mod::sqrteused</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="19" column="1" bodyfile="source/ionization_mod.f90" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceionization__mod_1a5c7fd4d53f1782dad0e1be43bf2dee4a" prot="public" static="no" mutable="no">
+        <type>real, save</type>
+        <definition>real, save ionization_mod::edenffsum</definition>
+        <argsstring></argsstring>
+        <name>edenffsum</name>
+        <qualifiedname>ionization_mod::edenffsum</qualifiedname>
+        <initializer>=0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="20" column="1" bodyfile="source/ionization_mod.f90" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceionization__mod_1a5e39d34f1eccd6d8477965a5dcf2ab6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine ionization_mod::ionizationdriver</definition>
+        <argsstring>(grid, ix, iy, iz)</argsstring>
+        <name>ionizationdriver</name>
+        <qualifiedname>ionization_mod::ionizationdriver</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>ix</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>iy</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>iz</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="26" column="1" bodyfile="source/ionization_mod.f90" bodystart="27" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceionization__mod_1aedf17af0fc6fcc1813803247f6ab9704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine ionization_mod::boltgaunt</definition>
+        <argsstring>()</argsstring>
+        <name>boltgaunt</name>
+        <qualifiedname>ionization_mod::boltgaunt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="134" column="1" bodyfile="source/ionization_mod.f90" bodystart="135" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceionization__mod_1ad45c759d1bba2b60a29fe9f667d5ab7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine ionization_mod::getgauntff</definition>
+        <argsstring>(z, log10te, xlf, g, iflag)</argsstring>
+        <name>getgauntff</name>
+        <qualifiedname>ionization_mod::getgauntff</qualifiedname>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>z</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>log10te</defname>
+        </param>
+        <param>
+          <type>real, dimension(:), intent(in)</type>
+          <defname>xlf</defname>
+        </param>
+        <param>
+          <type>real, dimension(size(xlf)), intent(out)</type>
+          <defname>g</defname>
+        </param>
+        <param>
+          <type>integer, intent(out)</type>
+          <defname>iflag</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="193" column="1" bodyfile="source/ionization_mod.f90" bodystart="194" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceionization__mod_1a34bfdf415b7b2c4ea45e1a72e8a22ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine ionization_mod::edensum</definition>
+        <argsstring>()</argsstring>
+        <name>edensum</name>
+        <qualifiedname>ionization_mod::edensum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="334" column="1" bodyfile="source/ionization_mod.f90" bodystart="335" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceionization__mod_1a0b02d09b074c33ffefdaa7d29c45944c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine ionization_mod::addopacity</definition>
+        <argsstring>(opacity)</argsstring>
+        <name>addopacity</name>
+        <qualifiedname>ionization_mod::addopacity</qualifiedname>
+        <param>
+          <type>real, dimension(:), intent(out)</type>
+          <defname>opacity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ionization_mod.f90" line="349" column="1" bodyfile="source/ionization_mod.f90" bodystart="350" bodyend="483"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/ionization_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

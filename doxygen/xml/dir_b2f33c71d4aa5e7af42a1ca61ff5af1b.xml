@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b" kind="dir">
+    <compoundname>source</compoundname>
+    <innerfile refid="common__mod_8f90">common_mod.f90</innerfile>
+    <innerfile refid="composition__mod_8f90">composition_mod.f90</innerfile>
+    <innerfile refid="constants__mod_8f90">constants_mod.f90</innerfile>
+    <innerfile refid="continuum__mod_8f90">continuum_mod.f90</innerfile>
+    <innerfile refid="dust__mod_8f90">dust_mod.f90</innerfile>
+    <innerfile refid="emission__mod_8f90">emission_mod.f90</innerfile>
+    <innerfile refid="fluorescence__mod_8f90">fluorescence_mod.f90</innerfile>
+    <innerfile refid="gaunt_8f90">gaunt.f90</innerfile>
+    <innerfile refid="grid__mod_8f90">grid_mod.f90</innerfile>
+    <innerfile refid="hydro__mod_8f90">hydro_mod.f90</innerfile>
+    <innerfile refid="interpolation__mod_8f90">interpolation_mod.f90</innerfile>
+    <innerfile refid="ionization__mod_8f90">ionization_mod.f90</innerfile>
+    <innerfile refid="iteration__mod_8f90">iteration_mod.f90</innerfile>
+    <innerfile refid="mocassin_8f90">mocassin.f90</innerfile>
+    <innerfile refid="mocassinFluorescence_8f90">mocassinFluorescence.f90</innerfile>
+    <innerfile refid="mocassinOutput_8f90">mocassinOutput.f90</innerfile>
+    <innerfile refid="mocassinPlot_8f90">mocassinPlot.f90</innerfile>
+    <innerfile refid="mocassinWarm_8f90">mocassinWarm.f90</innerfile>
+    <innerfile refid="output__mod_8f90">output_mod.f90</innerfile>
+    <innerfile refid="pathIntegration__mod_8f90">pathIntegration_mod.f90</innerfile>
+    <innerfile refid="ph__mod_8f90">ph_mod.f90</innerfile>
+    <innerfile refid="photon__mod_8f90">photon_mod.f90</innerfile>
+    <innerfile refid="readdata__mod_8f90">readdata_mod.f90</innerfile>
+    <innerfile refid="set__input__mod_8f90">set_input_mod.f90</innerfile>
+    <innerfile refid="update__mod_8f90">update_mod.f90</innerfile>
+    <innerfile refid="vector__mod_8f90">vector_mod.f90</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/"/>
+  </compounddef>
+</doxygen>

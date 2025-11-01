@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacereaddata__mod" kind="namespace" language="Fortran">
+    <compoundname>readdata_mod</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacereaddata__mod_1af1904077e1014d0ee08e891308a47737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine readdata_mod::readdata</definition>
+        <argsstring>()</argsstring>
+        <name>readdata</name>
+        <qualifiedname>readdata_mod::readdata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/readdata_mod.f90" line="8" column="1" bodyfile="source/readdata_mod.f90" bodystart="9" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/readdata_mod.f90" line="1" column="1"/>
+  </compounddef>
+</doxygen>

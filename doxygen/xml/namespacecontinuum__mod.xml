@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacecontinuum__mod" kind="namespace" language="Fortran">
+    <compoundname>continuum_mod</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacecontinuum__mod_1a031108f00644eebc8298706701b48a56" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter continuum_mod::hcryd_k</definition>
+        <argsstring></argsstring>
+        <name>hcryd_k</name>
+        <qualifiedname>continuum_mod::hcryd_k</qualifiedname>
+        <initializer>= 157893.94</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="10" column="1" bodyfile="source/continuum_mod.f90" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1a82aaa4d92e59c3441216eba197f68ff6" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter continuum_mod::hcryd</definition>
+        <argsstring></argsstring>
+        <name>hcryd</name>
+        <qualifiedname>continuum_mod::hcryd</qualifiedname>
+        <initializer>= 2.1799153e-11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="11" column="1" bodyfile="source/continuum_mod.f90" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1a0ae1a1363909abd2dc97d780499dde5c" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter continuum_mod::cryd</definition>
+        <argsstring></argsstring>
+        <name>cryd</name>
+        <qualifiedname>continuum_mod::cryd</qualifiedname>
+        <initializer>= 3.2898423e15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="12" column="1" bodyfile="source/continuum_mod.f90" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1a74dac4c642e30515c0a325e65b2b2c6b" prot="public" static="no" mutable="no">
+        <type>real(kind=8), dimension(:), allocatable, save</type>
+        <definition>real(kind=8), dimension(:), allocatable, save continuum_mod::inspectrumerg</definition>
+        <argsstring></argsstring>
+        <name>inspectrumerg</name>
+        <qualifiedname>continuum_mod::inspectrumerg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="15" column="1" bodyfile="source/continuum_mod.f90" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1a93b1501615db58e54661e07d6da7c2c9" prot="public" static="no" mutable="no">
+        <type>real(kind=8), dimension(:), allocatable, save</type>
+        <definition>real(kind=8), dimension(:), allocatable, save continuum_mod::inspectrumphot</definition>
+        <argsstring></argsstring>
+        <name>inspectrumphot</name>
+        <qualifiedname>continuum_mod::inspectrumphot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="16" column="1" bodyfile="source/continuum_mod.f90" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1a18a380791e7739139e8eabcb52dc27b1" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable, save</type>
+        <definition>real, dimension(:,:), allocatable, save continuum_mod::inspectrumprobden</definition>
+        <argsstring></argsstring>
+        <name>inspectrumprobden</name>
+        <qualifiedname>continuum_mod::inspectrumprobden</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="17" column="1" bodyfile="source/continuum_mod.f90" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1ab1d680469af896e323e53fba5e7637d3" prot="public" static="no" mutable="no">
+        <type>real, save</type>
+        <definition>real, save continuum_mod::normconstanterg</definition>
+        <argsstring></argsstring>
+        <name>normconstanterg</name>
+        <qualifiedname>continuum_mod::normconstanterg</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="19" column="1" bodyfile="source/continuum_mod.f90" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1ae9ba0d83ff1dceb18c82b5b0555ce684" prot="public" static="no" mutable="no">
+        <type>real, save</type>
+        <definition>real, save continuum_mod::normconstantphot</definition>
+        <argsstring></argsstring>
+        <name>normconstantphot</name>
+        <qualifiedname>continuum_mod::normconstantphot</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="20" column="1" bodyfile="source/continuum_mod.f90" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1a3fc512f2f90714b1cd0c9063d28e0cec" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real continuum_mod::correctionphot</definition>
+        <argsstring></argsstring>
+        <name>correctionphot</name>
+        <qualifiedname>continuum_mod::correctionphot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="21" column="1" bodyfile="source/continuum_mod.f90" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1a1b5ff52eb660cd2d9f80b8a24fafcb3b" prot="public" static="no" mutable="no">
+        <type>real, save</type>
+        <definition>real, save continuum_mod::rstar</definition>
+        <argsstring></argsstring>
+        <name>rstar</name>
+        <qualifiedname>continuum_mod::rstar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="22" column="1" bodyfile="source/continuum_mod.f90" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1a99fc316a7a96f0efe735bbed004e5f55" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter continuum_mod::maxlim</definition>
+        <argsstring></argsstring>
+        <name>maxlim</name>
+        <qualifiedname>continuum_mod::maxlim</qualifiedname>
+        <initializer>= 200000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="24" column="1" bodyfile="source/continuum_mod.f90" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1ae65d2b57d353491a5a490e80309c4ea0" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer continuum_mod::nup</definition>
+        <argsstring></argsstring>
+        <name>nup</name>
+        <qualifiedname>continuum_mod::nup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="25" column="1" bodyfile="source/continuum_mod.f90" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecontinuum__mod_1aca4c44d6e6edb152e9d9543c9f9cc2f2" prot="public" static="no" mutable="no">
+        <type>logical, save</type>
+        <definition>logical, save continuum_mod::lgf</definition>
+        <argsstring></argsstring>
+        <name>lgf</name>
+        <qualifiedname>continuum_mod::lgf</qualifiedname>
+        <initializer>=.true.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="27" column="1" bodyfile="source/continuum_mod.f90" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacecontinuum__mod_1ab88528c0c099dbe048785e3c2701feff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine continuum_mod::setcontinuum</definition>
+        <argsstring>()</argsstring>
+        <name>setcontinuum</name>
+        <qualifiedname>continuum_mod::setcontinuum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="32" column="1" bodyfile="source/continuum_mod.f90" bodystart="33" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecontinuum__mod_1a36b54bfe4a0a3add5e7ea8b7aa989d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function continuum_mod::getflux</definition>
+        <argsstring>(energy, temperature, cshape)</argsstring>
+        <name>getflux</name>
+        <qualifiedname>continuum_mod::getflux</qualifiedname>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>energy</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>temperature</defname>
+        </param>
+        <param>
+          <type>character(len=50), intent(in)</type>
+          <defname>cshape</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="359" column="1" bodyfile="source/continuum_mod.f90" bodystart="360" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecontinuum__mod_1a97ca0dcf8291cf122002c2b725a77869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine continuum_mod::setprobden</definition>
+        <argsstring>(is)</argsstring>
+        <name>setprobden</name>
+        <qualifiedname>continuum_mod::setprobden</qualifiedname>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>is</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="418" column="1" bodyfile="source/continuum_mod.f90" bodystart="419" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecontinuum__mod_1a270143ca039ce8e4d451a7dc6b98bf4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine continuum_mod::setldiffuse</definition>
+        <argsstring>(grid)</argsstring>
+        <name>setldiffuse</name>
+        <qualifiedname>continuum_mod::setldiffuse</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(1:<ref refid="namespacecommon__mod_1a1ae2e9fb0b174ab7a8af2681d76a6ca6" kindref="member">ngrids</ref>), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="476" column="1" bodyfile="source/continuum_mod.f90" bodystart="477" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecontinuum__mod_1ab2e18f9c53c5e79b4da5b03c2556cc40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function continuum_mod::getvolumecon</definition>
+        <argsstring>(grid, xp, yp, zp)</argsstring>
+        <name>getvolumecon</name>
+        <qualifiedname>continuum_mod::getvolumecon</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), intent(in)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>xp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>yp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>zp</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/continuum_mod.f90" line="562" column="1" bodyfile="source/continuum_mod.f90" bodystart="563" bodyend="650"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/continuum_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

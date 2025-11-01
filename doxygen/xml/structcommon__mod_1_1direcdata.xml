@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structcommon__mod_1_1direcdata" kind="type" language="Fortran" prot="public">
+    <compoundname>common_mod::direcdata</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcommon__mod_1_1direcdata_1aeb4375bc39333d4c7f84278f455aa196" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::direcdata::elem</definition>
+        <argsstring></argsstring>
+        <name>elem</name>
+        <qualifiedname>common_mod::direcdata::elem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="519" column="1" bodyfile="source/common_mod.f90" bodystart="519" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1direcdata_1acaa87cb1e8c9c61064a465a7af2849e5" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::direcdata::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>common_mod::direcdata::n</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="520" column="1" bodyfile="source/common_mod.f90" bodystart="520" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1direcdata_1a25f5ccb8357d7ca19812772664a33cc6" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::direcdata::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>common_mod::direcdata::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="521" column="1" bodyfile="source/common_mod.f90" bodystart="521" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1direcdata_1a62c9c44670d13444d920f55cefb014da" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::direcdata::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>common_mod::direcdata::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="521" column="1" bodyfile="source/common_mod.f90" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1direcdata_1ac3ea64c8dfd18365f223b332b9b04c9d" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::direcdata::c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <qualifiedname>common_mod::direcdata::c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="521" column="1" bodyfile="source/common_mod.f90" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1direcdata_1a6db3a83efeb524bf2629cd564bcf1b53" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::direcdata::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>common_mod::direcdata::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="521" column="1" bodyfile="source/common_mod.f90" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1direcdata_1abba3b8a55049cf16c67af88c33c5f5d9" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::direcdata::f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <qualifiedname>common_mod::direcdata::f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="521" column="1" bodyfile="source/common_mod.f90" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1direcdata_1a620186b3fceb23856046126da8e89a6a" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::direcdata::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <qualifiedname>common_mod::direcdata::g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="522" column="1" bodyfile="source/common_mod.f90" bodystart="522" bodyend="522"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/common_mod.f90" line="518" column="1" bodyfile="source/common_mod.f90" bodystart="518" bodyend="523"/>
+    <listofallmembers>
+      <member refid="structcommon__mod_1_1direcdata_1a25f5ccb8357d7ca19812772664a33cc6" prot="public" virt="non-virtual"><scope>common_mod::direcdata</scope><name>a</name></member>
+      <member refid="structcommon__mod_1_1direcdata_1a62c9c44670d13444d920f55cefb014da" prot="public" virt="non-virtual"><scope>common_mod::direcdata</scope><name>b</name></member>
+      <member refid="structcommon__mod_1_1direcdata_1ac3ea64c8dfd18365f223b332b9b04c9d" prot="public" virt="non-virtual"><scope>common_mod::direcdata</scope><name>c</name></member>
+      <member refid="structcommon__mod_1_1direcdata_1a6db3a83efeb524bf2629cd564bcf1b53" prot="public" virt="non-virtual"><scope>common_mod::direcdata</scope><name>d</name></member>
+      <member refid="structcommon__mod_1_1direcdata_1aeb4375bc39333d4c7f84278f455aa196" prot="public" virt="non-virtual"><scope>common_mod::direcdata</scope><name>elem</name></member>
+      <member refid="structcommon__mod_1_1direcdata_1abba3b8a55049cf16c67af88c33c5f5d9" prot="public" virt="non-virtual"><scope>common_mod::direcdata</scope><name>f</name></member>
+      <member refid="structcommon__mod_1_1direcdata_1a620186b3fceb23856046126da8e89a6a" prot="public" virt="non-virtual"><scope>common_mod::direcdata</scope><name>g</name></member>
+      <member refid="structcommon__mod_1_1direcdata_1acaa87cb1e8c9c61064a465a7af2849e5" prot="public" virt="non-virtual"><scope>common_mod::direcdata</scope><name>n</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

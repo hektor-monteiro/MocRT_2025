@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacephoton__mod" kind="namespace" language="Fortran">
+    <compoundname>photon_mod</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacephoton__mod_1a3a9e39e0d827502a0a150aa3fca08ee1" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real photon_mod::qphot</definition>
+        <argsstring></argsstring>
+        <name>qphot</name>
+        <qualifiedname>photon_mod::qphot</qualifiedname>
+        <initializer>= 0.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/photon_mod.f90" line="16" column="1" bodyfile="source/photon_mod.f90" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacephoton__mod_1a20707f3db4b18dcc66f998815da82b0e" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), parameter</type>
+        <definition>type(vector), parameter photon_mod::origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <qualifiedname>photon_mod::origin</qualifiedname>
+        <initializer>=<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>(0., 0., 0.)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/photon_mod.f90" line="19" column="1" bodyfile="source/photon_mod.f90" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacephoton__mod_1ab0d14ec306a95c1c5bec9b8979772f31" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter photon_mod::safelim</definition>
+        <argsstring></argsstring>
+        <name>safelim</name>
+        <qualifiedname>photon_mod::safelim</qualifiedname>
+        <initializer>= 10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/photon_mod.f90" line="21" column="1" bodyfile="source/photon_mod.f90" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacephoton__mod_1a2e2c701ae6753fb48132d582235bd50d" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer photon_mod::totalescaped</definition>
+        <argsstring></argsstring>
+        <name>totalescaped</name>
+        <qualifiedname>photon_mod::totalescaped</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/photon_mod.f90" line="22" column="1" bodyfile="source/photon_mod.f90" bodystart="22" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacephoton__mod_1ac8bb3919ae2e26c69a829e21019f8f61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine photon_mod::energypacketdriver</definition>
+        <argsstring>(istar, n, grid, gploc, cellloc)</argsstring>
+        <name>energypacketdriver</name>
+        <qualifiedname>photon_mod::energypacketdriver</qualifiedname>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>istar</defname>
+        </param>
+        <param>
+          <type>integer(kind=8), intent(in)</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(:), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>integer, intent(in), optional</type>
+          <defname>gploc</defname>
+        </param>
+        <param>
+          <type>integer, dimension(3), intent(inout), optional</type>
+          <defname>cellloc</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/photon_mod.f90" line="26" column="1" bodyfile="source/photon_mod.f90" bodystart="27" bodyend="3157"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/photon_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

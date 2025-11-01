@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interfacevector__mod_1_1operator_07_2_08" kind="interface" language="Fortran" prot="public">
+    <compoundname>vector_mod::operator(/)</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacevector__mod_1_1operator_07_2_08_1a1bca59ad2db4d8f6b7de451078f19545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::operator(/)::dividevec</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>dividevec</name>
+        <qualifiedname>vector_mod::operator(/)::dividevec</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="152" column="1" bodyfile="source/vector_mod.f90" bodystart="153" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/vector_mod.f90" line="29" column="1" bodyfile="source/vector_mod.f90" bodystart="29" bodyend="30"/>
+    <listofallmembers>
+      <member refid="interfacevector__mod_1_1operator_07_2_08_1a1bca59ad2db4d8f6b7de451078f19545" prot="public" virt="non-virtual"><scope>vector_mod::operator(/)</scope><name>dividevec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

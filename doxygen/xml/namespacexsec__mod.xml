@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacexsec__mod" kind="namespace" language="Fortran">
+    <compoundname>xsec_mod</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacexsec__mod_1a44a69ea97fd4fb494d8d87a4df219d8b" prot="private" static="no" mutable="no">
+        <type>real, dimension(:), allocatable, private</type>
+        <definition>real, dimension(:), allocatable, private xsec_mod::xsecarraytemp</definition>
+        <argsstring></argsstring>
+        <name>xsecarraytemp</name>
+        <qualifiedname>xsec_mod::xsecarraytemp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="13" column="1" bodyfile="source/ph_mod.f90" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacexsec__mod_1a37ac6f050bfb42b5c5a508f9ef9a32be" prot="public" static="no" mutable="no">
+        <type>integer, save</type>
+        <definition>integer, save xsec_mod::bremsxsecp</definition>
+        <argsstring></argsstring>
+        <name>bremsxsecp</name>
+        <qualifiedname>xsec_mod::bremsxsecp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="19" column="1" bodyfile="source/ph_mod.f90" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacexsec__mod_1aac371c7e09ff4049d81967710e44c091" prot="public" static="no" mutable="no">
+        <type>integer, dimension(<ref refid="namespaceconstants__mod_1a71c3d8a0ccb101e721f84e06a41bdc4a" kindref="member">nhlevel</ref>), save</type>
+        <definition>integer, dimension(nhlevel), save xsec_mod::hlevxsecp</definition>
+        <argsstring></argsstring>
+        <name>hlevxsecp</name>
+        <qualifiedname>xsec_mod::hlevxsecp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="20" column="1" bodyfile="source/ph_mod.f90" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacexsec__mod_1a6bd9c77163a5b1e3d8619d5886f1a0cf" prot="public" static="no" mutable="no">
+        <type>integer, dimension(9), save</type>
+        <definition>integer, dimension(9), save xsec_mod::heisingxsecp</definition>
+        <argsstring></argsstring>
+        <name>heisingxsecp</name>
+        <qualifiedname>xsec_mod::heisingxsecp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="21" column="1" bodyfile="source/ph_mod.f90" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacexsec__mod_1a07d7d53ac4394cdbd72fc2e0227e67f3" prot="public" static="no" mutable="no">
+        <type>integer, dimension(9), save</type>
+        <definition>integer, dimension(9), save xsec_mod::heiixsecp</definition>
+        <argsstring></argsstring>
+        <name>heiixsecp</name>
+        <qualifiedname>xsec_mod::heiixsecp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="22" column="1" bodyfile="source/ph_mod.f90" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacexsec__mod_1ab607e5a6c75b34e5ba78b895f2cf26d2" prot="public" static="no" mutable="no">
+        <type>integer, dimension(7), save</type>
+        <definition>integer, dimension(7), save xsec_mod::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <qualifiedname>xsec_mod::level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="23" column="1" bodyfile="source/ph_mod.f90" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacexsec__mod_1a5dbc86af681a1bb929454642d61f5ab8" prot="public" static="no" mutable="no">
+        <type>integer, dimension(30), save</type>
+        <definition>integer, dimension(30), save xsec_mod::ninn</definition>
+        <argsstring></argsstring>
+        <name>ninn</name>
+        <qualifiedname>xsec_mod::ninn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="24" column="1" bodyfile="source/ph_mod.f90" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacexsec__mod_1a2130e5377ebbabd95a5926467f1887fb" prot="public" static="no" mutable="no">
+        <type>integer, dimension(30), save</type>
+        <definition>integer, dimension(30), save xsec_mod::ntot</definition>
+        <argsstring></argsstring>
+        <name>ntot</name>
+        <qualifiedname>xsec_mod::ntot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="25" column="1" bodyfile="source/ph_mod.f90" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacexsec__mod_1a9172bae27cda39c4511e800ee13dc1a6" prot="public" static="no" mutable="no">
+        <type>integer, save</type>
+        <definition>integer, save xsec_mod::xsectop</definition>
+        <argsstring></argsstring>
+        <name>xsectop</name>
+        <qualifiedname>xsec_mod::xsectop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="26" column="1" bodyfile="source/ph_mod.f90" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacexsec__mod_1aa82f42a05ec189c246e0325a3069c83c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::initgammacont</definition>
+        <argsstring>()</argsstring>
+        <name>initgammacont</name>
+        <qualifiedname>xsec_mod::initgammacont</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="31" column="1" bodyfile="source/ph_mod.f90" bodystart="32" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a0d973f9909e16ead2c5adcf717951a96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::initxsecarray</definition>
+        <argsstring>()</argsstring>
+        <name>initxsecarray</name>
+        <qualifiedname>xsec_mod::initxsecarray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="204" column="1" bodyfile="source/ph_mod.f90" bodystart="205" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a4f96e8eab7a63f03fdee431f6fe189f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::phinit</definition>
+        <argsstring>()</argsstring>
+        <name>phinit</name>
+        <qualifiedname>xsec_mod::phinit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="408" column="1" bodyfile="source/ph_mod.f90" bodystart="409" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a4a230b8f6652eaea5820b8db6d0a9f2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::phfitel</definition>
+        <argsstring>(nz, ne, shell, photen, xsec)</argsstring>
+        <name>phfitel</name>
+        <qualifiedname>xsec_mod::phfitel</qualifiedname>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>nz</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>ne</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>shell</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>photen</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>xsec</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="477" column="1" bodyfile="source/ph_mod.f90" bodystart="478" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a390ece5a0137d153cddf3d3f1c8b0a32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function xsec_mod::phfithion</definition>
+        <argsstring>(x, n, z)</argsstring>
+        <name>phfithion</name>
+        <qualifiedname>xsec_mod::phfithion</qualifiedname>
+        <param>
+          <type>real</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>integer</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>z</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="560" column="1" bodyfile="source/ph_mod.f90" bodystart="561" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a7e65718645848540b2585e6be3053c06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::hfit</definition>
+        <argsstring>(h0, pow, n)</argsstring>
+        <name>hfit</name>
+        <qualifiedname>xsec_mod::hfit</qualifiedname>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>h0</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>pow</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>n</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="611" column="1" bodyfile="source/ph_mod.f90" bodystart="612" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a57d8f3d3088b89c80a9dc778b46c430e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::h2plusxsec</definition>
+        <argsstring>(low, high, opp)</argsstring>
+        <name>h2plusxsec</name>
+        <qualifiedname>xsec_mod::h2plusxsec</qualifiedname>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>low</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>high</defname>
+        </param>
+        <param>
+          <type>integer, intent(out)</type>
+          <defname>opp</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="632" column="1" bodyfile="source/ph_mod.f90" bodystart="633" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a2dc4f0f3e6e149794e66a564e4e422cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::powlawxsec</definition>
+        <argsstring>(low, high, cross, s, xsecp)</argsstring>
+        <name>powlawxsec</name>
+        <qualifiedname>xsec_mod::powlawxsec</qualifiedname>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>low</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>high</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>cross</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type>integer, intent(out)</type>
+          <defname>xsecp</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="712" column="1" bodyfile="source/ph_mod.f90" bodystart="713" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a015fcea1284e0b1af962e74ca9b6a93c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::makeopacity</definition>
+        <argsstring>(nelem)</argsstring>
+        <name>makeopacity</name>
+        <qualifiedname>xsec_mod::makeopacity</qualifiedname>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>nelem</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="744" column="1" bodyfile="source/ph_mod.f90" bodystart="745" bodyend="802"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a2972513bc8880c3f27575cb78e47ccaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::makedustxsec</definition>
+        <argsstring>()</argsstring>
+        <name>makedustxsec</name>
+        <qualifiedname>xsec_mod::makedustxsec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="808" column="1" bodyfile="source/ph_mod.f90" bodystart="809" bodyend="1471"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a3a2197e8abb056b444a75345609fb446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::getqs</definition>
+        <argsstring>(ere_in, eim_in, qabs, qsca, ggcos, amin, amax)</argsstring>
+        <name>getqs</name>
+        <qualifiedname>xsec_mod::getqs</qualifiedname>
+        <param>
+          <type>real, dimension(*), intent(in)</type>
+          <defname>ere_in</defname>
+        </param>
+        <param>
+          <type>real, dimension(*), intent(in)</type>
+          <defname>eim_in</defname>
+        </param>
+        <param>
+          <type>real, dimension(<ref refid="namespacecommon__mod_1a27ed9f63e6f5859e6ddb82c9d46d2e69" kindref="member">nsizes</ref>,<ref refid="namespacecommon__mod_1a5765bbc5418e56e61d4e9cf9137861ef" kindref="member">nbins</ref>), intent(out)</type>
+          <defname>qabs</defname>
+        </param>
+        <param>
+          <type>real, dimension(<ref refid="namespacecommon__mod_1a27ed9f63e6f5859e6ddb82c9d46d2e69" kindref="member">nsizes</ref>, <ref refid="namespacecommon__mod_1a5765bbc5418e56e61d4e9cf9137861ef" kindref="member">nbins</ref>), intent(out)</type>
+          <defname>qsca</defname>
+        </param>
+        <param>
+          <type>real, dimension(<ref refid="namespacecommon__mod_1a27ed9f63e6f5859e6ddb82c9d46d2e69" kindref="member">nsizes</ref>,<ref refid="namespacecommon__mod_1a5765bbc5418e56e61d4e9cf9137861ef" kindref="member">nbins</ref>), intent(out)</type>
+          <defname>ggcos</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>amin</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>amax</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="1476" column="1" bodyfile="source/ph_mod.f90" bodystart="1477" bodyend="1529"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a0e4bfe9e6a352f1be36bdcdd12599bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::bhmie</definition>
+        <argsstring>(x, refrel, qext, qsca, ggsca)</argsstring>
+        <name>bhmie</name>
+        <qualifiedname>xsec_mod::bhmie</qualifiedname>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>complex, intent(in)</type>
+          <defname>refrel</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>qext</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>qsca</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>ggsca</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="1544" column="1" bodyfile="source/ph_mod.f90" bodystart="1545" bodyend="1700"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a2855516f2fb8c79e12400eae1e32871c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::cde_efficiency</definition>
+        <argsstring>(a, refindex, wavelength, qext, qsca, ggsca)</argsstring>
+        <name>cde_efficiency</name>
+        <qualifiedname>xsec_mod::cde_efficiency</qualifiedname>
+        <param>
+          <type>real(kind=dp), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>complex, intent(in)</type>
+          <defname>refindex</defname>
+        </param>
+        <param>
+          <type>real(kind=dp), intent(in)</type>
+          <defname>wavelength</defname>
+        </param>
+        <param>
+          <type>real(kind=dp), intent(out)</type>
+          <defname>qext</defname>
+        </param>
+        <param>
+          <type>real(kind=dp), intent(out)</type>
+          <defname>qsca</defname>
+        </param>
+        <param>
+          <type>real(kind=dp), intent(out)</type>
+          <defname>ggsca</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="1719" column="1" bodyfile="source/ph_mod.f90" bodystart="1720" bodyend="1789"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1a5df79c600d8e6426001364ad64d14b98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine xsec_mod::setcompton</definition>
+        <argsstring>()</argsstring>
+        <name>setcompton</name>
+        <qualifiedname>xsec_mod::setcompton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="1795" column="1" bodyfile="source/ph_mod.f90" bodystart="1796" bodyend="1833"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1ab280c9a863297b11ca6d248635822970" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function xsec_mod::pcomp</definition>
+        <argsstring>(e, theta)</argsstring>
+        <name>pcomp</name>
+        <qualifiedname>xsec_mod::pcomp</qualifiedname>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>e</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>theta</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="1838" column="1" bodyfile="source/ph_mod.f90" bodystart="1839" bodyend="1851"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacexsec__mod_1aff4f8c372f827061f7a6fd5916213db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function xsec_mod::knsigma</definition>
+        <argsstring>(p, theta)</argsstring>
+        <name>knsigma</name>
+        <qualifiedname>xsec_mod::knsigma</qualifiedname>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>theta</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ph_mod.f90" line="1861" column="1" bodyfile="source/ph_mod.f90" bodystart="1862" bodyend="1873"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/ph_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

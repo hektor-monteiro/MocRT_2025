@@ -1,0 +1,705 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structcommon__mod_1_1grid__type" kind="type" language="Fortran" prot="public">
+    <compoundname>common_mod::grid_type</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a4c0f7443d277c880f39d999a335e864a" prot="public" static="no" mutable="no">
+        <type>character(len=50)</type>
+        <definition>character(len=50) common_mod::grid_type::composition</definition>
+        <argsstring></argsstring>
+        <name>composition</name>
+        <qualifiedname>common_mod::grid_type::composition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="244" column="1" bodyfile="source/common_mod.f90" bodystart="244" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a52429143fef41a2f2fbfbaa1c2671892" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::grid_type::nx</definition>
+        <argsstring></argsstring>
+        <name>nx</name>
+        <qualifiedname>common_mod::grid_type::nx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="246" column="1" bodyfile="source/common_mod.f90" bodystart="246" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1ae209a00360deab65101f500ce89fd2f3" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::grid_type::ny</definition>
+        <argsstring></argsstring>
+        <name>ny</name>
+        <qualifiedname>common_mod::grid_type::ny</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="247" column="1" bodyfile="source/common_mod.f90" bodystart="247" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1aaf9ca354b2166aa83b93ac15b95f04f0" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::grid_type::nz</definition>
+        <argsstring></argsstring>
+        <name>nz</name>
+        <qualifiedname>common_mod::grid_type::nz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="248" column="1" bodyfile="source/common_mod.f90" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a31da36bb9355daf3141b874b012631a7" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::grid_type::ncells</definition>
+        <argsstring></argsstring>
+        <name>ncells</name>
+        <qualifiedname>common_mod::grid_type::ncells</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="249" column="1" bodyfile="source/common_mod.f90" bodystart="249" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a7fa711f27f2d67d9cffaa7cda284cf78" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::grid_type::motherp</definition>
+        <argsstring></argsstring>
+        <name>motherp</name>
+        <qualifiedname>common_mod::grid_type::motherp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="250" column="1" bodyfile="source/common_mod.f90" bodystart="250" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1aa2157f336bab6ed88e717ae449e1003e" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::grid_type::dustabunindex</definition>
+        <argsstring></argsstring>
+        <name>dustabunindex</name>
+        <qualifiedname>common_mod::grid_type::dustabunindex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="252" column="1" bodyfile="source/common_mod.f90" bodystart="252" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a34a799b8f973b87ad7052ea76f51dadd" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::grid_type::reslinepackets</definition>
+        <argsstring></argsstring>
+        <name>reslinepackets</name>
+        <qualifiedname>common_mod::grid_type::reslinepackets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="253" column="1" bodyfile="source/common_mod.f90" bodystart="253" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a2ea772250b9137b4aadc0fcedcedbcf6" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:,:,:), allocatable</type>
+        <definition>integer, dimension(:,:,:), allocatable common_mod::grid_type::abfileindex</definition>
+        <argsstring></argsstring>
+        <name>abfileindex</name>
+        <qualifiedname>common_mod::grid_type::abfileindex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="254" column="1" bodyfile="source/common_mod.f90" bodystart="254" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a9717d3d639202743a0f960eb375cddf0" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::grid_type::lgconverged</definition>
+        <argsstring></argsstring>
+        <name>lgconverged</name>
+        <qualifiedname>common_mod::grid_type::lgconverged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="255" column="1" bodyfile="source/common_mod.f90" bodystart="255" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a4c02cb24cbd58eab0339b3f793854635" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::grid_type::lgblack</definition>
+        <argsstring></argsstring>
+        <name>lgblack</name>
+        <qualifiedname>common_mod::grid_type::lgblack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="256" column="1" bodyfile="source/common_mod.f90" bodystart="256" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1ae51320503f1a0ce709f33db1dce48dc6" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:,:,:), allocatable</type>
+        <definition>integer, dimension(:,:,:), allocatable common_mod::grid_type::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <qualifiedname>common_mod::grid_type::active</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="258" column="1" bodyfile="source/common_mod.f90" bodystart="258" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a669d815a5c02cbb6c9682bd2c0a1d8bd" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::grid_type::geocorrx</definition>
+        <argsstring></argsstring>
+        <name>geocorrx</name>
+        <qualifiedname>common_mod::grid_type::geocorrx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="261" column="1" bodyfile="source/common_mod.f90" bodystart="261" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a17a1f274b2a50cdcb00bc04ea3337c58" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::grid_type::geocorry</definition>
+        <argsstring></argsstring>
+        <name>geocorry</name>
+        <qualifiedname>common_mod::grid_type::geocorry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="261" column="1" bodyfile="source/common_mod.f90" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1af21315e27409692107fb36c94f64f537" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::grid_type::geocorrz</definition>
+        <argsstring></argsstring>
+        <name>geocorrz</name>
+        <qualifiedname>common_mod::grid_type::geocorrz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="261" column="1" bodyfile="source/common_mod.f90" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1ae67c1123c6f3cba33b71e091df227eda" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::grid_type::nohit</definition>
+        <argsstring></argsstring>
+        <name>nohit</name>
+        <qualifiedname>common_mod::grid_type::nohit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="262" column="1" bodyfile="source/common_mod.f90" bodystart="262" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1ad476f515df34fb0261117f069f6281f5" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::grid_type::noionbal</definition>
+        <argsstring></argsstring>
+        <name>noionbal</name>
+        <qualifiedname>common_mod::grid_type::noionbal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="263" column="1" bodyfile="source/common_mod.f90" bodystart="263" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a31a1f02356cec93fe8e70a91c3e5855d" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::grid_type::notebal</definition>
+        <argsstring></argsstring>
+        <name>notebal</name>
+        <qualifiedname>common_mod::grid_type::notebal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="264" column="1" bodyfile="source/common_mod.f90" bodystart="264" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a94a4652e341b6b7849d77b2237f020fc" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::absopac</definition>
+        <argsstring></argsstring>
+        <name>absopac</name>
+        <qualifiedname>common_mod::grid_type::absopac</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="267" column="1" bodyfile="source/common_mod.f90" bodystart="267" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a85c405edba077392260ba89f37509222" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::scaopac</definition>
+        <argsstring></argsstring>
+        <name>scaopac</name>
+        <qualifiedname>common_mod::grid_type::scaopac</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="268" column="1" bodyfile="source/common_mod.f90" bodystart="268" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1adeffaab509a217feb32700c23f58ad58" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::dustpdf</definition>
+        <argsstring></argsstring>
+        <name>dustpdf</name>
+        <qualifiedname>common_mod::grid_type::dustpdf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="269" column="1" bodyfile="source/common_mod.f90" bodystart="269" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a428af972a868952ff169860a3f06e28d" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::fescaperesphotons</definition>
+        <argsstring></argsstring>
+        <name>fescaperesphotons</name>
+        <qualifiedname>common_mod::grid_type::fescaperesphotons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="270" column="1" bodyfile="source/common_mod.f90" bodystart="270" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a358ea3aee93e79afda43b9a9ceac91ea" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:,:), allocatable</type>
+        <definition>real, dimension(:,:,:), allocatable common_mod::grid_type::fluorescencecube</definition>
+        <argsstring></argsstring>
+        <name>fluorescencecube</name>
+        <qualifiedname>common_mod::grid_type::fluorescencecube</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="271" column="1" bodyfile="source/common_mod.f90" bodystart="271" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a05f267bf25183a9fa3f79940c6316673" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::hden</definition>
+        <argsstring></argsstring>
+        <name>hden</name>
+        <qualifiedname>common_mod::grid_type::hden</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="272" column="1" bodyfile="source/common_mod.f90" bodystart="272" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1ae17d6e7a1dc506a872eb5cdf96f87d7a" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::ne</definition>
+        <argsstring></argsstring>
+        <name>ne</name>
+        <qualifiedname>common_mod::grid_type::ne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="273" column="1" bodyfile="source/common_mod.f90" bodystart="273" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1ab3dac107317a508b87038594f46e8f49" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::te</definition>
+        <argsstring></argsstring>
+        <name>te</name>
+        <qualifiedname>common_mod::grid_type::te</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="274" column="1" bodyfile="source/common_mod.f90" bodystart="274" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a44be0a57f48c4ac454381ad1cbb3695c" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:,:), allocatable</type>
+        <definition>real, dimension(:,:,:), allocatable common_mod::grid_type::tdust</definition>
+        <argsstring></argsstring>
+        <name>tdust</name>
+        <qualifiedname>common_mod::grid_type::tdust</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="275" column="1" bodyfile="source/common_mod.f90" bodystart="275" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a7540c1ab8577b067164455ba4e6c2d6e" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:,:), allocatable</type>
+        <definition>real, dimension(:,:,:), allocatable common_mod::grid_type::ionden</definition>
+        <argsstring></argsstring>
+        <name>ionden</name>
+        <qualifiedname>common_mod::grid_type::ionden</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="276" column="1" bodyfile="source/common_mod.f90" bodystart="276" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a43f36ef66a08381924daf835aa999fc0" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::jste</definition>
+        <argsstring></argsstring>
+        <name>jste</name>
+        <qualifiedname>common_mod::grid_type::jste</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="277" column="1" bodyfile="source/common_mod.f90" bodystart="277" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a0c04eb47b45a00a791d52412ad2da0dd" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::jdif</definition>
+        <argsstring></argsstring>
+        <name>jdif</name>
+        <qualifiedname>common_mod::grid_type::jdif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="278" column="1" bodyfile="source/common_mod.f90" bodystart="278" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a4c579628fdaced1877c4e2739a5382f0" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::jpeots</definition>
+        <argsstring></argsstring>
+        <name>jpeots</name>
+        <qualifiedname>common_mod::grid_type::jpeots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="279" column="1" bodyfile="source/common_mod.f90" bodystart="279" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a64fb1b7d8f345a79aa8709fbc1d7e2e6" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:,:), allocatable</type>
+        <definition>real, dimension(:,:,:), allocatable common_mod::grid_type::escapedpackets</definition>
+        <argsstring></argsstring>
+        <name>escapedpackets</name>
+        <qualifiedname>common_mod::grid_type::escapedpackets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="280" column="1" bodyfile="source/common_mod.f90" bodystart="280" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a26e08d0d5932556a1880b0ddfe9067dd" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::linepackets</definition>
+        <argsstring></argsstring>
+        <name>linepackets</name>
+        <qualifiedname>common_mod::grid_type::linepackets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="281" column="1" bodyfile="source/common_mod.f90" bodystart="281" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a09c7b481d0a55471e49fea85f4deec6f" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::lfluorescence</definition>
+        <argsstring></argsstring>
+        <name>lfluorescence</name>
+        <qualifiedname>common_mod::grid_type::lfluorescence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="282" column="1" bodyfile="source/common_mod.f90" bodystart="282" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1afffa9b80f48e886aa6bef6398d700452" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::ldiffuseloc</definition>
+        <argsstring></argsstring>
+        <name>ldiffuseloc</name>
+        <qualifiedname>common_mod::grid_type::ldiffuseloc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="283" column="1" bodyfile="source/common_mod.f90" bodystart="283" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1aaaf17585b539c5b1b43d56ffddd49353" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::ndust</definition>
+        <argsstring></argsstring>
+        <name>ndust</name>
+        <qualifiedname>common_mod::grid_type::ndust</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="284" column="1" bodyfile="source/common_mod.f90" bodystart="284" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a8f8115f7fe69ada9e741e3d021ec903f" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::xaxis</definition>
+        <argsstring></argsstring>
+        <name>xaxis</name>
+        <qualifiedname>common_mod::grid_type::xaxis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="286" column="1" bodyfile="source/common_mod.f90" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1aabb00cbfb573616fa8a748b5bb68f88d" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::yaxis</definition>
+        <argsstring></argsstring>
+        <name>yaxis</name>
+        <qualifiedname>common_mod::grid_type::yaxis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="287" column="1" bodyfile="source/common_mod.f90" bodystart="287" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a1a2ba40956468743d9f3319c93bf039d" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::zaxis</definition>
+        <argsstring></argsstring>
+        <name>zaxis</name>
+        <qualifiedname>common_mod::grid_type::zaxis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="288" column="1" bodyfile="source/common_mod.f90" bodystart="288" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a289543ac4aae3ca512ed047c3698d97b" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::neinput</definition>
+        <argsstring></argsstring>
+        <name>neinput</name>
+        <qualifiedname>common_mod::grid_type::neinput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="290" column="1" bodyfile="source/common_mod.f90" bodystart="290" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a8d7e8223a5447ddd816b0934fb833913" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::opacity</definition>
+        <argsstring></argsstring>
+        <name>opacity</name>
+        <qualifiedname>common_mod::grid_type::opacity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="293" column="1" bodyfile="source/common_mod.f90" bodystart="293" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a1cda56d85a5ae708a206327fc6449935" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::recpdf</definition>
+        <argsstring></argsstring>
+        <name>recpdf</name>
+        <qualifiedname>common_mod::grid_type::recpdf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="294" column="1" bodyfile="source/common_mod.f90" bodystart="294" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a806028b2e9be26f45302fd80b4941315" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::linepdf</definition>
+        <argsstring></argsstring>
+        <name>linepdf</name>
+        <qualifiedname>common_mod::grid_type::linepdf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="295" column="1" bodyfile="source/common_mod.f90" bodystart="295" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a5da157c90a963975bfb5739c6b0ec038" prot="public" static="no" mutable="no">
+        <type>real, dimension(:), allocatable</type>
+        <definition>real, dimension(:), allocatable common_mod::grid_type::totallines</definition>
+        <argsstring></argsstring>
+        <name>totallines</name>
+        <qualifiedname>common_mod::grid_type::totallines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="296" column="1" bodyfile="source/common_mod.f90" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1aa0cde3c82f67e50dff6d1ad2fa47c570" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:), allocatable</type>
+        <definition>real, dimension(:,:), allocatable common_mod::grid_type::elemabun</definition>
+        <argsstring></argsstring>
+        <name>elemabun</name>
+        <qualifiedname>common_mod::grid_type::elemabun</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="298" column="1" bodyfile="source/common_mod.f90" bodystart="298" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1grid__type_1a313aaa67bd0fb8ce41f333fb36969a71" prot="public" static="no" mutable="no">
+        <type>real, dimension(:,:,:), allocatable</type>
+        <definition>real, dimension(:,:,:), allocatable common_mod::grid_type::echovol</definition>
+        <argsstring></argsstring>
+        <name>echovol</name>
+        <qualifiedname>common_mod::grid_type::echovol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="301" column="1" bodyfile="source/common_mod.f90" bodystart="301" bodyend="301"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/common_mod.f90" line="242" column="1" bodyfile="source/common_mod.f90" bodystart="242" bodyend="303"/>
+    <listofallmembers>
+      <member refid="structcommon__mod_1_1grid__type_1a2ea772250b9137b4aadc0fcedcedbcf6" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>abfileindex</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a94a4652e341b6b7849d77b2237f020fc" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>absopac</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1ae51320503f1a0ce709f33db1dce48dc6" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>active</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a4c0f7443d277c880f39d999a335e864a" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>composition</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1aa2157f336bab6ed88e717ae449e1003e" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>dustabunindex</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1adeffaab509a217feb32700c23f58ad58" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>dustpdf</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a313aaa67bd0fb8ce41f333fb36969a71" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>echovol</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1aa0cde3c82f67e50dff6d1ad2fa47c570" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>elemabun</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a64fb1b7d8f345a79aa8709fbc1d7e2e6" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>escapedpackets</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a428af972a868952ff169860a3f06e28d" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>fescaperesphotons</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a358ea3aee93e79afda43b9a9ceac91ea" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>fluorescencecube</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a669d815a5c02cbb6c9682bd2c0a1d8bd" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>geocorrx</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a17a1f274b2a50cdcb00bc04ea3337c58" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>geocorry</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1af21315e27409692107fb36c94f64f537" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>geocorrz</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a05f267bf25183a9fa3f79940c6316673" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>hden</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a7540c1ab8577b067164455ba4e6c2d6e" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>ionden</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a0c04eb47b45a00a791d52412ad2da0dd" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>jdif</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a4c579628fdaced1877c4e2739a5382f0" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>jpeots</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a43f36ef66a08381924daf835aa999fc0" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>jste</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1afffa9b80f48e886aa6bef6398d700452" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>ldiffuseloc</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a09c7b481d0a55471e49fea85f4deec6f" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>lfluorescence</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a4c02cb24cbd58eab0339b3f793854635" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>lgblack</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a9717d3d639202743a0f960eb375cddf0" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>lgconverged</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a26e08d0d5932556a1880b0ddfe9067dd" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>linepackets</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a806028b2e9be26f45302fd80b4941315" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>linepdf</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a7fa711f27f2d67d9cffaa7cda284cf78" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>motherp</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a31da36bb9355daf3141b874b012631a7" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>ncells</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1aaaf17585b539c5b1b43d56ffddd49353" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>ndust</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1ae17d6e7a1dc506a872eb5cdf96f87d7a" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>ne</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a289543ac4aae3ca512ed047c3698d97b" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>neinput</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1ae67c1123c6f3cba33b71e091df227eda" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>nohit</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1ad476f515df34fb0261117f069f6281f5" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>noionbal</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a31a1f02356cec93fe8e70a91c3e5855d" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>notebal</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a52429143fef41a2f2fbfbaa1c2671892" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>nx</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1ae209a00360deab65101f500ce89fd2f3" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>ny</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1aaf9ca354b2166aa83b93ac15b95f04f0" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>nz</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a8d7e8223a5447ddd816b0934fb833913" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>opacity</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a1cda56d85a5ae708a206327fc6449935" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>recpdf</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a34a799b8f973b87ad7052ea76f51dadd" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>reslinepackets</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a85c405edba077392260ba89f37509222" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>scaopac</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a44be0a57f48c4ac454381ad1cbb3695c" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>tdust</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1ab3dac107317a508b87038594f46e8f49" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>te</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a5da157c90a963975bfb5739c6b0ec038" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>totallines</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a8f8115f7fe69ada9e741e3d021ec903f" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>xaxis</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1aabb00cbfb573616fa8a748b5bb68f88d" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>yaxis</name></member>
+      <member refid="structcommon__mod_1_1grid__type_1a1a2ba40956468743d9f3319c93bf039d" prot="public" virt="non-virtual"><scope>common_mod::grid_type</scope><name>zaxis</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

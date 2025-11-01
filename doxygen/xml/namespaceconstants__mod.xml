@@ -1,0 +1,613 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceconstants__mod" kind="namespace" language="Fortran">
+    <compoundname>constants_mod</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceconstants__mod_1ad9f154a686b862a89aa92e72454390fe" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::a0</definition>
+        <argsstring></argsstring>
+        <name>a0</name>
+        <qualifiedname>constants_mod::a0</qualifiedname>
+        <initializer>= 6.30e-18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="10" column="1" bodyfile="source/constants_mod.f90" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a4d48bf1f6835090971005113992ea7c0" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::amu</definition>
+        <argsstring></argsstring>
+        <name>amu</name>
+        <qualifiedname>constants_mod::amu</qualifiedname>
+        <initializer>= 1.66053e-24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="11" column="1" bodyfile="source/constants_mod.f90" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a1ce4cd54c38ff3d438255398aeb049f0" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <qualifiedname>constants_mod::c</qualifiedname>
+        <initializer>= 2.9979250e10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="12" column="1" bodyfile="source/constants_mod.f90" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1aa647b505520df79919b3512d59987e18" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::fr1ryd</definition>
+        <argsstring></argsstring>
+        <name>fr1ryd</name>
+        <qualifiedname>constants_mod::fr1ryd</qualifiedname>
+        <initializer>= 3.28984e15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="13" column="1" bodyfile="source/constants_mod.f90" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1af4afc0f397ec6185b0e81dad8cc54840" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::hplanck</definition>
+        <argsstring></argsstring>
+        <name>hplanck</name>
+        <qualifiedname>constants_mod::hplanck</qualifiedname>
+        <initializer>= 6.6262e-27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="14" column="1" bodyfile="source/constants_mod.f90" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1ab6a56ccedc4477210d71ac0c383f50f7" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::hionpot</definition>
+        <argsstring></argsstring>
+        <name>hionpot</name>
+        <qualifiedname>constants_mod::hionpot</qualifiedname>
+        <initializer>= 0.99946</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="15" column="1" bodyfile="source/constants_mod.f90" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a6b3dd8b488224e770823cb9bbadf2af4" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::hnu3c2</definition>
+        <argsstring></argsstring>
+        <name>hnu3c2</name>
+        <qualifiedname>constants_mod::hnu3c2</qualifiedname>
+        <initializer>= 0.524166</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="16" column="1" bodyfile="source/constants_mod.f90" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a14730c2ad1d2dbbabc8d8ae018233f0f" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::me</definition>
+        <argsstring></argsstring>
+        <name>me</name>
+        <qualifiedname>constants_mod::me</qualifiedname>
+        <initializer>= 9.109382e-28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="17" column="1" bodyfile="source/constants_mod.f90" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a0b54c609df8e8933420ffa092e1342b9" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::kboltzmann</definition>
+        <argsstring></argsstring>
+        <name>kboltzmann</name>
+        <qualifiedname>constants_mod::kboltzmann</qualifiedname>
+        <initializer>= 1.380658e-16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="18" column="1" bodyfile="source/constants_mod.f90" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a7ee7a93599ca52cffa09c6dfd7e92773" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::radio4p9ghz</definition>
+        <argsstring></argsstring>
+        <name>radio4p9ghz</name>
+        <qualifiedname>constants_mod::radio4p9ghz</qualifiedname>
+        <initializer>= 1.489434e-6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="19" column="1" bodyfile="source/constants_mod.f90" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a9181f5e7e8d49c4006a6dba0bf751b44" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::ryd2erg</definition>
+        <argsstring></argsstring>
+        <name>ryd2erg</name>
+        <qualifiedname>constants_mod::ryd2erg</qualifiedname>
+        <initializer>= 2.1799e-11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="20" column="1" bodyfile="source/constants_mod.f90" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a07fdbea329536ec9090f0f008425c906" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::rydinf</definition>
+        <argsstring></argsstring>
+        <name>rydinf</name>
+        <qualifiedname>constants_mod::rydinf</qualifiedname>
+        <initializer>= 109737.315</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="21" column="1" bodyfile="source/constants_mod.f90" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a245adad890933d091883b3d588666fa0" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::sigma</definition>
+        <argsstring></argsstring>
+        <name>sigma</name>
+        <qualifiedname>constants_mod::sigma</qualifiedname>
+        <initializer>= 5.66956e-5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="22" column="1" bodyfile="source/constants_mod.f90" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a980572c2ec841798f0c747bbd5163bcd" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::te1ryd</definition>
+        <argsstring></argsstring>
+        <name>te1ryd</name>
+        <qualifiedname>constants_mod::te1ryd</qualifiedname>
+        <initializer>= 1.578866e5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="23" column="1" bodyfile="source/constants_mod.f90" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a05603d5444285113ad86c10ba1f2ba28" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::y1</definition>
+        <argsstring></argsstring>
+        <name>y1</name>
+        <qualifiedname>constants_mod::y1</qualifiedname>
+        <initializer>= 0.2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="24" column="1" bodyfile="source/constants_mod.f90" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a8935784091ad18be762085bfc4b5cd0e" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::fekacold</definition>
+        <argsstring></argsstring>
+        <name>fekacold</name>
+        <qualifiedname>constants_mod::fekacold</qualifiedname>
+        <initializer>= 470.388</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="25" column="1" bodyfile="source/constants_mod.f90" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a186006a29704b44125331015420b12f0" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::rootthree</definition>
+        <argsstring></argsstring>
+        <name>rootthree</name>
+        <qualifiedname>constants_mod::rootthree</qualifiedname>
+        <initializer>= 1.732050808</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="28" column="1" bodyfile="source/constants_mod.f90" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a52c2837a2833810fab9f18bc657f809f" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::kshelllimit</definition>
+        <argsstring></argsstring>
+        <name>kshelllimit</name>
+        <qualifiedname>constants_mod::kshelllimit</qualifiedname>
+        <initializer>= 7.35e4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="29" column="1" bodyfile="source/constants_mod.f90" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a3c5ba9de620306cb90d6245e6e902128" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::pi</definition>
+        <argsstring></argsstring>
+        <name>pi</name>
+        <qualifiedname>constants_mod::pi</qualifiedname>
+        <initializer>= 3.141592654</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="32" column="1" bodyfile="source/constants_mod.f90" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1ae3a316c337c0c756afabc8f94e05459d" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::twopi</definition>
+        <argsstring></argsstring>
+        <name>twopi</name>
+        <qualifiedname>constants_mod::twopi</qualifiedname>
+        <initializer>= 2.*<ref refid="namespaceconstants__mod_1a3c5ba9de620306cb90d6245e6e902128" kindref="member">pi</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="33" column="1" bodyfile="source/constants_mod.f90" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1ae2afbe983b767ce8f4c84a17f11ae05c" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::fourpi</definition>
+        <argsstring></argsstring>
+        <name>fourpi</name>
+        <qualifiedname>constants_mod::fourpi</qualifiedname>
+        <initializer>= 4.*<ref refid="namespaceconstants__mod_1a3c5ba9de620306cb90d6245e6e902128" kindref="member">pi</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="34" column="1" bodyfile="source/constants_mod.f90" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1af9dbb02481cae21a9e60eee0447c7173" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::pibyfour</definition>
+        <argsstring></argsstring>
+        <name>pibyfour</name>
+        <qualifiedname>constants_mod::pibyfour</qualifiedname>
+        <initializer>= <ref refid="namespaceconstants__mod_1a3c5ba9de620306cb90d6245e6e902128" kindref="member">pi</ref>/4.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="35" column="1" bodyfile="source/constants_mod.f90" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a9bdc37e59eabb76c900cb4cbcc78835b" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::oneonfourpi</definition>
+        <argsstring></argsstring>
+        <name>oneonfourpi</name>
+        <qualifiedname>constants_mod::oneonfourpi</qualifiedname>
+        <initializer>= 1./(4.*<ref refid="namespaceconstants__mod_1a3c5ba9de620306cb90d6245e6e902128" kindref="member">pi</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="36" column="1" bodyfile="source/constants_mod.f90" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a9375adceba7b17eef2b0456c87754004" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::oneontwopi</definition>
+        <argsstring></argsstring>
+        <name>oneontwopi</name>
+        <qualifiedname>constants_mod::oneontwopi</qualifiedname>
+        <initializer>= 1./(2.*<ref refid="namespaceconstants__mod_1a3c5ba9de620306cb90d6245e6e902128" kindref="member">pi</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="37" column="1" bodyfile="source/constants_mod.f90" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a4ad80164186ff37f534737a7438ab786" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::degtorad</definition>
+        <argsstring></argsstring>
+        <name>degtorad</name>
+        <qualifiedname>constants_mod::degtorad</qualifiedname>
+        <initializer>= <ref refid="namespaceconstants__mod_1a3c5ba9de620306cb90d6245e6e902128" kindref="member">pi</ref>/180.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="40" column="1" bodyfile="source/constants_mod.f90" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a187aaa21475d6867a9a7fdf3b6600aa3" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::rydtoev</definition>
+        <argsstring></argsstring>
+        <name>rydtoev</name>
+        <qualifiedname>constants_mod::rydtoev</qualifiedname>
+        <initializer>= 13.6056981</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="41" column="1" bodyfile="source/constants_mod.f90" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a87847ead02844c595496c0913d7a2812" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::radtodeg</definition>
+        <argsstring></argsstring>
+        <name>radtodeg</name>
+        <qualifiedname>constants_mod::radtodeg</qualifiedname>
+        <initializer>= 180./<ref refid="namespaceconstants__mod_1a3c5ba9de620306cb90d6245e6e902128" kindref="member">pi</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="42" column="1" bodyfile="source/constants_mod.f90" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1ae1df623482cb8d4c40afb3391c74e462" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::maxgrids</definition>
+        <argsstring></argsstring>
+        <name>maxgrids</name>
+        <qualifiedname>constants_mod::maxgrids</qualifiedname>
+        <initializer>= 50000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="45" column="1" bodyfile="source/constants_mod.f90" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1abd80b68ad21d0aa242cd1d78ac3e8fd9" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::maxtau</definition>
+        <argsstring></argsstring>
+        <name>maxtau</name>
+        <qualifiedname>constants_mod::maxtau</qualifiedname>
+        <initializer>= 10000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="46" column="1" bodyfile="source/constants_mod.f90" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1aca6374142f66d3a0bd3d6794601031e4" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::nelements</definition>
+        <argsstring></argsstring>
+        <name>nelements</name>
+        <qualifiedname>constants_mod::nelements</qualifiedname>
+        <initializer>= 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="47" column="1" bodyfile="source/constants_mod.f90" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a8405cbc93c3440e2eaecee22e06c169d" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::nforlevels</definition>
+        <argsstring></argsstring>
+        <name>nforlevels</name>
+        <qualifiedname>constants_mod::nforlevels</qualifiedname>
+        <initializer>= 17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="48" column="1" bodyfile="source/constants_mod.f90" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a5487582fcb0227389197264644e64e54" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::nforlevelslarge</definition>
+        <argsstring></argsstring>
+        <name>nforlevelslarge</name>
+        <qualifiedname>constants_mod::nforlevelslarge</qualifiedname>
+        <initializer>= 142</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="49" column="1" bodyfile="source/constants_mod.f90" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a71c3d8a0ccb101e721f84e06a41bdc4a" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::nhlevel</definition>
+        <argsstring></argsstring>
+        <name>nhlevel</name>
+        <qualifiedname>constants_mod::nhlevel</qualifiedname>
+        <initializer>=  10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="50" column="1" bodyfile="source/constants_mod.f90" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1ad5e9c7d2aedefd6767a37a1f78eeb1ee" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::nheilevel</definition>
+        <argsstring></argsstring>
+        <name>nheilevel</name>
+        <qualifiedname>constants_mod::nheilevel</qualifiedname>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="51" column="1" bodyfile="source/constants_mod.f90" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a2b79691ee258d3182918664190d64a4e" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::nheiilevel</definition>
+        <argsstring></argsstring>
+        <name>nheiilevel</name>
+        <qualifiedname>constants_mod::nheiilevel</qualifiedname>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="52" column="1" bodyfile="source/constants_mod.f90" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1ad8335c193af64e1f8bd8093a7ffc785c" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::nnumax</definition>
+        <argsstring></argsstring>
+        <name>nnumax</name>
+        <qualifiedname>constants_mod::nnumax</qualifiedname>
+        <initializer>= 3000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="53" column="1" bodyfile="source/constants_mod.f90" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a96b5196c4c204fa4a08b1771b7665002" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::xsecmax</definition>
+        <argsstring></argsstring>
+        <name>xsecmax</name>
+        <qualifiedname>constants_mod::xsecmax</qualifiedname>
+        <initializer>= 1000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="54" column="1" bodyfile="source/constants_mod.f90" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1a9c04fede5448bdbbea4b177554a2f83a" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::ntemps</definition>
+        <argsstring></argsstring>
+        <name>ntemps</name>
+        <qualifiedname>constants_mod::ntemps</qualifiedname>
+        <initializer>=3000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="55" column="1" bodyfile="source/constants_mod.f90" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1ac158e3afa86e714fa2c039bdfb135408" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter constants_mod::recursionlimit</definition>
+        <argsstring></argsstring>
+        <name>recursionlimit</name>
+        <qualifiedname>constants_mod::recursionlimit</qualifiedname>
+        <initializer>=5000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="56" column="1" bodyfile="source/constants_mod.f90" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceconstants__mod_1ae786d890b283fa95ca36b5fda316e79b" prot="public" static="no" mutable="no">
+        <type>real, parameter</type>
+        <definition>real, parameter constants_mod::xmax</definition>
+        <argsstring></argsstring>
+        <name>xmax</name>
+        <qualifiedname>constants_mod::xmax</qualifiedname>
+        <initializer>= 0.99999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/constants_mod.f90" line="58" column="1" bodyfile="source/constants_mod.f90" bodystart="58" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/constants_mod.f90" line="5" column="1"/>
+  </compounddef>
+</doxygen>

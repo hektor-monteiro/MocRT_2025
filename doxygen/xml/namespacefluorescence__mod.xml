@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacefluorescence__mod" kind="namespace" language="Fortran">
+    <compoundname>fluorescence_mod</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacefluorescence__mod_1a5d76b798fdc25159882c6637f4a40249" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), parameter</type>
+        <definition>type(vector), parameter fluorescence_mod::origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <qualifiedname>fluorescence_mod::origin</qualifiedname>
+        <initializer>=<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>(0., 0., 0.)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/fluorescence_mod.f90" line="15" column="1" bodyfile="source/fluorescence_mod.f90" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacefluorescence__mod_1a227053f793ee37764084909f9d3e4777" prot="public" static="no" mutable="no">
+        <type>integer, parameter</type>
+        <definition>integer, parameter fluorescence_mod::safelim</definition>
+        <argsstring></argsstring>
+        <name>safelim</name>
+        <qualifiedname>fluorescence_mod::safelim</qualifiedname>
+        <initializer>= 10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/fluorescence_mod.f90" line="17" column="1" bodyfile="source/fluorescence_mod.f90" bodystart="17" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacefluorescence__mod_1ae452bb7fe364bb8a05fdd2457ffef3f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>recursive subroutine</type>
+        <definition>recursive subroutine fluorescence_mod::fluorescencepacketrun</definition>
+        <argsstring>(grid, ftype, rvec, xp, yp, zp, gp)</argsstring>
+        <name>fluorescencepacketrun</name>
+        <qualifiedname>fluorescence_mod::fluorescencepacketrun</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(:), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>character(len=4), intent(inout)</type>
+          <defname>ftype</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(inout)</type>
+          <defname>rvec</defname>
+        </param>
+        <param>
+          <type>integer, dimension(2), intent(inout)</type>
+          <defname>xp</defname>
+        </param>
+        <param>
+          <type>integer, dimension(2), intent(inout)</type>
+          <defname>yp</defname>
+        </param>
+        <param>
+          <type>integer, dimension(2), intent(inout)</type>
+          <defname>zp</defname>
+        </param>
+        <param>
+          <type>integer, intent(inout)</type>
+          <defname>gp</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/fluorescence_mod.f90" line="21" column="1" bodyfile="source/fluorescence_mod.f90" bodystart="22" bodyend="1865"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/fluorescence_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

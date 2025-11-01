@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structcommon__mod_1_1photon__packet" kind="type" language="Fortran" prot="public">
+    <compoundname>common_mod::photon_packet</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a0f093c2e3861b3391bd3ce8dcab09944" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::photon_packet::nup</definition>
+        <argsstring></argsstring>
+        <name>nup</name>
+        <qualifiedname>common_mod::photon_packet::nup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="308" column="1" bodyfile="source/common_mod.f90" bodystart="308" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1ab7eb3bbd4259251be8a05e777c89f5f5" prot="public" static="no" mutable="no">
+        <type>integer, dimension(2)</type>
+        <definition>integer, dimension(2) common_mod::photon_packet::xp</definition>
+        <argsstring></argsstring>
+        <name>xp</name>
+        <qualifiedname>common_mod::photon_packet::xp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="309" column="1" bodyfile="source/common_mod.f90" bodystart="309" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a56f1453dd3d14ac11969011169081f74" prot="public" static="no" mutable="no">
+        <type>integer, dimension(2)</type>
+        <definition>integer, dimension(2) common_mod::photon_packet::yp</definition>
+        <argsstring></argsstring>
+        <name>yp</name>
+        <qualifiedname>common_mod::photon_packet::yp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="309" column="1" bodyfile="source/common_mod.f90" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a89ce9fdf74b9ae4d41f8c529c6e3fb7b" prot="public" static="no" mutable="no">
+        <type>integer, dimension(2)</type>
+        <definition>integer, dimension(2) common_mod::photon_packet::zp</definition>
+        <argsstring></argsstring>
+        <name>zp</name>
+        <qualifiedname>common_mod::photon_packet::zp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="309" column="1" bodyfile="source/common_mod.f90" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a7d43dfee215c36bb328980033314b331" prot="public" static="no" mutable="no">
+        <type>integer, dimension(2)</type>
+        <definition>integer, dimension(2) common_mod::photon_packet::origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <qualifiedname>common_mod::photon_packet::origin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="311" column="1" bodyfile="source/common_mod.f90" bodystart="311" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a3ab04e2761725c7d96efb8e665449354" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::photon_packet::ig</definition>
+        <argsstring></argsstring>
+        <name>ig</name>
+        <qualifiedname>common_mod::photon_packet::ig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="312" column="1" bodyfile="source/common_mod.f90" bodystart="312" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a20516a67cd1c5e32e89f48de82d81686" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::photon_packet::nu</definition>
+        <argsstring></argsstring>
+        <name>nu</name>
+        <qualifiedname>common_mod::photon_packet::nu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="314" column="1" bodyfile="source/common_mod.f90" bodystart="314" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a0f3fcf1e123a651fd278f4b7876bfebd" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::photon_packet::weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <qualifiedname>common_mod::photon_packet::weight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="315" column="1" bodyfile="source/common_mod.f90" bodystart="315" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a9cc1ea2067b02a78caa177913d1bd93d" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::photon_packet::lgstellar</definition>
+        <argsstring></argsstring>
+        <name>lgstellar</name>
+        <qualifiedname>common_mod::photon_packet::lgstellar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="317" column="1" bodyfile="source/common_mod.f90" bodystart="317" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1ab7806a4a87c724b72530696c8f93a8f9" prot="public" static="no" mutable="no">
+        <type>logical</type>
+        <definition>logical common_mod::photon_packet::lgline</definition>
+        <argsstring></argsstring>
+        <name>lgline</name>
+        <qualifiedname>common_mod::photon_packet::lgline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="318" column="1" bodyfile="source/common_mod.f90" bodystart="318" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a881f5247a317ac39e43a773e7b09e88d" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>)</type>
+        <definition>type(vector) common_mod::photon_packet::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <qualifiedname>common_mod::photon_packet::position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="320" column="1" bodyfile="source/common_mod.f90" bodystart="320" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1photon__packet_1a0e2a1135f607350829431a5368785c2a" prot="public" static="no" mutable="no">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>)</type>
+        <definition>type(vector) common_mod::photon_packet::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <qualifiedname>common_mod::photon_packet::direction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="321" column="1" bodyfile="source/common_mod.f90" bodystart="321" bodyend="321"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>common_mod::photon_packet</label>
+        <link refid="structcommon__mod_1_1photon__packet"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>direction</edgelabel>
+          <edgelabel>position</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vector_mod::vector</label>
+        <link refid="structvector__mod_1_1vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/common_mod.f90" line="306" column="1" bodyfile="source/common_mod.f90" bodystart="306" bodyend="324"/>
+    <listofallmembers>
+      <member refid="structcommon__mod_1_1photon__packet_1a0e2a1135f607350829431a5368785c2a" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>direction</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1a3ab04e2761725c7d96efb8e665449354" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>ig</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1ab7806a4a87c724b72530696c8f93a8f9" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>lgline</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1a9cc1ea2067b02a78caa177913d1bd93d" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>lgstellar</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1a20516a67cd1c5e32e89f48de82d81686" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>nu</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1a0f093c2e3861b3391bd3ce8dcab09944" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>nup</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1a7d43dfee215c36bb328980033314b331" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>origin</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1a881f5247a317ac39e43a773e7b09e88d" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>position</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1a0f3fcf1e123a651fd278f4b7876bfebd" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>weight</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1ab7eb3bbd4259251be8a05e777c89f5f5" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>xp</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1a56f1453dd3d14ac11969011169081f74" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>yp</name></member>
+      <member refid="structcommon__mod_1_1photon__packet_1a89ce9fdf74b9ae4d41f8c529c6e3fb7b" prot="public" virt="non-virtual"><scope>common_mod::photon_packet</scope><name>zp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

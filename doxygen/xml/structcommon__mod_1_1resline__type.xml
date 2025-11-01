@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structcommon__mod_1_1resline__type" kind="type" language="Fortran" prot="public">
+    <compoundname>common_mod::resline_type</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a2177fa5cd3aba0117ad2d52ac3ca9faf" prot="public" static="no" mutable="no">
+        <type>character(len=2)</type>
+        <definition>character(len=2) common_mod::resline_type::species</definition>
+        <argsstring></argsstring>
+        <name>species</name>
+        <qualifiedname>common_mod::resline_type::species</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="342" column="1" bodyfile="source/common_mod.f90" bodystart="342" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1ae7099ee33019b1d4ab134a8283bce51e" prot="public" static="no" mutable="no">
+        <type>character(len=30)</type>
+        <definition>character(len=30) common_mod::resline_type::transition</definition>
+        <argsstring></argsstring>
+        <name>transition</name>
+        <qualifiedname>common_mod::resline_type::transition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="343" column="1" bodyfile="source/common_mod.f90" bodystart="343" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a75e4b0472cae1795ca9ffd5de0b495fc" prot="public" static="no" mutable="no">
+        <type>character(len=30)</type>
+        <definition>character(len=30) common_mod::resline_type::multiplet</definition>
+        <argsstring></argsstring>
+        <name>multiplet</name>
+        <qualifiedname>common_mod::resline_type::multiplet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="343" column="1" bodyfile="source/common_mod.f90" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a37159001f3f9151e108ee21c618b312c" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::resline_type::nup</definition>
+        <argsstring></argsstring>
+        <name>nup</name>
+        <qualifiedname>common_mod::resline_type::nup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="345" column="1" bodyfile="source/common_mod.f90" bodystart="345" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1ab3000ff3e7724b83d9aa6739d527d6e9" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::resline_type::elem</definition>
+        <argsstring></argsstring>
+        <name>elem</name>
+        <qualifiedname>common_mod::resline_type::elem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="346" column="1" bodyfile="source/common_mod.f90" bodystart="346" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a2bbb8a30852e9ce895d6ba655b76012d" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::resline_type::ion</definition>
+        <argsstring></argsstring>
+        <name>ion</name>
+        <qualifiedname>common_mod::resline_type::ion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="347" column="1" bodyfile="source/common_mod.f90" bodystart="347" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1ac52d9f8a20f32dc3dda7d641f8eaab4d" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::resline_type::glow</definition>
+        <argsstring></argsstring>
+        <name>glow</name>
+        <qualifiedname>common_mod::resline_type::glow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="348" column="1" bodyfile="source/common_mod.f90" bodystart="348" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1ae9fd1672c3a6b74515f4271393002dd9" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::resline_type::ghigh</definition>
+        <argsstring></argsstring>
+        <name>ghigh</name>
+        <qualifiedname>common_mod::resline_type::ghigh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="348" column="1" bodyfile="source/common_mod.f90" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a2a61739a1468f3229d50950a7810f44a" prot="public" static="no" mutable="no">
+        <type>integer</type>
+        <definition>integer common_mod::resline_type::nmul</definition>
+        <argsstring></argsstring>
+        <name>nmul</name>
+        <qualifiedname>common_mod::resline_type::nmul</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="349" column="1" bodyfile="source/common_mod.f90" bodystart="349" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a7918b9c95024142b53e48dfb548216af" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::resline_type::moclow</definition>
+        <argsstring></argsstring>
+        <name>moclow</name>
+        <qualifiedname>common_mod::resline_type::moclow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="350" column="1" bodyfile="source/common_mod.f90" bodystart="350" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a1c35a62fc2551def81d1cd7257b947a7" prot="public" static="no" mutable="no">
+        <type>integer, dimension(:), allocatable</type>
+        <definition>integer, dimension(:), allocatable common_mod::resline_type::mochigh</definition>
+        <argsstring></argsstring>
+        <name>mochigh</name>
+        <qualifiedname>common_mod::resline_type::mochigh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="350" column="1" bodyfile="source/common_mod.f90" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a00868752687bb9eea8c57804f34639da" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::resline_type::m_ion</definition>
+        <argsstring></argsstring>
+        <name>m_ion</name>
+        <qualifiedname>common_mod::resline_type::m_ion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="352" column="1" bodyfile="source/common_mod.f90" bodystart="352" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1af0a236f38e5c9c28a61a264bb9248b79" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::resline_type::wav</definition>
+        <argsstring></argsstring>
+        <name>wav</name>
+        <qualifiedname>common_mod::resline_type::wav</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="353" column="1" bodyfile="source/common_mod.f90" bodystart="353" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a35b4ce831bce8bd63215524c85000e8d" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::resline_type::freq</definition>
+        <argsstring></argsstring>
+        <name>freq</name>
+        <qualifiedname>common_mod::resline_type::freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="354" column="1" bodyfile="source/common_mod.f90" bodystart="354" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1afb37c3aa872331c982f3b937ccde06d3" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::resline_type::elow</definition>
+        <argsstring></argsstring>
+        <name>elow</name>
+        <qualifiedname>common_mod::resline_type::elow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="355" column="1" bodyfile="source/common_mod.f90" bodystart="355" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1ac1f84410ba1cea739c3089d368a7cbc6" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::resline_type::ehigh</definition>
+        <argsstring></argsstring>
+        <name>ehigh</name>
+        <qualifiedname>common_mod::resline_type::ehigh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="355" column="1" bodyfile="source/common_mod.f90" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1ace16893ea32665464f317fd37a8c853d" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::resline_type::aik</definition>
+        <argsstring></argsstring>
+        <name>aik</name>
+        <qualifiedname>common_mod::resline_type::aik</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="356" column="1" bodyfile="source/common_mod.f90" bodystart="356" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommon__mod_1_1resline__type_1a0380d705a16b16c19d9f6a754cbd60e6" prot="public" static="no" mutable="no">
+        <type>real</type>
+        <definition>real common_mod::resline_type::fik</definition>
+        <argsstring></argsstring>
+        <name>fik</name>
+        <qualifiedname>common_mod::resline_type::fik</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/common_mod.f90" line="356" column="1" bodyfile="source/common_mod.f90" bodystart="356" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/common_mod.f90" line="341" column="1" bodyfile="source/common_mod.f90" bodystart="341" bodyend="357"/>
+    <listofallmembers>
+      <member refid="structcommon__mod_1_1resline__type_1ace16893ea32665464f317fd37a8c853d" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>aik</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1ac1f84410ba1cea739c3089d368a7cbc6" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>ehigh</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1ab3000ff3e7724b83d9aa6739d527d6e9" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>elem</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1afb37c3aa872331c982f3b937ccde06d3" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>elow</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a0380d705a16b16c19d9f6a754cbd60e6" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>fik</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a35b4ce831bce8bd63215524c85000e8d" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>freq</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1ae9fd1672c3a6b74515f4271393002dd9" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>ghigh</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1ac52d9f8a20f32dc3dda7d641f8eaab4d" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>glow</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a2bbb8a30852e9ce895d6ba655b76012d" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>ion</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a00868752687bb9eea8c57804f34639da" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>m_ion</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a1c35a62fc2551def81d1cd7257b947a7" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>mochigh</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a7918b9c95024142b53e48dfb548216af" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>moclow</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a75e4b0472cae1795ca9ffd5de0b495fc" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>multiplet</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a2a61739a1468f3229d50950a7810f44a" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>nmul</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a37159001f3f9151e108ee21c618b312c" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>nup</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1a2177fa5cd3aba0117ad2d52ac3ca9faf" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>species</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1ae7099ee33019b1d4ab134a8283bce51e" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>transition</name></member>
+      <member refid="structcommon__mod_1_1resline__type_1af0a236f38e5c9c28a61a264bb9248b79" prot="public" virt="non-virtual"><scope>common_mod::resline_type</scope><name>wav</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

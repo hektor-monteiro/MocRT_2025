@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacevector__mod" kind="namespace" language="Fortran">
+    <compoundname>vector_mod</compoundname>
+    <innerclass refid="interfacevector__mod_1_1operator_07_5_08" prot="public">vector_mod::operator(*)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_09_08" prot="public">vector_mod::operator(+)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07-_08" prot="public">vector_mod::operator(-)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_8cross_8_08" prot="public">vector_mod::operator(.cross.)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_8dot_8_08" prot="public">vector_mod::operator(.dot.)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_2_08" prot="public">vector_mod::operator(/)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_2_0a_08" prot="public">vector_mod::operator(/=)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_3_0a_08" prot="public">vector_mod::operator(&lt;=)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_0a_0a_08" prot="public">vector_mod::operator(==)</innerclass>
+    <innerclass refid="interfacevector__mod_1_1operator_07_4_0a_08" prot="public">vector_mod::operator(&gt;=)</innerclass>
+    <innerclass refid="structvector__mod_1_1vector" prot="public">vector_mod::vector</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacevector__mod_1aceb5bd8774cdc8b46d8473b99058bb6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function vector_mod::dotprod</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>dotprod</name>
+        <qualifiedname>vector_mod::dotprod</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="89" column="1" bodyfile="source/vector_mod.f90" bodystart="90" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1aac6324ee3b66a5dd383bce944a47104e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::crossprod</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>crossprod</name>
+        <qualifiedname>vector_mod::crossprod</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="99" column="1" bodyfile="source/vector_mod.f90" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1adefc5a591ebafd546348403034db9c48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine vector_mod::normalize</definition>
+        <argsstring>(a)</argsstring>
+        <name>normalize</name>
+        <qualifiedname>vector_mod::normalize</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>)</type>
+          <defname>a</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="110" column="1" bodyfile="source/vector_mod.f90" bodystart="111" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1ac4a1c062d19c382038100a4c201e41bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function vector_mod::modulus</definition>
+        <argsstring>(a)</argsstring>
+        <name>modulus</name>
+        <qualifiedname>vector_mod::modulus</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>)</type>
+          <defname>a</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="129" column="1" bodyfile="source/vector_mod.f90" bodystart="130" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1a3c58980d3d4d04bbfcabf82ee453d8f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::mult</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>mult</name>
+        <qualifiedname>vector_mod::mult</qualifiedname>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="139" column="1" bodyfile="source/vector_mod.f90" bodystart="140" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1ae16a98d182927c7dc09a68c275bd76ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::dividevec</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>dividevec</name>
+        <qualifiedname>vector_mod::dividevec</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="152" column="1" bodyfile="source/vector_mod.f90" bodystart="153" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1a771fbfccadc08ba605b2e5787bfcb403" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::add</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>add</name>
+        <qualifiedname>vector_mod::add</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="164" column="1" bodyfile="source/vector_mod.f90" bodystart="165" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1aea61b73b0e0408cb09355377fcb58001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::subtract</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>vector_mod::subtract</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="176" column="1" bodyfile="source/vector_mod.f90" bodystart="177" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1aae21cddb63463c9466d57b9bc202f7c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>logical function</type>
+        <definition>logical function vector_mod::equivalence</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>equivalence</name>
+        <qualifiedname>vector_mod::equivalence</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="186" column="1" bodyfile="source/vector_mod.f90" bodystart="187" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1a9d6cfeadd6fb98c9a94e8fd046b63358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>logical function</type>
+        <definition>logical function vector_mod::greaterequal</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>greaterequal</name>
+        <qualifiedname>vector_mod::greaterequal</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="199" column="1" bodyfile="source/vector_mod.f90" bodystart="200" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1a7028a22f557941424f390c593f755f25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>logical function</type>
+        <definition>logical function vector_mod::lessequal</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>lessequal</name>
+        <qualifiedname>vector_mod::lessequal</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="212" column="1" bodyfile="source/vector_mod.f90" bodystart="213" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1a7d7ca401782a5c2e72af9129798b275b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>logical function</type>
+        <definition>logical function vector_mod::notequivalence</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>notequivalence</name>
+        <qualifiedname>vector_mod::notequivalence</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="226" column="1" bodyfile="source/vector_mod.f90" bodystart="227" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1a23455cc0307be761aff23425742335a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine vector_mod::getpolar</definition>
+        <argsstring>(vec, r, theta, phi)</argsstring>
+        <name>getpolar</name>
+        <qualifiedname>vector_mod::getpolar</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>)</type>
+          <defname>vec</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>r</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>theta</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>phi</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="242" column="1" bodyfile="source/vector_mod.f90" bodystart="243" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1ac23be89fffaf890c73c6c4574a863b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::rotatez</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>rotatez</name>
+        <qualifiedname>vector_mod::rotatez</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="261" column="1" bodyfile="source/vector_mod.f90" bodystart="262" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1a13fd36d2581fac2ef01fd13cb6287b36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::rotatex</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>rotatex</name>
+        <qualifiedname>vector_mod::rotatex</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="275" column="1" bodyfile="source/vector_mod.f90" bodystart="276" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1a8c2fc006a79237aaaf141dcdebf77f36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::rotatey</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>rotatey</name>
+        <qualifiedname>vector_mod::rotatey</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="289" column="1" bodyfile="source/vector_mod.f90" bodystart="290" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacevector__mod_1ae58c938597e098af01171ac4dcb70cfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>) function</type>
+        <definition>type(vector) function vector_mod::randomunitvector</definition>
+        <argsstring>()</argsstring>
+        <name>randomunitvector</name>
+        <qualifiedname>vector_mod::randomunitvector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="303" column="1" bodyfile="source/vector_mod.f90" bodystart="304" bodyend="313"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/vector_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

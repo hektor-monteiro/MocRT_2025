@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegrid__mod" kind="namespace" language="Fortran">
+    <compoundname>grid_mod</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegrid__mod_1aebc873d68fc6a44916f0c006abebf9c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine grid_mod::initcartesiangrid</definition>
+        <argsstring>(grid, nx, ny, nz)</argsstring>
+        <name>initcartesiangrid</name>
+        <qualifiedname>grid_mod::initcartesiangrid</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>nx</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>ny</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>nz</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="21" column="1" bodyfile="source/grid_mod.f90" bodystart="22" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1a3de2b05fb64fb83dab2d9da941c28192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine grid_mod::fillgrid</definition>
+        <argsstring>(grid)</argsstring>
+        <name>fillgrid</name>
+        <qualifiedname>grid_mod::fillgrid</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(:), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="488" column="1" bodyfile="source/grid_mod.f90" bodystart="489" bodyend="905"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1a0c2a0bf05069dc28a2f5fbc696b8d48a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine grid_mod::setmothergrid</definition>
+        <argsstring>(grid)</argsstring>
+        <name>setmothergrid</name>
+        <qualifiedname>grid_mod::setmothergrid</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="909" column="1" bodyfile="source/grid_mod.f90" bodystart="910" bodyend="1772"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1a43d11d9d1545957b63b678b2bc995c66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine grid_mod::setsubgrids</definition>
+        <argsstring>(grid)</argsstring>
+        <name>setsubgrids</name>
+        <qualifiedname>grid_mod::setsubgrids</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(:), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="1775" column="1" bodyfile="source/grid_mod.f90" bodystart="1776" bodyend="2572"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1a4a12d06bec155aa4a4033b30f7f46b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine grid_mod::freegrid</definition>
+        <argsstring>(grid)</argsstring>
+        <name>freegrid</name>
+        <qualifiedname>grid_mod::freegrid</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="2575" column="1" bodyfile="source/grid_mod.f90" bodystart="2576" bodyend="2623"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1a45acb605a3d9a576b577770aa516210c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine grid_mod::writegrid</definition>
+        <argsstring>(grid)</argsstring>
+        <name>writegrid</name>
+        <qualifiedname>grid_mod::writegrid</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(:), intent(in)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="2626" column="1" bodyfile="source/grid_mod.f90" bodystart="2627" bodyend="2851"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1a930c7d8c0631a04f52a7c365af288c1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function grid_mod::getvolume</definition>
+        <argsstring>(grid, xp, yp, zp)</argsstring>
+        <name>getvolume</name>
+        <qualifiedname>grid_mod::getvolume</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), intent(in)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>xp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>yp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>zp</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="2856" column="1" bodyfile="source/grid_mod.f90" bodystart="2857" bodyend="2927"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1af1c6f1181b085fa33b69fb39e3b759d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine grid_mod::resetgrid</definition>
+        <argsstring>(grid)</argsstring>
+        <name>resetgrid</name>
+        <qualifiedname>grid_mod::resetgrid</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(<ref refid="namespaceconstants__mod_1ae1df623482cb8d4c40afb3391c74e462" kindref="member">maxgrids</ref>), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="2931" column="1" bodyfile="source/grid_mod.f90" bodystart="2932" bodyend="3540"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1affc6ce09b260b2fe5278430b1038c275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine grid_mod::setstarposition</definition>
+        <argsstring>(xa, ya, za, grid)</argsstring>
+        <name>setstarposition</name>
+        <qualifiedname>grid_mod::setstarposition</qualifiedname>
+        <param>
+          <type>real, dimension(:)</type>
+          <defname>xa</defname>
+        </param>
+        <param>
+          <type>real, dimension(:)</type>
+          <defname>ya</defname>
+        </param>
+        <param>
+          <type>real, dimension(:)</type>
+          <defname>za</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(<ref refid="namespaceconstants__mod_1ae1df623482cb8d4c40afb3391c74e462" kindref="member">maxgrids</ref>), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="3543" column="1" bodyfile="source/grid_mod.f90" bodystart="3544" bodyend="3622"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1ac55c9318abb4d827b62b6673e9211d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>real function</type>
+        <definition>real function grid_mod::vecho</definition>
+        <argsstring>(grid, xp, yp, zp, t1i, t2i, volume)</argsstring>
+        <name>vecho</name>
+        <qualifiedname>grid_mod::vecho</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), intent(in)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>xp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>yp</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>zp</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>t1i</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>t2i</defname>
+        </param>
+        <param>
+          <type>real</type>
+          <defname>volume</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="3628" column="1" bodyfile="source/grid_mod.f90" bodystart="3629" bodyend="3712"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1a2805b16f9970db212072e4503e91fcb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double precision function</type>
+        <definition>double precision function grid_mod::zee</definition>
+        <argsstring>(rho, t)</argsstring>
+        <name>zee</name>
+        <qualifiedname>grid_mod::zee</qualifiedname>
+        <param>
+          <type>double precision</type>
+          <defname>rho</defname>
+        </param>
+        <param>
+          <type>double precision</type>
+          <defname>t</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="3715" column="1" bodyfile="source/grid_mod.f90" bodystart="3716" bodyend="3719"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegrid__mod_1aecca41e806aa91a3727afd4054efaa6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine grid_mod::guessgrid</definition>
+        <argsstring>(grid)</argsstring>
+        <name>guessgrid</name>
+        <qualifiedname>grid_mod::guessgrid</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(<ref refid="namespaceconstants__mod_1ae1df623482cb8d4c40afb3391c74e462" kindref="member">maxgrids</ref>), intent(inout)</type>
+          <defname>grid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/grid_mod.f90" line="3723" column="1" bodyfile="source/grid_mod.f90" bodystart="3724" bodyend="3854"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/grid_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

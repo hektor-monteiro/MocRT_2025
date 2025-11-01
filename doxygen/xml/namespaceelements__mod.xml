@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceelements__mod" kind="namespace" language="Fortran">
+    <compoundname>elements_mod</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceelements__mod_1a1bd386ef2cdb6c1fb0bdbf54271cd623" prot="public" static="no" mutable="no">
+        <type>real, dimension(<ref refid="namespaceconstants__mod_1a71c3d8a0ccb101e721f84e06a41bdc4a" kindref="member">nhlevel</ref>+1)</type>
+        <definition>real, dimension(nhlevel+1) elements_mod::hleven</definition>
+        <argsstring></argsstring>
+        <name>hleven</name>
+        <qualifiedname>elements_mod::hleven</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="9" column="1" bodyfile="source/hydro_mod.f90" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceelements__mod_1a2e8072f1b0995138f173d84537e19d35" prot="public" static="no" mutable="no">
+        <type>real, dimension(<ref refid="namespaceconstants__mod_1ad5e9c7d2aedefd6767a37a1f78eeb1ee" kindref="member">nheilevel</ref>+1)</type>
+        <definition>real, dimension(nheilevel+1) elements_mod::heileven</definition>
+        <argsstring></argsstring>
+        <name>heileven</name>
+        <qualifiedname>elements_mod::heileven</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="9" column="1" bodyfile="source/hydro_mod.f90" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceelements__mod_1acc5d53b44444318c43983e716a361e21" prot="public" static="no" mutable="no">
+        <type>real, dimension(<ref refid="namespaceconstants__mod_1a2b79691ee258d3182918664190d64a4e" kindref="member">nheiilevel</ref>+1)</type>
+        <definition>real, dimension(nheiilevel+1) elements_mod::heiileven</definition>
+        <argsstring></argsstring>
+        <name>heiileven</name>
+        <qualifiedname>elements_mod::heiileven</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="9" column="1" bodyfile="source/hydro_mod.f90" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceelements__mod_1a26313636d6c2eebd707f9edf0e2ab3b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine elements_mod::makecolliondata</definition>
+        <argsstring>()</argsstring>
+        <name>makecolliondata</name>
+        <qualifiedname>elements_mod::makecolliondata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="13" column="1" bodyfile="source/hydro_mod.f90" bodystart="14" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceelements__mod_1aa6107fb07d6e87fd10de1f4c67546628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine elements_mod::makeaugerdata</definition>
+        <argsstring>()</argsstring>
+        <name>makeaugerdata</name>
+        <qualifiedname>elements_mod::makeaugerdata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="35" column="1" bodyfile="source/hydro_mod.f90" bodystart="36" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceelements__mod_1af2098f0282ba12e952624fa178c132e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine elements_mod::makehydro</definition>
+        <argsstring>()</argsstring>
+        <name>makehydro</name>
+        <qualifiedname>elements_mod::makehydro</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="56" column="1" bodyfile="source/hydro_mod.f90" bodystart="57" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceelements__mod_1a3e77cc287b3c54f891ea8a0918fbae99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine elements_mod::getoutershell</definition>
+        <argsstring>(z, nelec, outshell, g0, g1)</argsstring>
+        <name>getoutershell</name>
+        <qualifiedname>elements_mod::getoutershell</qualifiedname>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>z</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>nelec</defname>
+        </param>
+        <param>
+          <type>integer, intent(out)</type>
+          <defname>outshell</defname>
+        </param>
+        <param>
+          <type>integer, intent(out)</type>
+          <defname>g0</defname>
+        </param>
+        <param>
+          <type>integer, intent(out)</type>
+          <defname>g1</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="89" column="1" bodyfile="source/hydro_mod.f90" bodystart="90" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceelements__mod_1a1df257aa82203a680bc19934efe8c796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine elements_mod::readheireclines</definition>
+        <argsstring>()</argsstring>
+        <name>readheireclines</name>
+        <qualifiedname>elements_mod::readheireclines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="184" column="1" bodyfile="source/hydro_mod.f90" bodystart="185" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceelements__mod_1af8403ef527c273056d59a2ad925086d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine elements_mod::setshells</definition>
+        <argsstring>(nelem)</argsstring>
+        <name>setshells</name>
+        <qualifiedname>elements_mod::setshells</qualifiedname>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>nelem</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="208" column="1" bodyfile="source/hydro_mod.f90" bodystart="209" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceelements__mod_1aba7c8c3441cf8e8e9bdc9cd21771c528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>integer function</type>
+        <definition>integer function elements_mod::limitshell</definition>
+        <argsstring>(ion, shell, nelem)</argsstring>
+        <name>limitshell</name>
+        <qualifiedname>elements_mod::limitshell</qualifiedname>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>ion</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>shell</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>nelem</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="282" column="1" bodyfile="source/hydro_mod.f90" bodystart="283" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceelements__mod_1a11e2a675fb6cf0c3971ae413711c5250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine elements_mod::setpointers</definition>
+        <argsstring>()</argsstring>
+        <name>setpointers</name>
+        <qualifiedname>elements_mod::setpointers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="336" column="1" bodyfile="source/hydro_mod.f90" bodystart="337" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceelements__mod_1a9adfb37c793ef1b6a699340b55489738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine elements_mod::makeelements</definition>
+        <argsstring>()</argsstring>
+        <name>makeelements</name>
+        <qualifiedname>elements_mod::makeelements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/hydro_mod.f90" line="477" column="1" bodyfile="source/hydro_mod.f90" bodystart="478" bodyend="729"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/hydro_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>

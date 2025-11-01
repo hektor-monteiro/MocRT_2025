@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interfacevector__mod_1_1operator_07_4_0a_08" kind="interface" language="Fortran" prot="public">
+    <compoundname>vector_mod::operator(&gt;=)</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacevector__mod_1_1operator_07_4_0a_08_1a448c3041841c5114d69331bd24a28210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>logical function</type>
+        <definition>logical function vector_mod::operator(&gt;=)::greaterequal</definition>
+        <argsstring>(a, b)</argsstring>
+        <name>greaterequal</name>
+        <qualifiedname>vector_mod::operator(&gt;=)::greaterequal</qualifiedname>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/vector_mod.f90" line="199" column="1" bodyfile="source/vector_mod.f90" bodystart="200" bodyend="209"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/vector_mod.f90" line="63" column="1" bodyfile="source/vector_mod.f90" bodystart="63" bodyend="64"/>
+    <listofallmembers>
+      <member refid="interfacevector__mod_1_1operator_07_4_0a_08_1a448c3041841c5114d69331bd24a28210" prot="public" virt="non-virtual"><scope>vector_mod::operator(&gt;=)</scope><name>greaterequal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

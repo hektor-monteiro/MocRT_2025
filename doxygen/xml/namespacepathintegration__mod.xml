@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacepathintegration__mod" kind="namespace" language="Fortran">
+    <compoundname>pathintegration_mod</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacepathintegration__mod_1a173f9a8622ceaef98698fd491e5e82fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine pathintegration_mod::integratepathtau</definition>
+        <argsstring>(grid, avec, uhat, freq, ntau, abstau, lambda)</argsstring>
+        <name>integratepathtau</name>
+        <qualifiedname>pathintegration_mod::integratepathtau</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(*), intent(in)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>avec</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>uhat</defname>
+        </param>
+        <param>
+          <type>real, intent(in)</type>
+          <defname>freq</defname>
+        </param>
+        <param>
+          <type>integer, intent(out)</type>
+          <defname>ntau</defname>
+        </param>
+        <param>
+          <type>real, dimension(<ref refid="namespaceconstants__mod_1abd80b68ad21d0aa242cd1d78ac3e8fd9" kindref="member">maxtau</ref>), intent(out)</type>
+          <defname>abstau</defname>
+        </param>
+        <param>
+          <type>real, dimension(<ref refid="namespaceconstants__mod_1abd80b68ad21d0aa242cd1d78ac3e8fd9" kindref="member">maxtau</ref>), intent(out)</type>
+          <defname>lambda</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/pathIntegration_mod.f90" line="13" column="1" bodyfile="source/pathIntegration_mod.f90" bodystart="14" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacepathintegration__mod_1a7d25c485284a3a5b0f4b036925c5356a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>subroutine</type>
+        <definition>subroutine pathintegration_mod::integratepathtaunu</definition>
+        <argsstring>(grid, avec, uhat, freqp, abstau)</argsstring>
+        <name>integratepathtaunu</name>
+        <qualifiedname>pathintegration_mod::integratepathtaunu</qualifiedname>
+        <param>
+          <type>type(<ref refid="structcommon__mod_1_1grid__type" kindref="compound">grid_type</ref>), dimension(*), intent(in)</type>
+          <defname>grid</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>avec</defname>
+        </param>
+        <param>
+          <type>type(<ref refid="structvector__mod_1_1vector" kindref="compound">vector</ref>), intent(in)</type>
+          <defname>uhat</defname>
+        </param>
+        <param>
+          <type>integer, intent(in)</type>
+          <defname>freqp</defname>
+        </param>
+        <param>
+          <type>real, intent(out)</type>
+          <defname>abstau</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/pathIntegration_mod.f90" line="241" column="1" bodyfile="source/pathIntegration_mod.f90" bodystart="242" bodyend="469"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/pathIntegration_mod.f90" line="4" column="1"/>
+  </compounddef>
+</doxygen>
